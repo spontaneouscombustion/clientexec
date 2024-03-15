@@ -1,0 +1,1 @@
+Update setting set value ='Reseller Panel' where value = 'License Defender';

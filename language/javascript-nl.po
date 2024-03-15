@@ -1,0 +1,1943 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: i18n@clientexec.com\n"
+"POT-Creation-Date: 2014-06-04 17:15-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1) ? 0 : 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgid "Invalid Email format for field %."
+msgstr "Ongeldig e-mailformaat voor veld%."
+
+msgid "The field % can't be empty."
+msgstr "Het veld% mag niet leeg zijn."
+
+msgid "The following form field(s) were incomplete or incorrect"
+msgstr "De volgende formulierveld (en) waren onvolledig of onjuist"
+
+msgid "Please complete or correct the form and submit again."
+msgstr "Vul het formulier in of corrigeer het en verstuur het opnieuw."
+
+msgid "Visa is not accepted at this time"
+msgstr "Visa wordt op dit moment niet geaccepteerd"
+
+msgid "MasterCard is not accepted at this time"
+msgstr "MasterCard wordt op dit moment niet geaccepteerd"
+
+msgid "American Express is not accepted at this time"
+msgstr "American Express wordt op dit moment niet geaccepteerd"
+
+msgid "Discover is not accepted at this time"
+msgstr "Discover wordt op dit moment niet geaccepteerd"
+
+msgid "LaserCard is not accepted at this time"
+msgstr "LaserCard wordt op dit moment niet geaccepteerd"
+
+msgid "Diners Club is not accepted at this time"
+msgstr "Diners Club wordt op dit moment niet geaccepteerd"
+
+msgid "Switch is not accepted at this time"
+msgstr "Switch wordt op dit moment niet geaccepteerd"
+
+msgid "Quantity"
+msgstr "Hoeveelheid"
+
+msgid "Option"
+msgstr "Optie"
+
+msgid "Prices will be multiplied by the quantity"
+msgstr "Prijzen worden vermenigvuldigd met de hoeveelheid"
+
+msgid "Validating..."
+msgstr "Valideren..."
+
+msgid "Valid VAT Number"
+msgstr "Geldig btw-nummer"
+
+msgid "Invalid VAT Number"
+msgstr "Ongeldig btw-nummer"
+
+msgid "Retry"
+msgstr "Probeer het opnieuw"
+
+msgid "Unable to validate at the moment."
+msgstr "Kan op dit moment niet valideren."
+
+msgid "This field is required"
+msgstr "Dit veld is verplicht"
+
+msgid "Yes"
+msgstr "a"
+
+msgid "No Active Chats"
+msgstr "Geen actieve chats"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Are you sure you want to delete this message?"
+msgstr "Weet u zeker dat U dit bericht wilt verwijderen?"
+
+msgid "Your reply:"
+msgstr "Je antwoord:"
+
+msgid "Your status:"
+msgstr "Jouw status:"
+
+msgid "Domain"
+msgstr "Domein"
+
+msgid "Expiry Date"
+msgstr "Vervaldatum"
+
+msgid "View PDF Invoice"
+msgstr "PDF-factuur bekijken"
+
+msgid "Enter your passphrase:"
+msgstr "Voer je wachtwoord in:"
+
+msgid "Invoice"
+msgstr "Factuur"
+
+msgid "Due"
+msgstr "Verschuldigd"
+
+msgid "Gateway"
+msgstr "Poort"
+
+msgid "Pmt Reference"
+msgstr "Pmt-referentie"
+
+msgid "Balance Due"
+msgstr "Verschuldigd saldo"
+
+msgid "Total"
+msgstr "Totaal"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Add Payment Reference"
+msgstr "Betalingsreferentie toevoegen"
+
+msgid "Viewing Invoices"
+msgstr "Facturen bekijken"
+
+msgid "Are sure you want to cancel the subscription tied to this invoice?"
+msgstr ""
+"Weet je zeker dat je het abonnement dat gekoppeld is aan deze factuur wilt "
+"annuleren?"
+
+msgid "No"
+msgstr "No"
+
+msgid "Do you want to send a receipt?"
+msgstr "Wil je een kwitantie sturen?"
+
+msgid "Are sure you want to delete the selected invoice(s)."
+msgstr "Weet zeker dat je de geselecteerde factuur (en) wilt verwijderen."
+
+msgid "Amount"
+msgstr "Bedrag"
+
+msgid "Add optional information"
+msgstr "Optionele informatie toevoegen"
+
+msgid "Remove Optional Information"
+msgstr "Optionele informatie verwijderen"
+
+msgid "Payment Reference (Optional)"
+msgstr "Betalingsreferentie (optioneel)"
+
+msgid "Payment Date (Optional)"
+msgstr "Datum van betaling (optioneel)"
+
+msgid "Payment Time (Optional)"
+msgstr "Betalingstijd (optioneel)"
+
+msgid "Payment Processor (Optional)"
+msgstr "Betalingsprocessor (optioneel)"
+
+msgid "Some invoices are not due. Are you sure you want to proceed?"
+msgstr ""
+"Sommige facturen zijn niet verschuldigd. Weet je zeker dat je verder wilt "
+"gaan?"
+
+msgid "OK"
+msgstr "Ok"
+
+msgid "Are you sure you want to process the selected account(s)?"
+msgstr "Weet je zeker dat je de geselecteerde account (s) wilt verwerken?"
+
+msgid "Date"
+msgstr "dae"
+
+msgid "Description"
+msgstr "Beschrijving"
+
+msgid "Transaction ID"
+msgstr "Transactie-ID"
+
+msgid "Transaction Id"
+msgstr "Transactie-ID"
+
+msgid "Result"
+msgstr "Resultaat"
+
+msgid "Action"
+msgstr "Actie"
+
+msgid "Plugin"
+msgstr "Plug-in"
+
+msgid "Share information"
+msgstr "Informatie delen"
+
+msgid "Add License(s)"
+msgstr "Licentie (s) toevoegen"
+
+msgid "Add License(s) to"
+msgstr "Licentie (s) toevoegen aan"
+
+msgid "Are you sure you want to delete the selected license(s)"
+msgstr "Weet u zeker dat u de geselecteerde licentie (s) wilt verwijderen"
+
+msgid "Type"
+msgstr "Soort"
+
+msgid "Attributes"
+msgstr "Attributen"
+
+msgid "Reseller"
+msgstr "Reseller"
+
+msgid "Are you sure you want to delete the selected resellers(s)"
+msgstr "Weet je zeker dat je de geselecteerde resellers (s) wilt verwijderen"
+
+msgid "Profile"
+msgstr "Profiel"
+
+msgid "Used"
+msgstr "Gebruikt"
+
+msgid "Add Reseller"
+msgstr "Reseller toevoegen"
+
+msgid "Advanced Search"
+msgstr "Geavanceerd zoeken"
+
+msgid "Ticket Search"
+msgstr "Ticket zoeken"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "februari"
+
+msgid "Mar"
+msgstr "Mar"
+
+msgid "Apr"
+msgstr "april"
+
+msgid "May"
+msgstr "mei"
+
+msgid "Jun"
+msgstr "juni"
+
+msgid "Jul"
+msgstr "juli"
+
+msgid "Aug"
+msgstr "augustus"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "Oct"
+msgstr "Okt"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Dec"
+msgstr "december"
+
+msgid "January"
+msgstr "Januari"
+
+msgid "February"
+msgstr "februari"
+
+msgid "March"
+msgstr "maart"
+
+msgid "April"
+msgstr "April"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "augustus"
+
+msgid "September"
+msgstr "september"
+
+msgid "October"
+msgstr "oktober"
+
+msgid "November"
+msgstr "november"
+
+msgid "December"
+msgstr "december"
+
+msgid "Sun"
+msgstr "Zon"
+
+msgid "Mon"
+msgstr "Ma"
+
+msgid "Tue"
+msgstr "di"
+
+msgid "Wed"
+msgstr "wo"
+
+msgid "Thu"
+msgstr "do"
+
+msgid "Fri"
+msgstr "vr"
+
+msgid "Sat"
+msgstr "Zat"
+
+msgid "Sunday"
+msgstr "zondag"
+
+msgid "Monday"
+msgstr "Maandag"
+
+msgid "Tuesday"
+msgstr "dinsdag"
+
+msgid "Wednesday"
+msgstr "Woensdag"
+
+msgid "Thursday"
+msgstr "donderdag"
+
+msgid "Friday"
+msgstr "Vrijday"
+
+msgid "Saturday"
+msgstr "Zaterdag"
+
+msgid "Loading"
+msgstr "Aan het laden"
+
+msgid "Quick Search"
+msgstr "Snel zoeken"
+
+msgid ""
+"NOTE: This operation will move all the tickets from this Email to the user "
+"whose ID you will enter.\n"
+"Also, this Email will be added as an alternate address for future support "
+"requests from this user."
+msgstr ""
+"OPMERKING: Met deze bewerking worden alle tickets uit deze e-mail verplaatst "
+"naar de gebruiker wiens ID je invoert.\n"
+"Deze e-mail wordt ook toegevoegd als alternatief adres voor toekomstige "
+"ondersteuningsverzoeken van deze gebruiker."
+
+msgid "Migrate Guest to User ID:"
+msgstr "Gast naar gebruikersnaam migreren:"
+
+msgid "My Notes"
+msgstr "Mijn notities"
+
+msgid "Add Staff Note"
+msgstr "Medewerkersnotitie toevoegen"
+
+msgid "Add Support Ticket"
+msgstr "Ondersteuningsticket toevoegen"
+
+msgid "You must fill in all the required fields before submitting your ticket."
+msgstr "Je moet alle verplichte velden invullen voordat je je ticket indient."
+
+msgid "There was an error with this operation"
+msgstr "Er is een fout opgetreden bij deze bewerking"
+
+msgid "Email Client"
+msgstr "E-mailclient"
+
+msgid "Loading..."
+msgstr "Bezig met laden ..."
+
+msgid "No data available in table"
+msgstr "Geen gegevens beschikbaar in de tabel"
+
+msgid "Showing % to % of % entries"
+msgstr "% tot% van% items wordt weergegeven"
+
+msgid "_START_"
+msgstr "_START_"
+
+msgid "_END_"
+msgstr "_EINDE_"
+
+msgid "_TOTAL_"
+msgstr "_TOTAAL_"
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Toont 0 tot 0 van 0 resultaten"
+
+msgid "filtered from % total entries"
+msgstr "gefilterd uit% totaal aantal inzendingen"
+
+msgid "_MAX_"
+msgstr "_MAX_"
+
+msgid "Show % entries"
+msgstr "% items tonen"
+
+msgid "Search:"
+msgstr "Zoek:"
+
+msgid "No matching records found"
+msgstr "Geen overeenkomende records gevonden"
+
+msgid "<<"
+msgstr "<<"
+
+msgid ">>"
+msgstr ">>"
+
+msgid ">"
+msgstr ">"
+
+msgid "<"
+msgstr "<"
+
+msgid "activate to sort column ascending"
+msgstr "activeer om kolom oplopend te sorteren"
+
+msgid "activate to sort column descending"
+msgstr "activeer om kolom aflopend te sorteren"
+
+msgid "This value seems to be invalid."
+msgstr "Deze waarde lijkt ongeldig te zijn."
+
+msgid "This value should be a valid email."
+msgstr "Deze waarde moet een geldig e-mailadres zijn."
+
+msgid "This value should be a valid url."
+msgstr "Deze waarde moet een geldige URL zijn."
+
+msgid "This value should be a valid number."
+msgstr "Deze waarde moet een geldig getal zijn."
+
+msgid "This value should be digits."
+msgstr "Deze waarde moet uit cijfers bestaan."
+
+msgid "This value should be a valid date (YYYY-MM-DD)."
+msgstr "Deze waarde moet een geldige datum zijn (JJJJ-MM-DD)."
+
+msgid "This value should be alphanumeric."
+msgstr "Deze waarde moet alfanumeriek zijn."
+
+msgid "This value should be a valid phone number."
+msgstr "Deze waarde moet een geldig telefoonnummer zijn."
+
+msgid "This value should not be null."
+msgstr "Deze waarde mag niet null zijn."
+
+msgid "This value should not be blank."
+msgstr "Deze waarde mag niet leeg zijn."
+
+msgid "This value is required."
+msgstr "Deze waarde is vereist."
+
+msgid "This value should be greater than or equal to %s."
+msgstr "Deze waarde moet groter zijn dan of gelijk zijn aan%s."
+
+msgid "This value should be lower than or equal to %s."
+msgstr "Deze waarde moet lager zijn dan of gelijk zijn aan%s."
+
+msgid "This value should be between %s and %s."
+msgstr "Deze waarde moet tussen %s en liggen%s."
+
+msgid "This value is too short. It should have %s characters or more."
+msgstr "Deze waarde is te kort. Het moet %s tekens of meer bevatten."
+
+msgid "This value is too long. It should have %s characters or less."
+msgstr "Deze waarde is te lang. Het moet %s tekens of minder bevatten."
+
+msgid ""
+"This value length is invalid. It should be between %s and %s characters long."
+msgstr ""
+"De lengte van deze waarde is ongeldig. Het moet tussen %s en %s tekens lang "
+"zijn."
+
+msgid "You must select at least %s choices."
+msgstr "Je moet minstens %s keuzes selecteren."
+
+msgid "You must select %s choices or less."
+msgstr "Je moet %s keuzes of minder selecteren."
+
+msgid "You must select between %s and %s choices."
+msgstr "Je moet kiezen tussen %s en %s keuzes."
+
+msgid "This value should be the same."
+msgstr "Deze waarde moet hetzelfde zijn."
+
+msgid "Loading Graph"
+msgstr "Grafiek laden"
+
+msgid "NOTICE:"
+msgstr "MERK OP:"
+
+msgid "You have modified the availability to some Product Groups."
+msgstr "Je hebt de beschikbaarheid voor sommige productgroepen aangepast."
+
+msgid "Do you want existing clients to continue being charged this addon?"
+msgstr ""
+"Wilt u dat voor bestaande klanten deze add-on in rekening blijft worden "
+"gebracht?"
+
+msgid "Plugin Variable"
+msgstr "Variabele van de plug-in"
+
+msgid "Used in products"
+msgstr "Gebruikt in producten"
+
+msgid "Not used in any products"
+msgstr "Wordt in geen enkel product gebruikt"
+
+msgid "Edit"
+msgstr "Bewerk"
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Post Date"
+msgstr "Datum van de post"
+
+msgid "Published"
+msgstr "Gepubliceerd"
+
+msgid "Pinned"
+msgstr "Vastgepind"
+
+msgid "Add Announcement"
+msgstr "Mededeling toevoegen"
+
+msgid "Are you sure you want to delete the selected announcement(s)"
+msgstr "Weet je zeker dat je de geselecteerde mededeling (en) wilt verwijderen"
+
+msgid "Are you sure you want to delete the selected client groups(s)?"
+msgstr ""
+"Weet je zeker dat je de geselecteerde klantgroepen (en) wilt verwijderen?"
+
+msgid "Description:"
+msgstr "Omschrijving:"
+
+msgid "Group"
+msgstr "groep"
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Members"
+msgstr "Leden"
+
+msgid "Add/Edit Client Group"
+msgstr "Clientgroep toevoegen/bewerken"
+
+msgid "Your secret key"
+msgstr "Je geheime sleutel"
+
+msgid "Event Name"
+msgstr "Naam van het evenement"
+
+msgid "From Name"
+msgstr "Van naam"
+
+msgid "From Email"
+msgstr "Van e-mail"
+
+msgid "Notified"
+msgstr "Aangemeld"
+
+msgid "Last Notified"
+msgstr "Laatst op de hoogte gebracht"
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+msgid "Notification Window"
+msgstr "Meldingsvenster"
+
+msgid ""
+"Are you sure you want to reset the selected notification(s)?<br>Doing so "
+"will allow the notification(s) to email again the previously ignored clients."
+msgstr ""
+"Weet je zeker dat je de geselecteerde melding (en) opnieuw wilt instellen? "
+"<br>Als u dit doet, kunnen de meldingen de eerder genegeerde clients opnieuw "
+"e-mailen."
+
+msgid "Are you sure you want to delete the selected notification(s)?"
+msgstr "Weet je zeker dat je de geselecteerde melding (en) wilt verwijderen?"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Display Type"
+msgstr "Schermtype"
+
+msgid "WARNING!"
+msgstr "WAARSCHUWING!"
+
+msgid "Are you sure you want to add/update the selected addon?"
+msgstr "Weet u zeker dat u de geselecteerde add-on wilt toevoegen/bijwerken?"
+
+msgid "Drop-down menus"
+msgstr "Keuzemenu's"
+
+msgid "Radio buttons"
+msgstr "Radio knoppen"
+
+msgid ""
+"If the addon is been added, existing clients will be applied the default "
+"value: 'None' option if available, or the first option if not."
+msgstr ""
+"Als de add-on is toegevoegd, wordt voor bestaande klanten de standaardwaarde "
+"toegepast: de optie 'Geen' indien beschikbaar, of de eerste optie als dat "
+"niet het geval is."
+
+msgid ""
+"If the addon is been updated to quantity type, existing clients will use a "
+"quantity of 1 by default."
+msgstr ""
+"Als de add-on is bijgewerkt naar het type hoeveelheid, gebruiken bestaande "
+"klanten standaard een hoeveelheid van 1."
+
+msgid ""
+"If the addon is been updated from quantity type to a different type, "
+"existing clients will change their quantity to 1."
+msgstr ""
+"Als de add-on is bijgewerkt van het type hoeveelheid naar een ander type, "
+"zullen bestaande klanten hun hoeveelheid wijzigen naar 1."
+
+msgid "Billing Period(s)"
+msgstr "Factureringsperiode (en)"
+
+msgid "Price"
+msgstr "Prijs"
+
+msgid "Transfer"
+msgstr "Transfer"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Renew"
+msgstr "Verlengen"
+
+msgid "Are you sure you want to delete the selected TLD billing period(s)"
+msgstr ""
+"Weet u zeker dat u de geselecteerde TLD-factureringsperiode (en) wilt "
+"verwijderen?"
+
+msgid "TLD Setup Window"
+msgstr "Installatievenster van TLD"
+
+msgid "Pricing"
+msgstr "Prijsstelling"
+
+msgid "Addons"
+msgstr "Add-ons"
+
+msgid "Upgrade/Downgrade"
+msgstr "Upgraden/downgraden"
+
+msgid "Advanced & Plugin Settings"
+msgstr "Geavanceerde instellingen en instellingen voor plug-ins"
+
+msgid "Are you sure you want to delete this product group"
+msgstr "Weet je zeker dat je deze productgroep wilt verwijderen?"
+
+msgid "Are you sure you want to delete the selected product(s)"
+msgstr "Weet je zeker dat je het geselecteerde product (en) wilt verwijderen"
+
+msgid "Late Fee"
+msgstr "Fee voor late betaling"
+
+msgid "Tax"
+msgstr "Belasting"
+
+msgid "Signup?"
+msgstr "Inschrijven?"
+
+msgid "Hidden"
+msgstr "Verborgen"
+
+msgid "Product Group Window"
+msgstr "Venster Productgroep"
+
+msgid "You must save your server first"
+msgstr "Je moet eerst je server opslaan"
+
+msgid "Are you sure you want to delete the selected servers(s)"
+msgstr "Weet je zeker dat je de geselecteerde servers (s) wilt verwijderen"
+
+msgid "No status message"
+msgstr "Geen statusbericht"
+
+msgid "Status Message:"
+msgstr "Statusbericht:"
+
+msgid "Server Name"
+msgstr "Servernaam"
+
+msgid "Hostname"
+msgstr "Hostnaam"
+
+msgid "Shared IP"
+msgstr "Gedeeld IP-adres"
+
+msgid "Quota"
+msgstr "Quotum"
+
+msgid "Monthly Cost"
+msgstr "Maandelijkse kosten"
+
+msgid "DataCenter / Provider"
+msgstr "Datacenter/provider"
+
+msgid "New API Key has been generated"
+msgstr "Er is een nieuwe API-sleutel gegenereerd"
+
+msgid "Are you sure you want to delete the selected billing cycle(s)"
+msgstr ""
+"Weet je zeker dat je de geselecteerde factureringscyclus (en) wilt "
+"verwijderen"
+
+msgid "Time Unit"
+msgstr "Tijdeenheid"
+
+msgid "Amount of Units"
+msgstr "Aantal eenheden"
+
+msgid "Recurring Fees"
+msgstr "Terugkerende kosten"
+
+msgid "Add/Edit Billing Cycle"
+msgstr "Factureringscyclus toevoegen/bewerken"
+
+msgid "Archive"
+msgstr "Archiveren"
+
+msgid "Unarchive"
+msgstr "Dearchivering"
+
+msgid "Are you sure you want to delete the selected billing types(s)"
+msgstr ""
+"Weet je zeker dat je de geselecteerde factureringstypes (en) wilt verwijderen"
+
+msgid "Invoice Description"
+msgstr "Beschrijving factuur"
+
+msgid "Count"
+msgstr "tellen"
+
+msgid "Add/Edit Billing Type"
+msgstr "Factuurtype toevoegen/bewerken"
+
+msgid "Are you sure you want to delete the selected email templates(s)?"
+msgstr ""
+"Weet je zeker dat je de geselecteerde e-mailsjablonen wilt verwijderen?"
+
+msgid "You can not delete the system email templates."
+msgstr "U kunt de e-mailsjablonen van het systeem niet verwijderen."
+
+msgid "Email Template Window"
+msgstr "Venster voor e-mailsjabloon"
+
+msgid "Code"
+msgstr "code"
+
+msgid "Are you sure you want to delete the selected coupon(s)?"
+msgstr ""
+"Weet je zeker dat je de geselecteerde kortingsbon (en) wilt verwijderen?"
+
+msgid "Are you sure you want to unarchive the selected coupon(s)?"
+msgstr ""
+"Weet je zeker dat je de geselecteerde coupon (s) uit het archief wilt halen?"
+
+msgid "Are you sure you want to archive the selected coupon(s)?"
+msgstr "Weet je zeker dat je de geselecteerde coupon (s) wilt archiveren?"
+
+msgid "Discount"
+msgstr "Korting"
+
+msgid "Recurring"
+msgstr "Terugkerend"
+
+msgid "Billing Cycles"
+msgstr "Facturatiecycli"
+
+msgid "In Effect"
+msgstr "In feite"
+
+msgid "Currency Name"
+msgstr "Naam van valuta"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Symbol"
+msgstr "Symbool"
+
+msgid "Alignment"
+msgstr "Uitlijning"
+
+msgid "Precision"
+msgstr "Nauwkeurigheid"
+
+msgid "Rate"
+msgstr "Tarief"
+
+msgid "Please select only one currency for the default"
+msgstr "Selecteer a.u.b. slechts één valuta voor de standaardwaarde"
+
+msgid "Are you sure you want to delete the selected currencies?"
+msgstr "Weet je zeker dat je de geselecteerde valuta wilt verwijderen?"
+
+msgid "Add/Edit Currency"
+msgstr "Valuta toevoegen/bewerken"
+
+msgid "Custom fields reordered successfully"
+msgstr "Aangepaste velden met succes opnieuw geordend"
+
+msgid "Enter the name of the new custom field"
+msgstr "Voer de naam van het nieuwe aangepaste veld in"
+
+msgid " added to custom fields."
+msgstr " toegevoegd aan aangepaste velden."
+
+msgid " saved successfully."
+msgstr " succesvol opgeslagen."
+
+msgid "Are you sure you want to delete "
+msgstr "Weet je zeker dat je wilt verwijderen "
+
+msgid "Custom field created by plugin:"
+msgstr "Aangepast veld gemaakt door plug-in:"
+
+msgid "Are you sure you want to delete the selected departments(s)"
+msgstr "Weet je zeker dat je de geselecteerde afdelingen (en) wilt verwijderen"
+
+msgid "Department Name"
+msgstr "Naam van de afdeling"
+
+msgid "Lead"
+msgstr "leiden"
+
+msgid "Add/Edit Department"
+msgstr "Departement toevoegen/bewerken"
+
+msgid "Users Affected"
+msgstr "Betrokken gebruikers"
+
+msgid "Source"
+msgstr "Bron"
+
+msgid "Email’s Checked"
+msgstr "E-mailadres is gecontroleerd"
+
+msgid "Open Ticket ?"
+msgstr "Ticket openen?"
+
+msgid "Autoresponder"
+msgstr "Autoresponder"
+
+msgid "Are you sure you want to delete the selected routing rules(s)"
+msgstr ""
+"Weet u zeker dat u de geselecteerde routeringsregels (en) wilt verwijderen"
+
+msgid "Are you sure you want to delete the selected alias(es)"
+msgstr "Weet je zeker dat je de geselecteerde alias (sen) wilt verwijderen"
+
+msgid "Alias To"
+msgstr "Alias Naar"
+
+msgid "System Status"
+msgstr "Status van het systeem"
+
+msgid "Add/Edit Status Alias"
+msgstr "Statusalias toevoegen/bewerken"
+
+msgid "Gateway updated properly"
+msgstr "Gateway correct bijgewerkt"
+
+msgid "Already selected"
+msgstr "Reeds geselecteerd"
+
+msgid "Billing Profile IDs successfully deleted"
+msgstr "De ID's van het factuurprofiel zijn succesvol verwijderd"
+
+msgid "Are you sure you want to delete the selected spam filter(s)"
+msgstr "Weet je zeker dat je de geselecteerde spamfilter (s) wilt verwijderen"
+
+msgid "Value"
+msgstr "Waarde"
+
+msgid "Enabled?"
+msgstr "Ingeschakeld?"
+
+msgid "Manage Spam Filter"
+msgstr "Spamfilter beheren"
+
+msgid "All (Default)"
+msgstr "Alles (standaard)"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Division"
+msgstr "Divisie"
+
+msgid "Level"
+msgstr "Niveau"
+
+msgid "Compound"
+msgstr "Samenstelling"
+
+msgid "VAT"
+msgstr "BTW"
+
+msgid "Add/Edit Tax Rule"
+msgstr "Belastingregel toevoegen/bewerken"
+
+msgid "Click to edit this ticket type"
+msgstr "Klik om dit tickettype te bewerken"
+
+msgid "Are you sure you want to delete the selected ticket types(s)?"
+msgstr "Weet je zeker dat je de geselecteerde tickettypes wilt verwijderen?"
+
+msgid "None"
+msgstr "Geen"
+
+msgid "Tickets"
+msgstr "Kaartjes"
+
+msgid "Manage Ticket Type"
+msgstr "Tickettype beheren"
+
+msgid "No staff available - click to add your first staff member to this group"
+msgstr ""
+"Geen personeel beschikbaar - klik om uw eerste personeelslid aan deze groep "
+"toe te voegen"
+
+msgid "Are you sure you want to delete this role?"
+msgstr "Weet je zeker dat je deze rol wilt verwijderen?"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Add Staff"
+msgstr "Personeel toevoegen"
+
+msgid "Role Name"
+msgstr "Naam van de rol"
+
+msgid ""
+"Are you sure you want to delete this account? WARNING: All support ticket "
+"information for this user will be replaced to generic Tech Support"
+msgstr ""
+"Weet je zeker dat je dit account wilt verwijderen? WAARSCHUWING: Alle "
+"informatie over ondersteuningstickets voor deze gebruiker wordt vervangen "
+"door algemene technische ondersteuning"
+
+msgid "Are you sure you want to activate the follow clients as affiliates?"
+msgstr "Weet je zeker dat je de follow clients als affiliates wilt activeren?"
+
+msgid "Are you sure you want to decline the follow clients as affiliates?"
+msgstr ""
+"Weet je zeker dat je het volgen van klanten als filialen wilt weigeren?"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Visitors"
+msgstr "Bezoekers"
+
+msgid "Sales"
+msgstr "Verkoop"
+
+msgid "Unpaid Balance"
+msgstr "Onbetaald saldo"
+
+msgid "Total Paid"
+msgstr "Totaal betaald"
+
+msgid "No name entered"
+msgstr "Geen naam ingevoerd"
+
+msgid "Package"
+msgstr "verpakken"
+
+msgid "Are you sure you want to approve these commissions?"
+msgstr "Weet je zeker dat je deze commissies wilt goedkeuren?"
+
+msgid "Are you sure you want to decline these commissions?"
+msgstr "Weet je zeker dat je deze commissies wilt weigeren?"
+
+msgid "Are you sure you want to manually mark these commissions as paid out?"
+msgstr ""
+"Weet je zeker dat je deze commissies handmatig als uitbetaald wilt markeren?"
+
+msgid "Client"
+msgstr "Cliënt"
+
+msgid "Affiliate"
+msgstr "Filiaal"
+
+msgid "Clearing Date"
+msgstr "Datum van opruiming"
+
+msgid "Order Value"
+msgstr "Bestelwaarde"
+
+msgid "Commission"
+msgstr "Commissie"
+
+msgid "Enter the invoice id:"
+msgstr "Voer de factuur-id in:"
+
+msgid "Response"
+msgstr "Reactie"
+
+msgid "Edited on"
+msgstr "Bewerkt op"
+
+msgid ""
+"Are you sure you want to delete this charge? If yes please make sure you "
+"also click <b>Save Changes</b>"
+msgstr ""
+"Weet je zeker dat je deze afschrijving wilt verwijderen? Zo ja, zorg er dan "
+"voor dat u ook op Wijzigingen <b> opslaan klikt </b>"
+
+msgid "Are you sure you want to split this charge into a new invoice?"
+msgstr ""
+"Weet je zeker dat je deze kosten wilt opsplitsen in een nieuwe factuur?"
+
+msgid "Add period start and end dates"
+msgstr "Begin- en einddatums van de periode toevoegen"
+
+msgid "Period Dates"
+msgstr "Periode-datums"
+
+msgid "Start"
+msgstr "Begin"
+
+msgid "End"
+msgstr "Beēindig"
+
+msgid "Select date"
+msgstr "Selecteer een datum"
+
+msgid "Stop Processing"
+msgstr "Verwerking stoppen"
+
+msgid "Please wait"
+msgstr "Wacht aub"
+
+msgid "Preparing data"
+msgstr "Gegevens voorbereiden"
+
+msgid "Completed"
+msgstr "Voltooid"
+
+msgid "Generating Invoice(s)"
+msgstr "Factuur (en) genereren"
+
+msgid "Processing Invoice(s)"
+msgstr "Factuur (en) verwerken"
+
+msgid "Viewing all failed invoices."
+msgstr "Alle mislukte facturen bekijken."
+
+msgid "Viewing all paid invoices."
+msgstr "Alle betaalde facturen bekijken."
+
+msgid "Outstanding Amount"
+msgstr "Uitstaand bedrag"
+
+msgid "User id field may not be left blank"
+msgstr "Het veld voor de gebruikersnaam mag niet leeg worden gelaten"
+
+msgid "Viewing all invoices that are past their due date, but not paid."
+msgstr ""
+"Alle facturen bekijken waarvan de vervaldatum is verstreken, maar nog niet "
+"zijn betaald."
+
+msgid "Viewing all invoices that have not been paid."
+msgstr "Alle facturen bekijken die niet zijn betaald."
+
+msgid "Viewing all invoices."
+msgstr "Alle facturen bekijken."
+
+msgid "Viewing invoices for a filtered user."
+msgstr "Facturen bekijken voor een gefilterde gebruiker."
+
+msgid ""
+"Viewing pending invoices. Invoices that have been sent to a merchant but not "
+"cleared.  i.e. eChecks"
+msgstr ""
+"Openstaande facturen bekijken. Facturen die naar een handelaar zijn gestuurd "
+"maar niet zijn goedgekeurd. d.w.z. eChecks"
+
+msgid ""
+"Viewing all draft invoices. These invoices are not ready to be processed."
+msgstr ""
+"Alle conceptfacturen bekijken. Deze facturen zijn nog niet klaar om verwerkt "
+"te worden."
+
+msgid "Created"
+msgstr "Gecreëerd"
+
+msgid "Client Name"
+msgstr "Naam van de klant"
+
+msgid "Failed Reason"
+msgstr "Mislukte reden"
+
+msgid "Start Date"
+msgstr "Startdatum"
+
+msgid "End Date"
+msgstr "Einddatum"
+
+msgid "Are you sure you want to delete the selected charges(s)"
+msgstr "Weet je zeker dat je de geselecteerde kosten (en) wilt verwijderen"
+
+msgid "Are you sure you want to create invoice(s) with the selected charges(s)"
+msgstr ""
+"Weet je zeker dat je een factuur (en) wilt maken met de geselecteerde kosten "
+"(en)"
+
+msgid "Due Date"
+msgstr "Opleveringsdatum"
+
+msgid "Do you wish to activate this clients packages as well?"
+msgstr "Wilt u ook de pakketten van deze klant activeren?"
+
+msgid "Do you wish to use the server plugin to activate these packages?"
+msgstr "Wilt u de serverplug-in gebruiken om deze pakketten te activeren?"
+
+msgid "Do you wish to suspend this clients packages as well?"
+msgstr "Wilt u ook de pakketten van deze klant opschorten?"
+
+msgid "Do you wish to use the server plugin to suspend these packages?"
+msgstr "Wilt u de serverplug-in gebruiken om deze pakketten op te schorten?"
+
+msgid "Do you wish to cancel this clients packages as well?"
+msgstr "Wilt u ook de pakketten van deze klant annuleren?"
+
+msgid "Do you wish to use the server plugin to cancel these packages?"
+msgstr "Wilt u de serverplug-in gebruiken om deze pakketten te annuleren?"
+
+msgid "Are you sure you wish to register this account?"
+msgstr "Weet je zeker dat je dit account wilt registreren?"
+
+msgid "There was an error when updating your status"
+msgstr "Er is een fout opgetreden bij het updaten van je status"
+
+msgid "Status has been updated successfully"
+msgstr "Status is succesvol bijgewerkt"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "To"
+msgstr "naar"
+
+msgid "From"
+msgstr "From"
+
+msgid "Are you sure you want to activate the selected packages(s)"
+msgstr "Weet je zeker dat je de geselecteerde pakketten (en) wilt activeren"
+
+msgid "Are you sure you want to delete the selected packages(s)"
+msgstr "Weet u zeker dat u de geselecteerde pakketten (en) wilt verwijderen"
+
+msgid "Do you want to delete this client if they have no packages?"
+msgstr "Wil je deze client verwijderen als ze geen pakketten hebben?"
+
+msgid "Are you sure you want to cancel the selected package(s)?"
+msgstr "Weet je zeker dat je de geselecteerde pakket (en) wilt annuleren?"
+
+msgid "Are you sure you want to cancel the selected package(s)"
+msgstr "Weet je zeker dat je de geselecteerde pakket (en) wilt annuleren"
+
+msgid "ID"
+msgstr "Id"
+
+msgid "Reason"
+msgstr "Aanleiding"
+
+msgid "Request Date & Time"
+msgstr "Datum en tijd van de aanvraag"
+
+msgid "Cancel On"
+msgstr "Annuleer aan"
+
+msgid "Invalid payment term for domain"
+msgstr "Ongeldige betalingstermijn voor domein"
+
+msgid "Are you sure you want to % these domain(s)?"
+msgstr "Weet je zeker dat je deze domein (en) wilt%?"
+
+msgid "Domain Name"
+msgstr "Domeinnaam"
+
+msgid "Expiration"
+msgstr "Vervaldag"
+
+msgid "Next Bill Date"
+msgstr "Datum van de volgende factuur"
+
+msgid "Period"
+msgstr "Periode"
+
+msgid "Auto Renew"
+msgstr "Automatisch verlengen"
+
+msgid "Registrar"
+msgstr "griffier"
+
+msgid "Are you sure you want to % these package(s)?"
+msgstr "Weet je zeker dat je dit pakket (en) wilt%?"
+
+msgid ""
+"Do you want to use the respective server plugin(s) to % these package(s)?"
+msgstr ""
+"Wilt u de respectieve serverplug-in (s) gebruiken om deze pakketten te "
+"procenteren?"
+
+msgid "CSR Details"
+msgstr "MVO-gegevens"
+
+msgid "Reassign"
+msgstr "Opnieuw toewijzen"
+
+msgid "Toggle"
+msgstr "Schakelen"
+
+msgid ""
+"Are you sure you want to toggle the Registrar Lock option via the selected "
+"plugin?"
+msgstr ""
+"Weet je zeker dat je de optie Registrar Lock wilt omschakelen via de "
+"geselecteerde plug-in?"
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Not Yet Registered"
+msgstr "Nog niet geregistreerd"
+
+msgid "Select IP Address"
+msgstr "IP-adres selecteren"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid ""
+"Point your domain to a web site by pointing to an IP Address, or forward to "
+"another site, or point to a temporary page (known as 'Parking'), and more. "
+"These records are also known as sub-domains (e.g. webmail.example.com)."
+msgstr ""
+"Verwijs je domein naar een website door naar een IP-adres te verwijzen, door "
+"te sturen naar een andere site, of naar een tijdelijke pagina te verwijzen "
+"(ook wel 'Parkeren' genoemd), en meer. Deze records worden ook wel "
+"subdomeinen genoemd (bijvoorbeeld webmail.example.com)."
+
+msgid ""
+"The setting <strong>Use Defaults</strong> must be set to No if you want to "
+"add your own Name Server"
+msgstr ""
+"De instelling <strong> Use Defaults </strong> moet op Nee zijn ingesteld als "
+"u uw eigen nameserver wilt toevoegen"
+
+msgid "Are you sure you want to % these certificate(s)?"
+msgstr "Weet je zeker dat je dit certificaat (en) wilt%?"
+
+msgid "Expiration Date"
+msgstr "Houdbaarheidsdatum"
+
+msgid "Outstanding balance"
+msgstr "Uitmuntend saldo"
+
+msgid ""
+"Do you want to use the respective server plugins to delete all these users?"
+msgstr ""
+"Wilt u de respectieve serverplug-ins gebruiken om al deze gebruikers te "
+"verwijderen?"
+
+msgid ""
+"Do you want to use the respective server plugins to cancel all these users?"
+msgstr ""
+"Wilt u de respectieve serverplug-ins gebruiken om al deze gebruikers te "
+"annuleren?"
+
+msgid "Successfully validated credit cards"
+msgstr "Creditcards met succes gevalideerd"
+
+msgid "Client Type"
+msgstr "Soort klant"
+
+msgid "Activated"
+msgstr "Geactiveerd"
+
+msgid "Score"
+msgstr "Score"
+
+msgid "Currency"
+msgstr "Munteenheid"
+
+msgid "Package Count"
+msgstr "Aantal pakketten"
+
+msgid "Add Client"
+msgstr "Client toevoegen"
+
+msgid "Validate CC"
+msgstr "CC valideren"
+
+msgid "Are you sure you want to delete the selected accounts(s)"
+msgstr "Weet je zeker dat je de geselecteerde accounts (en) wilt verwijderen"
+
+msgid "Notifications?"
+msgstr "Meldingen?"
+
+msgid "Invoices?"
+msgstr "Facturen?"
+
+msgid "Support?"
+msgstr "Ondersteuning?"
+
+msgid "Manage Alternate Account"
+msgstr "Alternatief account beheren"
+
+msgid "Are you sure you want to register this client as an affiliate?"
+msgstr "Weet je zeker dat je deze klant wilt registreren als affiliate?"
+
+msgid "Credit Card Number"
+msgstr "Creditcardnummer"
+
+msgid "<b>Are you sure you want to change the currency?</b>"
+msgstr "<b>Weet je zeker dat je de valuta wilt wijzigen? </b>"
+
+msgid ""
+"Please note that changing the currency will not convert the price amount to "
+"existing charges."
+msgstr ""
+"Houd er rekening mee dat het wijzigen van de valuta het prijsbedrag niet zal "
+"omrekenen naar bestaande kosten."
+
+msgid ""
+"You will need to review the prices on the existing invoices and recurring "
+"fees and reconfigure the packages and addons to make sure they are using "
+"prices for the new currency."
+msgstr ""
+"Je moet de prijzen op de bestaande facturen en terugkerende kosten "
+"controleren en de pakketten en add-ons opnieuw configureren om er zeker van "
+"te zijn dat ze prijzen voor de nieuwe valuta gebruiken."
+
+msgid "Are you sure you want to delete the billing profile id on file?"
+msgstr ""
+"Weet je zeker dat je de geregistreerde ID van het factuurprofiel wilt "
+"verwijderen?"
+
+msgid "Are you sure you want to delete the credit card on file?"
+msgstr "Weet je zeker dat je de geregistreerde creditcard wilt verwijderen?"
+
+msgid "Update Billing Profile ID"
+msgstr "De ID van het factuurprofiel bijwerken"
+
+msgid "Add Credit"
+msgstr "Krediet toevoegen"
+
+msgid "Remove Credit"
+msgstr "Krediet verwijderen"
+
+msgid "Are you sure you want to reset the password of this client?"
+msgstr ""
+"Weet je zeker dat je het wachtwoord van deze client opnieuw wilt instellen?"
+
+msgid "Are you sure you want to export this client data?"
+msgstr "Weet je zeker dat je deze klantgegevens wilt exporteren?"
+
+msgid "Are you sure you want to delete this client?"
+msgstr "Weet je zeker dat je deze client wilt verwijderen?"
+
+msgid ""
+"Do you want to delete this client's packages using the respective server "
+"plugin(s)?"
+msgstr ""
+"Wilt u de pakketten van deze client verwijderen met behulp van de "
+"respectieve serverplug-in (s)?"
+
+msgid "Associated to Ticket Type"
+msgstr "Gekoppeld aan tickettype"
+
+msgid "Note"
+msgstr "Noot"
+
+msgid "Un-Archive"
+msgstr "UN-archief"
+
+msgid "Are you sure you want to delete the selected notes(s)"
+msgstr "Weet je zeker dat je de geselecteerde notities (en) wilt verwijderen"
+
+msgid "Date Submitted"
+msgstr "Datum ingediend"
+
+msgid "Entered By"
+msgstr "Ingevoerd door"
+
+msgid "Viewable By Client"
+msgstr "Zichtbaar door de klant"
+
+msgid "Ticket Type"
+msgstr "Soort ticket"
+
+msgid "No items found"
+msgstr "Geen items gevonden"
+
+msgid "The package upgrade/downgrade has been canceled"
+msgstr "De upgrade/downgrade van het pakket is geannuleerd"
+
+msgid "Upgrade/Downgrade Package"
+msgstr "Pakket upgrade/downgraden"
+
+msgid ""
+"Are you sure you want to generate the next recurring invoice that applies to "
+"the selected package(s) as long as they have recurring charges?"
+msgstr ""
+"Weet je zeker dat je de volgende terugkerende factuur wilt genereren die van "
+"toepassing is op het geselecteerde pakket (en), zolang er terugkerende "
+"kosten aan verbonden zijn?"
+
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr "Weet je zeker dat je het geselecteerde pakket (en) wilt verwijderen?"
+
+msgid "Add a new product"
+msgstr "Een nieuw product toevoegen"
+
+msgid "Next Payment Date"
+msgstr "Datum van volgende betaling"
+
+msgid "Next Date"
+msgstr "Volgende date"
+
+msgid "Billing Type"
+msgstr "Type facturering"
+
+msgid "Price per unit"
+msgstr "Prijs per eenheid"
+
+msgid "Taxable"
+msgstr "Belastbaar"
+
+msgid "Cycle"
+msgstr "Fiets"
+
+msgid "Are you sure you want to delete the selected recurring fee(s)"
+msgstr ""
+"Weet je zeker dat je de geselecteerde terugkerende vergoeding (en) wilt "
+"verwijderen"
+
+msgid "Add Recurring Charge"
+msgstr "Terugkerende kosten toevoegen"
+
+msgid ""
+"This subscription needs to be canceled directly from your PayPal account."
+"<br><br>Subscriptions with ID starting with <b>S-</b> can not be canceled "
+"using the PayPal API."
+msgstr ""
+"Dit abonnement moet rechtstreeks via uw PayPal-account worden geannuleerd. "
+"<br><br>Abonnementen met een ID die begint met <b> S- </b> kunnen niet "
+"worden geannuleerd via de PayPal API."
+
+msgid "Are sure you want to cancel this subscription?"
+msgstr "Weet je zeker dat je dit abonnement wilt annuleren?"
+
+msgid "Upload Progress"
+msgstr "Voortgang van het uploaden"
+
+msgid "Event Details"
+msgstr "Details van het evenement"
+
+msgid "On"
+msgstr "Aan"
+
+msgid "User"
+msgstr "User"
+
+msgid "IP Address"
+msgstr "IP-adres"
+
+msgid "Modified User"
+msgstr "Gewijzigde gebruiker"
+
+msgid "No Pending Orders"
+msgstr "Geen lopende bestellingen"
+
+msgid "No Tickets Found"
+msgstr "Geen tickets gevonden"
+
+msgid "Dashboard Settings"
+msgstr "Dashboard-instellingen"
+
+msgid "There are no services enabled"
+msgstr "Er zijn geen services ingeschakeld"
+
+msgid "No errors or warnings found"
+msgstr "Geen fouten of waarschuwingen gevonden"
+
+msgid "Are you sure you want to delete this category?"
+msgstr "Weet je zeker dat je deze categorie wilt verwijderen?"
+
+msgid "Draft"
+msgstr "Ontwerp"
+
+msgid "Are you sure you want to delete the selected article(s)"
+msgstr "Weet je zeker dat je de geselecteerde artikel (en) wilt verwijderen"
+
+msgid "Invalid value entered"
+msgstr "Ongeldige waarde ingevoerd"
+
+msgid "Author"
+msgstr "auteur"
+
+msgid "Views"
+msgstr "Weergaven"
+
+msgid "Modified"
+msgstr "Gemodificeerd"
+
+msgid "Order"
+msgstr "Bestel"
+
+msgid "Category Window"
+msgstr "Categorievenster"
+
+msgid "Article Window"
+msgstr "Venster van het artikel"
+
+msgid "Are you sure you want to delete the selected comment(s)"
+msgstr "Weet je zeker dat je de geselecteerde opmerking (en) wilt verwijderen"
+
+msgid "Comment"
+msgstr "Commentaar"
+
+msgid "Art"
+msgstr "Kunst"
+
+msgid "Added"
+msgstr "Toegevoegd"
+
+msgid "Approved"
+msgstr "Goedgekeurd"
+
+msgid "Viewing"
+msgstr "Bekijken"
+
+msgid "Comments"
+msgstr "Commentaren"
+
+msgid "Viewing All Comments"
+msgstr "Alle reacties bekijken"
+
+msgid "Are you sure you want to delete the selected response(s)"
+msgstr "Weet je zeker dat je de geselecteerde reactie (en) wilt verwijderen"
+
+msgid "Creator"
+msgstr "Schepper"
+
+msgid "Manage Canned Reply"
+msgstr "Kant-en-klare antwoorden beheren"
+
+msgid "Select Groups"
+msgstr "Groepen selecteren"
+
+msgid "Select Autoresponder Template"
+msgstr "Selecteer Autoresponder-sjabloon"
+
+msgid "Select Ticket Type"
+msgstr "Tickettype selecteren"
+
+msgid "Select Ticket Assignee"
+msgstr "Selecteer Ticket Assignee"
+
+msgid "Selected by client"
+msgstr "Geselecteerd door de klant"
+
+msgid "Time Elapsed: %"
+msgstr "Verstreken tijd:%"
+
+msgid "Last Reply: %"
+msgstr "Laatste antwoord:%"
+
+msgid "You have subscribed to this ticket"
+msgstr "Je bent geabonneerd op dit ticket"
+
+msgid "You have unsubscribed from this ticket"
+msgstr "Je hebt je afgemeld voor dit ticket"
+
+msgid "himself"
+msgstr "zichzelf"
+
+msgid "Unassigned"
+msgstr "Niet toegewezen"
+
+msgid "No Package"
+msgstr "Geen pakket"
+
+msgid "You must complete all the fields before proceeding"
+msgstr "U moet alle velden invullen voordat u verder gaat"
+
+msgid "Select a valid ticket type"
+msgstr "Selecteer een geldig tickettype"
+
+msgid "You can not leave the subject blank"
+msgstr "Je kunt het onderwerp niet leeg laten"
+
+msgid "You can not leave the message blank"
+msgstr "Je kunt het bericht niet leeg laten"
+
+msgid "Are you sure you want to delete this ticket?"
+msgstr "Weet je zeker dat je dit ticket wilt verwijderen?"
+
+msgid "Are you sure you want to mark this ticket as spam?"
+msgstr "Weet je zeker dat je dit ticket als spam wilt markeren?"
+
+msgid "Unsubscribe"
+msgstr "Uitschrijven"
+
+msgid "Subscribe"
+msgstr "Abonneer"
+
+msgid "Dept."
+msgstr "Afdeling."
+
+msgid "Others viewing: "
+msgstr "Anderen die het volgende bekijken: "
+
+msgid "All"
+msgstr "allemaal"
+
+msgid "Open"
+msgstr "Open"
+
+msgid "all"
+msgstr "allemaal"
+
+msgid "open"
+msgstr "Open"
+
+msgid "tickets with keyword(s)"
+msgstr "tickets met trefwoord (en)"
+
+msgid "from % to %"
+msgstr "van% tot%"
+
+msgid "from %"
+msgstr "van%"
+
+msgid "to %"
+msgstr "tot%"
+
+msgid "for client %"
+msgstr "voor klant%"
+
+msgid "for assignee %"
+msgstr "voor gevolmachtigde%"
+
+msgid "Close Ticket(s)"
+msgstr "Ticket (en) sluiten"
+
+msgid "Are you sure you want to delete the selected ticket(s)"
+msgstr "Weet je zeker dat je de geselecteerde ticket (s) wilt verwijderen"
+
+msgid "Are you sure you want to merge the selected tickets?"
+msgstr "Weet je zeker dat je de geselecteerde tickets wilt samenvoegen?"
+
+msgid "Are you sure you want to close the selected ticket(s)"
+msgstr "Weet je zeker dat je de geselecteerde ticket (s) wilt sluiten"
+
+msgid "Are you sure you want to re-open the selected ticket(s)"
+msgstr "Weet je zeker dat je de geselecteerde ticket (s) opnieuw wilt openen"
+
+msgid ""
+"Are you sure you want to prevent tickets from being created from the "
+"selected ticket(s) email addresses?"
+msgstr ""
+"Weet je zeker dat je wilt voorkomen dat tickets worden aangemaakt op basis "
+"van de geselecteerde e-mailadressen van ticket (s)?"
+
+msgid "Ticket Filter"
+msgstr "Ticketfilter"
+
+msgid "By"
+msgstr "By"
+
+msgid "Setting filter as favorite"
+msgstr "Filter als favoriet instellen"
+
+msgid "This file type is not accepted. Please select a different file."
+msgstr "Dit bestandstype wordt niet geaccepteerd. Selecteer een ander bestand."
+
+msgid "To attach"
+msgstr "Om te bevestigen"
+
+msgid "Created By"
+msgstr "Aangemaakt door"
+
+msgid "Assigned To"
+msgstr "Toegewezen aan"
+
+msgid "Last Reply"
+msgstr "Laatste antwoord"
+
+msgid "Elapsed"
+msgstr "Verstreken"
+
+msgid "No Rating"
+msgstr "Geen beoordeling"
+
+msgid "Excellent"
+msgstr "Uitmuntend"
+
+msgid "Good"
+msgstr "Goed"
+
+msgid "Not Great"
+msgstr "Niet geweldig"
+
+msgid "Poor"
+msgstr "Slecht"
+
+msgid "Ticket ID"
+msgstr "Ticket-ID"
+
+msgid "Rating"
+msgstr "Beoordeling"
+
+msgid "Show _MENU_ entries"
+msgstr "_MENU__-items tonen"
+
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "_START_ tot _END_ van _TOTAL_-items weergeven"
+
+msgid "(filtered from _MAX_ total records)"
+msgstr "(gefilterd uit het totale aantal _MAX_ records)"
+
+msgid "Previous"
+msgstr "EERDERE"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid ""
+"Changing currencies will reset your cart. Are you sure you want to continue?"
+msgstr ""
+
+msgid "Failed Captcha"
+msgstr "Captcha is mislukt"
+
+msgid "No email accounts to show"
+msgstr "Geen e-mailaccounts om weer te geven"
+
+msgid "No matching email accounts found"
+msgstr "Geen overeenkomende e-mailaccounts gevonden"
+
+msgid "Currently unable to login to SolusVM."
+msgstr "Op dit moment kan ik niet inloggen op SolusVM."
+
+msgid "No Commissions To Show"
+msgstr "Geen commissies om te tonen"
+
+msgid "No Invoices To Show"
+msgstr "Geen facturen om weer te geven"
+
+msgid "Please select a payment method."
+msgstr "Selecteer een betalingsmethode."
+
+msgid "Invoice has been successfully emailed"
+msgstr "Factuur is succesvol gemaild"
+
+msgid "No emails to show"
+msgstr "Geen e-mails om te tonen"
+
+msgid "No matching emails found"
+msgstr "Geen overeenkomende e-mails gevonden"
+
+msgid "No domains to show"
+msgstr "Geen domeinen om weer te geven"
+
+msgid "No matching domains found"
+msgstr "Geen overeenkomende domeinen gevonden"
+
+msgid "Certificate"
+msgstr "Certificaat"
+
+msgid "Please enter your new CSR"
+msgstr "Voer uw nieuwe CSR in"
+
+msgid "Password Change"
+msgstr "Wijziging van het wachtwoord"
+
+msgid "Please enter a new password"
+msgstr "Voer een nieuw wachtwoord in"
+
+msgid "Please enter a new value"
+msgstr "Voer een nieuwe waarde in"
+
+msgid "Please ensure you have at least 2 name servers entered."
+msgstr "Zorg ervoor dat je minstens 2 nameservers hebt ingevoerd."
+
+msgid "No packages to show"
+msgstr "Geen pakketten om te tonen"
+
+msgid "No matching packages found"
+msgstr "Geen overeenkomende pakketten gevonden"
+
+msgid "No account notes to show"
+msgstr "Geen accountnotities om te tonen"
+
+msgid "No matching notes found"
+msgstr "Geen overeenkomende notities gevonden"
+
+msgid "No tickets to show"
+msgstr "Geen kaartjes om te laten zien"
+
+msgid "No matching tickets found"
+msgstr "Geen overeenkomende tickets gevonden"
+
+msgid "There is 1 article that might answer your question."
+msgstr "Er is 1 artikel dat je vraag zou kunnen beantwoorden."
+
+msgid "There are % articles that might answer your question."
+msgstr "Er zijn% artikelen die uw vraag zouden kunnen beantwoorden."
+
+msgid "You saved %"
+msgstr "Je hebt% bespaard"
+
+msgid "Sorry, % is invalid."
+msgstr "Sorry,% is ongeldig."
+
+msgid "%: %"
+msgstr "%:%"
+
+msgid "(renews at %)"
+msgstr "(wordt verlengd met%)"
+
+msgid "Add to cart"
+msgstr "Toevoegen aan winkelwagentje"
+
+msgid "Continue"
+msgstr "Doorgaan"
+
+msgid "Leaving now will cancel this item.  Are you sure you want to leave?"
+msgstr ""
+"Als je nu weggaat, wordt dit item geannuleerd. Weet je zeker dat je weg wilt?"
+
+msgid "Please enter a valid domain"
+msgstr "Voer een geldig domein in"
+
+msgid "Searching domain availability..."
+msgstr "De beschikbaarheid van domeinen zoeken..."
+
+msgid "There was an error looking up that domain.  Please try again."
+msgstr ""
+"Er is een fout opgetreden bij het opzoeken van dat domein. Probeer het "
+"opnieuw."
+
+msgid "Sorry, % is already registered"
+msgstr "Sorry,% is al geregistreerd"
+
+msgid "Good news, % is available to register"
+msgstr "Goed nieuws,% is beschikbaar om te registreren"
+
+msgid "Good news, % is available to transfer"
+msgstr "Goed nieuws,% is beschikbaar voor overdracht"
+
+msgid "Sorry, % is not available to transfer"
+msgstr "Sorry,% is niet beschikbaar voor overdracht"
+
+msgid "Available Domains"
+msgstr "Beschikbare domeinen"
+
+msgid "Years"
+msgstr "Jaren"
+
+msgid "But don’t worry, we found these other great domains for you."
+msgstr ""
+"Maar maak je geen zorgen, we hebben deze andere geweldige domeinen voor je "
+"gevonden."
+
+msgid "We also found additional results for you..."
+msgstr "We hebben ook aanvullende resultaten voor je gevonden..."
+
+msgid "Additional information required for this domain extension"
+msgstr "Aanvullende informatie vereist voor deze domeinextensie"
+
+msgid "Product Add-ons"
+msgstr "Toevoegingen voor producten"
+
+msgid ""
+"Are you sure that you wish to remove the item from your cart? <br>Note: The "
+"associated items will also be removed."
+msgstr ""
+"Weet je zeker dat je het artikel uit je winkelwagen wilt verwijderen? "
+"<br>Opmerking: De bijbehorende items worden ook verwijderd."
+
+msgid "Are you sure that you wish to remove the item from your cart?"
+msgstr "Weet je zeker dat je het artikel uit je winkelwagen wilt verwijderen?"
+
+msgid "Removing Cart Item"
+msgstr "Winkelwagenitem verwijderen"
+
+msgid "% Items"
+msgstr "% Artikelen"
+
+msgid "1 Item"
+msgstr "1 item"
+
+msgid "Hide Product Addons"
+msgstr "Productaanvoegingen verbergen"
+
+msgid "Show Product Addons"
+msgstr "Productaanvoegingen weergeven"

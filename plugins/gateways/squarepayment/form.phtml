@@ -1,0 +1,111 @@
+<?php
+    if ($this->from == 'signup') {
+        $containerClass = 'col-12';
+    } else if ($this->from == 'invoice') {
+        $containerClass = 'col-12';
+    } elseif ($this->from == 'paymentmethod') {
+        $containerClass = 'col-12';
+    }
+?>
+
+<input type="hidden" id="squarepaymentCardNonce" name="squarepayment_plugincustomfields[squarepaymentCardNonce]" value="">
+
+<script type="text/javascript" src="<?php echo $this->SqPaymentWebPaymentsSDKLibrary; ?>"></script>
+
+<form id="payment-form">
+    <div id="card-container"></div>
+
+    <div class="text-right col-12">
+    <?php if ($this->from == 'signup') { ?>
+        <a style="margin-left:0px;cursor:pointer;" class="app-btns primary customButton pull-left center-on-mobile squarepaymentButton" id="customButton"></a>
+    <?php } elseif ($this->from == 'invoice') { ?>
+        <button class="app-btns primary squarepaymentButton"><?php echo $this->user->lang('Pay Invoice'); ?></button>
+    <?php } elseif ($this->from == 'paymentmethod') { ?>
+        <button style="margin-left:0px;cursor:pointer;" class="btn btn-primary customButton squarepaymentButton pull-left" id="customButton"><?php echo $this->user->lang('Update Credit Card'); ?></button>
+    <?php } ?>
+    </div>
+</form>
+<!-- Configure the Web Payments SDK and Card payment method -->
+<script type="text/javascript">
+    async function main() {
+        applicationId = '<?php echo $this->applicationid; ?>';
+        locationId = '<?php echo $this->locationid; ?>';
+
+        const payments = Square.payments(applicationId, locationId);
+        const card = await payments.card({"postalCode" : '<?php echo $this->userZipcode;?>'});
+        await card.attach('#card-container');
+
+        async function eventHandler(event) {
+            <?php if ($this->from == 'signup') { ?>
+                if ($('.squarepaymentButton').hasClass('disabled')) {
+                    return;
+                }
+
+                var password_validated = true;
+
+                <?php if (!$this->loggedIn) { ?>
+                    $('.parsley-error-list.help-block').parent().removeClass('has-error');
+                    $('.parsley-error-list.help-block').remove();
+                    event.preventDefault();
+
+                    //let's validate remote data
+                    if ($('#password').length > 0) {
+                        if ($.trim($('#password').val()) == "") return;
+                        $.ajax({
+                            type: "POST",
+                            data: {"password": $('#password').val()},
+                            url: 'index.php?controller=signup&fuse=admin&action=testpasswordstrength',
+                            async: false,
+                            success : function(response) {
+                                json = clientexec.parseResponse(response);
+                                if (!json.valid) {
+                                    password_validated = false;
+                                    $('#password').parent().addClass('has-error');
+                                    $('#password').after('<span class="help-block parsley-error-list">'+json.errorMessage+'</span>');
+                                    $('#password').get(0).scrollIntoView();
+                                }
+                            }
+                        });
+                    }
+                <?php } ?>
+
+                if (password_validated && $('#submitForm').parsley('validate')) {
+            <?php } ?>
+
+            <?php if ($this->from == 'signup') { ?>
+                }
+            <?php } ?>
+
+            // Don't submit the form until SqPaymentForm returns with a nonce
+            event.preventDefault();
+
+            try {
+                const result = await card.tokenize();
+                if (result.status === 'OK') {
+                    console.log(`Payment token is ${result.token}`);
+
+                    var elem = document.getElementById("squarepaymentCardNonce");
+                    elem.value = result.token;
+
+                    <?php if ($this->from == 'invoice' || $this->from == 'signup') { ?>
+                        $('#submitButton').click();
+                    <?php } elseif ($this->from == 'paymentmethod') { ?>
+                        var valid = $('.update-payment-method-frm').parsley('validate');
+                        if (valid) $('.update-payment-method-frm').submit();
+                    <?php } ?>
+                }
+            } catch (e) {
+                // Log errors from nonce generation to the browser developer console.
+                console.error('Encountered errors:');
+                console.error('  ' + e.message);
+
+                alert('Encountered errors, check browser developer console for more details');
+                return;
+            }
+        };
+
+        $('.squarepaymentButton').on('click', eventHandler);
+    }
+
+    main();
+</script>

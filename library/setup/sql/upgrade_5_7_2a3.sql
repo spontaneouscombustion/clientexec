@@ -1,0 +1,1 @@
+DELETE FROM `events_log` WHERE `user_id` = -1 OR `subject` = -1;

@@ -1,0 +1,98 @@
+<script data-cfasync="false" type="text/javascript">
+    //Code for prices in different currencies
+    
+    function billingTypePricingFilterBy (el,filter)
+    {
+        $(el).closest('.nav-pills').find('li').removeClass('active')
+        $(el).closest('li').addClass('active');
+
+        $('.currencyprice').hide();
+        $('.currencyCode'+filter).show();
+    }
+    //Code for prices in different currencies
+</script>
+
+<style>
+    .window-description .inputRow {
+        margin-bottom: 10px;
+    }
+    .window-description .inputRow label {
+        display: inline-block;
+        vertical-align: middle;
+        width: 142px;
+    }
+    .window-description .inputRow input, .window-description .inputRow textarea {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+    }
+
+    .window-description .inputRow input {
+        width: 95%;
+    }
+
+    .window-description .inputRow textarea {
+        width: 99%;
+    }
+</style>
+
+<?php
+    //Code for prices in different currencies
+    include_once 'modules/billing/models/CurrencyGateway.php';
+
+    $gateway = new CurrencyGateway($this->user);
+    $currencies = $gateway->GetCurrencies();
+
+    if ($currencies['totalcount'] > 1) {
+?>
+        <ul class="nav nav-pills">
+<?php
+        foreach ($currencies['currencies'] as $currencyValues) {
+?>
+            <li <?php if ($currencyValues['isdefault']) { echo 'class="active"'; } ?> >
+                <a <?php if ($currencyValues['isdefault']) { echo 'class="default-language-tab"'; } ?> href="javascript:void(0)" onclick="billingTypePricingFilterBy(this,'<?php echo $currencyValues['abrv']; ?>')"><?php echo $currencyValues['name']; ?></a>
+            </li>
+<?php
+        }
+?>
+        </ul>
+<?php
+    }
+    //Code for prices in different currencies
+?>
+
+<div class="inputRow">
+    <label class="fieldlabel"><?php echo $this->user->lang("Name");?></label>
+    <input class="required" type="text" name="name" value="<?php echo $this->name;?>" />
+</div>
+<div class="inputRow">
+    <label class="fieldlabel"><?php echo $this->user->lang("Description");?></label>
+    <input class="required" type="text" name="description" value="<?php echo $this->description;?>" />
+</div>
+<div class="inputRow">
+    <label class="fieldlabel"><?php echo $this->user->lang("Details");?></label>
+    <textarea name="detail" rows="8"><?php echo $this->detail; ?></textarea>
+</div>
+<div class="inputRow">
+<!-- CODE FOR PRICES IN DIFFERENT CURRENCIES -->
+<?php
+    if ($currencies['totalcount'] > 1) {
+        foreach ($currencies['currencies'] as $currencyValues) {
+?>
+    <span class="currencyprice currencyCode<?php echo $currencyValues['abrv']; ?>" <?php if (!$currencyValues['isdefault']) { echo 'style="display: none"'; } ?> >
+        <label class="fieldlabel"><?php echo $this->user->lang("Price").' ('.$currencyValues['abrv'].')';?></label>
+        <input class="required" type="text" name="<?php echo $currencyValues['abrv']; ?>_price" <?php if ($currencyValues['isdefault']) { echo 'id="maincurrencyprice"'; } ?> value="<?php echo $this->priceCurrencies[$currencyValues['abrv']];?>" />
+    </span>
+<?php
+        }
+    } else {
+?>
+    <label class="fieldlabel"><?php echo $this->user->lang("Price").' ('.$this->currencyAbrv.')';?></label>
+    <input class="required" type="text" name="price" id="maincurrencyprice" value="<?php echo $this->price;?>" />
+<?php
+    }
+?>
+<!-- /CODE FOR PRICES IN DIFFERENT CURRENCIES -->
+</div>
+
+<input type="hidden" name="id" value="<?php echo $this->id; ?>" />

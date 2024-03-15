@@ -1,0 +1,1 @@
+ALTER TABLE `announcement` ADD `pinned` TINYINT NOT NULL DEFAULT '0' AFTER `recipient`, ADD INDEX (`pinned`);

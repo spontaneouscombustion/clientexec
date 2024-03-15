@@ -1,0 +1,28 @@
+<div class="alert alert-info ce-page-header">
+  <div class="alert-header"><?php echo $this->user->lang("Email List");?></div>
+  <p class="alert-content"><?php echo $this->user->lang("List of emails that have been sent to your clients.");?></p>
+</div>
+
+<span class="grid-meta" id="emails-grid-metadata"></span>
+<div id="gridheader" class="blue-box" style="clear:both;padding:4px !important;">
+    <table class="automation">
+        <tbody>
+            <tr>
+                <td align="left"><label><?php echo $this->user->lang("Email List");?></label></td>
+                <td align="left" style="width:60px">
+                    <select id='emails-grid-filter' class="change-grid-showrecords" style='width:60px;'>
+                        <option value='5'>5</option>
+                        <option value='10'>10</option>
+                        <option value='25'>25</option>
+                        <option value='50'>50</option>
+                        <option value='150'>150</option>
+                        <option value='300'>300</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="emails-grid"></div>
+<div id="emails-grid-footer" style="display:none;">
+</div>

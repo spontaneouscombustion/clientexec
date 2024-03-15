@@ -1,0 +1,141 @@
+<input type="hidden" id="stripeTokenId" name="stripecheckout_plugincustomfields[stripeTokenId]" value="">
+
+<script data-cfasync="false" src="https://checkout.stripe.com/checkout.js"></script>
+
+<?php if ($this->from == 'signup') { ?>
+    <a style="margin-left:0px;cursor:pointer;" class="app-btns primary customButton center-on-mobile stripecheckoutButton <?php if (@$this->termsConditions) {
+?>disabled<?php
+} ?>" id="customButton"></a>
+<?php } elseif ($this->from == 'invoice') { ?>
+    <button class="app-btns primary customButton stripecheckoutButton"><?php echo $this->user->lang('Pay Invoice'); ?></button>
+<?php } elseif ($this->from == 'paymentmethod') { ?>
+    <button style="margin-left:0px;cursor:pointer;" class="btn btn-primary customButton stripecheckoutButton" id="customButton"><?php echo $this->user->lang('Update Credit Card'); ?></button>
+<?php } ?>
+
+<script data-cfasync="false" type="text/javascript">
+    var stripecheckout_handler = StripeCheckout.configure({
+        key: '<?php echo $this->publishableKey; ?>',
+        image: '<?php echo $this->logoImage; ?>',
+        locale: 'auto',
+        token: function(token) {
+            var elem = document.getElementById("stripeTokenId");
+            elem.value = token.id;
+
+            <?php if ($this->from == 'invoice' || $this->from == 'signup') { ?>
+                $('#submitButton').click();
+            <?php } elseif ($this->from == 'paymentmethod') { ?>
+                var valid = $('.update-payment-method-frm').parsley('validate');
+                if (valid) $('.update-payment-method-frm').submit();
+            <?php } ?>
+        }
+    });
+
+    $('.stripecheckoutButton').on('click', function(e) {
+        <?php if ($this->from == 'signup') { ?>
+            if ($('.stripecheckoutButton').hasClass('disabled')) {
+                return;
+            }
+
+            var password_validated = true;
+
+            <?php if (!$this->loggedIn) { ?>
+                $('.parsley-error-list.help-block').parent().removeClass('has-error');
+                $('.parsley-error-list.help-block').remove();
+                e.preventDefault();
+
+                //let's validate remote data
+                if ($('#password').length > 0) {
+                    if ($.trim($('#password').val()) == "") return;
+                    $.ajax({
+                        type: "POST",
+                        data: {"password": $('#password').val()},
+                        url: 'index.php?controller=signup&fuse=admin&action=testpasswordstrength',
+                        async: false,
+                        success : function(response) {
+                            json = clientexec.parseResponse(response);
+                            if (!json.valid) {
+                                password_validated = false;
+                                $('#password').parent().addClass('has-error');
+                                $('#password').after('<span class="help-block parsley-error-list">'+json.errorMessage+'</span>');
+                                $('#password').get(0).scrollIntoView();
+                            }
+                        }
+                    });
+                }
+            <?php } ?>
+
+            if (password_validated && $('#submitForm').parsley('validate')) {
+        <?php } ?>
+
+        // Open Checkout with further options
+        stripecheckoutOpenHandler();
+
+        <?php if ($this->from == 'signup') { ?>
+            }
+        <?php } ?>
+
+        e.preventDefault();
+    });
+
+    function stripecheckoutOpenHandler() {
+        <?php if ($this->from == 'signup') { ?>
+            var email = '';
+
+            <?php if (!$this->loggedIn) { ?>
+                var CT_4 = document.getElementById('CT_4');
+
+                if(typeof CT_4 !== null && CT_4 !== 'undefined' ) {
+                    email = CT_4.value;
+                }
+            <?php } ?>
+        <?php } ?>
+
+        stripecheckout_handler.open({
+            <?php if ($this->from == 'paymentmethod') { ?>
+                <?php if ($this->hasBillingProfile) { ?>
+                    name: '<?php echo $this->user->lang("Update your Credit Card?");?>',
+                <?php } else { ?>
+                    name: '<?php echo $this->user->lang("Enter your Credit Card");?>',
+                <?php } ?>
+            <?php } else { ?>
+                <?php
+                    $companyName = '';
+                    if (isset($this->companyName) && $this->companyName != '') {
+                        $companyName = str_replace("'", "\\'", $this->companyName);
+                    }
+                ?>
+                name: '<?php echo $companyName; ?>',
+            <?php } ?>
+
+            <?php if ($this->from == 'signup') { ?>
+                email: email+'<?php echo @$this->user->getEmail(); ?>',
+            <?php } else { ?>
+                email: '<?php echo $this->user->getEmail(); ?>',
+            <?php } ?>
+
+            allowRememberMe: true,
+            panelLabel: '<?php echo $this->panelLabel; ?>',
+
+            <?php if ($this->from == 'invoice') { ?>
+                description: '<?php echo $this->user->lang("Invoice")." #".$this->invoiceId;?>',
+                amount: '<?php echo $this->invoiceBalanceDue*100;?>',
+                currency: '<?php echo $this->currency;?>',
+            <?php } elseif ($this->from == 'signup') {   ?>
+                description: '<?php echo $this->user->lang("New Order");?>',
+                amount: Math.round(document.getElementById("totalPay_raw").value * 100),
+                currency: '<?php echo $this->Currency;?>',
+            <?php } ?>
+
+            billingAddress: true,
+            shippingAddress: false,
+            zipCode: true,
+            alipay: false,
+            alipayReusable: false
+        });
+    }
+
+    // Close Checkout on page navigation
+    $(window).on('popstate', function() {
+        stripecheckout_handler.close();
+    });
+</script>

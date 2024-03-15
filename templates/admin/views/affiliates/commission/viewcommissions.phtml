@@ -1,0 +1,83 @@
+<div class="alert alert-info ce-page-header">
+    <div class="alert-header">
+        <?php echo $this->user->lang("Commissions");?>
+    </div>
+</div>
+
+<span class="grid-meta" id="commissionsList-grid-metadata"></span>
+<div id="gridheader" class="blue-box" style="clear:both;padding:4px !important;">
+    <table class="automation">
+        <tbody>
+            <tr>
+                <td>
+                    <?php echo $this->user->lang("Commissions");?>:
+                </td>
+                <td align="right" style="width:80px;"><label><?php echo $this->user->lang("Show");?></label></td>
+                <td align="left" style="width:70px;">
+                    <select style="display:none;" class="dropdown-select" id='commissionsList-grid-filterbystatus'>
+                        <option value='-1' <?php echo ($this->filter == -1) ? "selected" : "" ?>>
+                            <?php echo $this->user->lang("All"); ?>
+                            </option>
+                        <option value='0' <?php echo ($this->filter == 0) ? "selected" : "" ?>>
+                            <?php echo $this->user->lang("Pending"); ?>
+                        </option>
+                        <option value='1' <?php echo ($this->filter == 1) ? "selected" : "" ?>>
+                            <?php echo $this->user->lang("Approved"); ?>
+                        </option>
+                        <option value='2' <?php echo ($this->filter == 2) ? "selected" : "" ?>>
+                            <?php echo $this->user->lang("Paid"); ?>
+                        </option>
+                        <option value='4' <?php echo ($this->filter == 4) ? "selected" : "" ?>>
+                            <?php echo $this->user->lang("Pending Pay Out"); ?>
+                        </option>
+                        <option value='3' <?php echo ($this->filter == 3) ? "selected" : "" ?>>
+                            <?php echo $this->user->lang("Declined"); ?>
+                        </option>
+                    </select>
+                </td>
+                <td align="right" style="width:65px">
+                    <select id='clientsList-grid-filter' class="change-grid-showrecords" style='display:none;width:60px;'>
+                        <option value='5'>5</option>
+                        <option value='10'>10</option>
+                        <option value='25'>25</option>
+                        <option value='50'>50</option>
+                        <option value='150'>150</option>
+                        <option value='300'>300</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="commissionsList-grid"></div>
+<div id="commissionsList-grid-footer" style="display:none;">
+    <span class="btn-group dropup">
+        <a class="btn rich-button multi-action-button" disabled="disabled"><span>Actions</span></a>
+        <a class="btn rich-button dropdown-toggle multi-action-button" disabled="disabled" data-toggle="dropdown"><span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li>
+                <a class="action-button" id="approveCommission">
+                    <?php echo $this->user->lang('Approve Commission(s)'); ?>
+                </a>
+            </li>
+            <li>
+                <a class="action-button" id="declineCommission">
+                    <?php echo $this->user->lang('Decline Commission(s)'); ?>
+                </a>
+            </li>
+            <li>
+                <a class="action-button" id="markPaidCommission">
+                    <?php echo $this->user->lang('Mark Paid Out'); ?>
+                </a>
+            </li>
+        </ul>
+    </span>
+</div>
+
+<script>
+    commissionsList = {};
+    <?php if ($this->affiliateId != -1) { ?>
+    commissionsList.affiliateId = '<?php echo $this->affiliateId; ?>';
+    <?php } ?>
+</script>

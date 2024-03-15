@@ -1,0 +1,27 @@
+<b><?php echo $this->user->lang('Press the button to download the file'); ?>:</b><br />
+
+<table>
+    <tr>
+        <td>
+            <b><?php echo $this->user->lang('Client Id'); ?>:</b>
+        </td>
+        <td>
+            <input type='text' name="userid" id="userid" style="width: 70px;" value='<?php echo $this->userid; ?>' />
+        </td>
+    </tr>
+</table><br />
+
+<?php if ($this->userid != '') { ?>
+    <input type="hidden" name="exportdata" value="<?php echo $this->userid; ?>" />
+    <input type="hidden" name="sessionHash" value="<?php echo CE_Lib::getSessionHash(); ?>" />
+<?php } ?>
+
+<button class="rich-button" id="exportButton"><span><?php echo $this->user->lang("Download .json"); ?></span></button>
+
+<?php if ($this->userid != '') { ?>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#exportButton').click();
+        });
+    </script>
+<?php } ?>

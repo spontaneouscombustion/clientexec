@@ -1,0 +1,32 @@
+<?php echo $this->profileheader($this->customer);?>
+
+<script data-cfasync="false" type="text/javascript">
+    var profileemails = profileemails || {};
+</script>
+<span class="grid-meta" id="emailsList-grid-metadata"></span>
+<div class="blue-box">
+    <table class="automation">
+        <tbody>
+            <tr>
+            	<td>
+                    <?php echo $this->user->lang("Emails");?>:
+                </td>
+                <td align="left" style="width:60px">
+                    <select id='emails-grid-filter' class="change-grid-showrecords" style='width:60px;'>
+                        <option value='5'>5</option>
+                        <option value='10'>10</option>
+                        <option value='25'>25</option>
+                        <option value='50'>50</option>
+                        <option value='150'>150</option>
+                        <option value='300'>300</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="emailsList-grid"></div>
+<div id="emailsList-footer">
+    <div style="float:right;" id="emailsList-grid-pagination"></div>
+</div>

@@ -1,0 +1,1 @@
+INSERT INTO `setting` (`id`, `name`, `value`, `value_alternate`, `description`, `type`, `isrequired`, `istruefalse`, `istextarea`, `issmalltextarea`, `isfromoptions`, `myorder`, `helpid`, `plugin`, `ispassword`, `ishidden`, `issession`) VALUES (NULL, 'CE-APIKEY', '', NULL, 'System Generated API-Key', '-1', '1', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0');

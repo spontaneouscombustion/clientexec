@@ -1,0 +1,10 @@
+UPDATE `setting` SET `value` = '' WHERE `value` IS NULL;
+ALTER TABLE `setting` CHANGE `value` `value` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;
+DELETE from setting where name='View Tickets In Collapsed View';
+UPDATE  setting SET  issession =  '1' WHERE  name = 'Send Domain Invoice Offset';
+UPDATE  setting SET  issession =  '1' WHERE  name = 'Send Invoice Offset';
+UPDATE setting set value = value_alternate WHERE name LIKE 'Terms and Conditions';
+UPDATE setting set value_alternate = '' WHERE name LIKE 'Terms and Conditions';
+UPDATE setting SET NAME='Allow Admins To Reply From Any E-mail' WHERE NAME = 'Allow Admin To Reply From Any E-mail Account';
+UPDATE setting SET NAME='Allow Customers To Reply From Any E-mail' WHERE NAME = 'Allow Customers To Reply From Any E-mail Account';
+DELETE FROM permissions WHERE permission = 'admin_edit_snapins_settings';

@@ -1,0 +1,58 @@
+<div class="alert alert-info ce-page-header">
+    <div class="alert-header">
+        <?php echo $this->user->lang("Pending Orders"); ?>
+        </div>
+    <p class="alert-content">
+        <?php echo $this->user->lang("List of pending orders awaiting approval. For details make sure to expand each detailed row."); ?>
+    </p>
+</div>
+
+<span class="grid-meta" id="Accounts-grid-metadata"></span>
+<div id="gridheader" class="blue-box">
+    <table class="automation">
+        <tbody>
+            <tr>
+                <td align="left"><label><?php echo $this->user->lang("Pending Orders");?></label></td>
+                <td align="right"><label><?php echo $this->user->lang("Show");?></label></td>
+                <td align="left" style="width:190px;">
+                    <select class="dropdown-select" style="width:180px;" id='pending-grid-status-filter'>
+                        <option value="-1">All</option>
+                        <option value="1"><?php echo $this->user->lang("Paid");?></option>
+                        <option value="0"><?php echo $this->user->lang("Unpaid");?></option>
+                    </select>
+                </td>
+                <td align="left" style="width:60px">
+                    <select id='pending-grid-filter' class="change-grid-showrecords" style='width:60px;'>
+                        <option value='5'>5</option>
+                        <option value='10'>10</option>
+                        <option value='25'>25</option>
+                        <option value='50'>50</option>
+                        <option value='150'>150</option>
+                        <option value='300'>300</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div id="Accounts-grid"></div>
+<div id="Accounts-grid-footer" style="display:none;">
+    <?php if ($this->user->hasPermission('clients_create_customer_packages')) { ?>
+	<button class="rich-button" id="activateAccount">
+        <span><?php echo $this->user->lang("Activate Packages(s)"); ?></span>
+    </button>
+    <button class="rich-button" id="delAccount">
+        <span><?php echo $this->user->lang("Delete Packages(s)"); ?></span>
+    </button>
+    <?php } ?>
+    <?php if ($this->user->hasPermission('clients_cancel_packages')) { ?>
+    <button class="rich-button" id ="cancelAccount">
+        <span><?php echo $this->user->lang("Cancel Packages(s)");?></span>
+    </button>
+    <?php } ?>
+</div>
+
+<script data-cfasync="false">
+    var accounts = {};
+    accounts.affiliateSystem = <?php echo $this->affiliateSystem; ?>;
+</script>

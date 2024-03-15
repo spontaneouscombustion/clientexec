@@ -1,0 +1,21 @@
+<h1>Rental Details</h1>
+<table class="table">
+    <tr>
+        <th>Status</th>
+        <th>Current Hashrate</th>
+        <th>Rejected Hashrate</th>
+        <th>Connected Workers</th>
+    </tr>
+    <tr>
+        <td>
+            <?php if ( $this->isStable == '1') {?>
+            <span class="label label-success">Online</span>
+            <?php } else { ?>
+            <span class="label label-danger">Offline</span>
+            <?php } ?>
+        </td>
+        <td><?php echo $this->hashRate; ?></td>
+        <td><?php echo $this->rejectedHashesPerSeconds; ?></td>
+        <td><?php echo $this->connections; ?></td>
+    </tr>
+</table>

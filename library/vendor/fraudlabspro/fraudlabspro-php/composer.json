@@ -1,0 +1,25 @@
+{
+    "name": "fraudlabspro/fraudlabspro-php",
+    "type": "library",
+    "description": "FraudLabs Pro PHP SDK to help merchants to detect fraud order and therefore reduce chargebacks.",
+    "license": "MIT",
+    "version": "2.1.0",
+    "authors": [
+        {
+            "name": "FraudLabs Pro",
+            "homepage": "https://www.fraudlabspro.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "FraudLabsPro": "lib/"
+        },
+        "psr-4": {
+            "FraudLabsPro\\": "lib/FraudLabsPro"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "clientexec/ce-library",
+    "description": "Clientexec Internal Library",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Matt Grandy",
+            "email": "matt@clientexec.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Clientexec\\": "src/"
+        }
+    }
+}

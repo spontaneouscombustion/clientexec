@@ -1,0 +1,1 @@
+ALTER TABLE  `users_domains` ADD  `auto_renew` TINYINT( 4 ) NOT NULL DEFAULT  '1' AFTER  `period`;

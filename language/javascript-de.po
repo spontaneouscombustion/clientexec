@@ -1,0 +1,1942 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: i18n@clientexec.com\n"
+"POT-Creation-Date: 2014-06-04 17:15-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1) ? 0 : 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgid "Invalid Email format for field %."
+msgstr "Ungültiges E-Mail-Format für das Feld%."
+
+msgid "The field % can't be empty."
+msgstr "Das Feld% darf nicht leer sein."
+
+msgid "The following form field(s) were incomplete or incorrect"
+msgstr "Die folgenden Formularfelder waren unvollständig oder falsch"
+
+msgid "Please complete or correct the form and submit again."
+msgstr ""
+"Bitte füllen oder korrigieren Sie das Formular und senden Sie es erneut ab."
+
+msgid "Visa is not accepted at this time"
+msgstr "Visa wird derzeit nicht akzeptiert"
+
+msgid "MasterCard is not accepted at this time"
+msgstr "MasterCard wird derzeit nicht akzeptiert"
+
+msgid "American Express is not accepted at this time"
+msgstr "American Express wird derzeit nicht akzeptiert"
+
+msgid "Discover is not accepted at this time"
+msgstr "Discover wird derzeit nicht akzeptiert"
+
+msgid "LaserCard is not accepted at this time"
+msgstr "LaserCard wird derzeit nicht akzeptiert"
+
+msgid "Diners Club is not accepted at this time"
+msgstr "Diners Club wird derzeit nicht akzeptiert"
+
+msgid "Switch is not accepted at this time"
+msgstr "Switch wird derzeit nicht akzeptiert"
+
+msgid "Quantity"
+msgstr "Menge"
+
+msgid "Option"
+msgstr "Option"
+
+msgid "Prices will be multiplied by the quantity"
+msgstr "Die Preise werden mit der Menge multipliziert"
+
+msgid "Validating..."
+msgstr "Wird validiert..."
+
+msgid "Valid VAT Number"
+msgstr "Gültige USt-IdNr."
+
+msgid "Invalid VAT Number"
+msgstr "Ungültige Mehrwertsteuernummer"
+
+msgid "Retry"
+msgstr "Erneut versuchen"
+
+msgid "Unable to validate at the moment."
+msgstr "Die Bestätigung ist derzeit nicht möglich."
+
+msgid "This field is required"
+msgstr "Dieses Feld ist erforderlich "
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "No Active Chats"
+msgstr "Keine aktiven Chats"
+
+msgid "Cancel"
+msgstr "Abbrechen"
+
+msgid "Are you sure you want to delete this message?"
+msgstr "Wollen Sie diese Nachricht wirklich löschen?"
+
+msgid "Your reply:"
+msgstr "Deine Antwort:"
+
+msgid "Your status:"
+msgstr "Ihr Status:"
+
+msgid "Domain"
+msgstr "Domain"
+
+msgid "Expiry Date"
+msgstr "VERFALLSDATUM"
+
+msgid "View PDF Invoice"
+msgstr "Rechnung im PDF-Format anzeigen"
+
+msgid "Enter your passphrase:"
+msgstr "Geben Sie Ihre Passphrase ein:"
+
+msgid "Invoice"
+msgstr "RECHNUNG"
+
+msgid "Due"
+msgstr "Due"
+
+msgid "Gateway"
+msgstr "Tor"
+
+msgid "Pmt Reference"
+msgstr "PMT-Referenz"
+
+msgid "Balance Due"
+msgstr "Fälliger Restbetrag"
+
+msgid "Total"
+msgstr "Gesamt"
+
+msgid "Status"
+msgstr " STATUS "
+
+msgid "Add Payment Reference"
+msgstr "Zahlungsreferenz hinzufügen"
+
+msgid "Viewing Invoices"
+msgstr "Rechnungen anzeigen"
+
+msgid "Are sure you want to cancel the subscription tied to this invoice?"
+msgstr ""
+"Möchten Sie das mit dieser Rechnung verknüpfte Abonnement wirklich kündigen?"
+
+msgid "No"
+msgstr "Nein"
+
+msgid "Do you want to send a receipt?"
+msgstr "Möchten Sie eine Quittung senden?"
+
+msgid "Are sure you want to delete the selected invoice(s)."
+msgstr "Sind Sie sicher, dass Sie die ausgewählten Rechnungen löschen möchten."
+
+msgid "Amount"
+msgstr "Amount"
+
+msgid "Add optional information"
+msgstr "Optionale Informationen hinzufügen"
+
+msgid "Remove Optional Information"
+msgstr "Optionale Informationen entfernen"
+
+msgid "Payment Reference (Optional)"
+msgstr "Zahlungsreferenz (optional)"
+
+msgid "Payment Date (Optional)"
+msgstr "Zahlungsdatum (optional)"
+
+msgid "Payment Time (Optional)"
+msgstr "Zahlungszeit (optional)"
+
+msgid "Payment Processor (Optional)"
+msgstr "Zahlungsabwickler (optional)"
+
+msgid "Some invoices are not due. Are you sure you want to proceed?"
+msgstr ""
+"Manche Rechnungen sind nicht fällig. Sind Sie sicher, dass Sie fortfahren "
+"möchten?"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Are you sure you want to process the selected account(s)?"
+msgstr "Möchten Sie die ausgewählten Konten wirklich bearbeiten?"
+
+msgid "Date"
+msgstr "Datums"
+
+msgid "Description"
+msgstr "Beschreibung"
+
+msgid "Transaction ID"
+msgstr "Transaktions-Kennung"
+
+msgid "Transaction Id"
+msgstr "Transaktions-Kennung"
+
+msgid "Result"
+msgstr "Resultat"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Share information"
+msgstr "Informationen teilen"
+
+msgid "Add License(s)"
+msgstr "Lizenz (en) hinzufügen"
+
+msgid "Add License(s) to"
+msgstr "Lizenz (en) hinzufügen zu"
+
+msgid "Are you sure you want to delete the selected license(s)"
+msgstr "Möchten Sie die ausgewählten Lizenzen wirklich löschen?"
+
+msgid "Type"
+msgstr "Art"
+
+msgid "Attributes"
+msgstr "Attribute"
+
+msgid "Reseller"
+msgstr "Vertriebspartner"
+
+msgid "Are you sure you want to delete the selected resellers(s)"
+msgstr "Möchten Sie die ausgewählten Wiederverkäufer wirklich löschen?"
+
+msgid "Profile"
+msgstr "Steckbrief"
+
+msgid "Used"
+msgstr "Used"
+
+msgid "Add Reseller"
+msgstr "Wiederverkäufer hinzufügen"
+
+msgid "Advanced Search"
+msgstr "Erweiterte Suche"
+
+msgid "Ticket Search"
+msgstr "Ticket Suche"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "FEB."
+
+msgid "Mar"
+msgstr "Mär"
+
+msgid "Apr"
+msgstr "Apr."
+
+msgid "May"
+msgstr "Mai"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Aug"
+msgstr "Aug."
+
+msgid "Sep"
+msgstr "Sept."
+
+msgid "Oct"
+msgstr "Okt."
+
+msgid "Nov"
+msgstr "Nov."
+
+msgid "Dec"
+msgstr "Dez."
+
+msgid "January"
+msgstr "Jänner"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "March"
+msgstr "März"
+
+msgid "April"
+msgstr "April"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "Novembre"
+
+msgid "December"
+msgstr "Dezember"
+
+msgid "Sun"
+msgstr "SON"
+
+msgid "Mon"
+msgstr "Mo"
+
+msgid "Tue"
+msgstr "Di."
+
+msgid "Wed"
+msgstr "Mi"
+
+msgid "Thu"
+msgstr "Thu"
+
+msgid "Fri"
+msgstr "Fr"
+
+msgid "Sat"
+msgstr "Sat"
+
+msgid "Sunday"
+msgstr "Sonntag"
+
+msgid "Monday"
+msgstr "Montag"
+
+msgid "Tuesday"
+msgstr "Dienstag"
+
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+msgid "Thursday"
+msgstr "Donnerstag"
+
+msgid "Friday"
+msgstr "Freitag"
+
+msgid "Saturday"
+msgstr "Samstag"
+
+msgid "Loading"
+msgstr "LOADING"
+
+msgid "Quick Search"
+msgstr "Schnelle Suche"
+
+msgid ""
+"NOTE: This operation will move all the tickets from this Email to the user "
+"whose ID you will enter.\n"
+"Also, this Email will be added as an alternate address for future support "
+"requests from this user."
+msgstr ""
+"HINWEIS: Bei diesem Vorgang werden alle Tickets aus dieser E-Mail an den "
+"Benutzer verschoben, dessen ID Sie eingeben werden.\n"
+"Außerdem wird diese E-Mail als alternative Adresse für zukünftige Support-"
+"Anfragen von diesem Benutzer hinzugefügt."
+
+msgid "Migrate Guest to User ID:"
+msgstr "Migrieren Sie den Gast zur Benutzer-ID:"
+
+msgid "My Notes"
+msgstr "Meine Notizen"
+
+msgid "Add Staff Note"
+msgstr "Mitarbeiternotiz hinzufügen"
+
+msgid "Add Support Ticket"
+msgstr "Support-Ticket hinzufügen"
+
+msgid "You must fill in all the required fields before submitting your ticket."
+msgstr ""
+"Sie müssen alle erforderlichen Felder ausfüllen, bevor Sie Ihr Ticket "
+"einreichen."
+
+msgid "There was an error with this operation"
+msgstr "Bei diesem Vorgang ist ein Fehler aufgetreten"
+
+msgid "Email Client"
+msgstr "E-Mail-Client"
+
+msgid "Loading..."
+msgstr "Wird geladen …"
+
+msgid "No data available in table"
+msgstr "Keine Daten in Tabelle verfügbar"
+
+msgid "Showing % to % of % entries"
+msgstr "% bis% von% Einträgen werden angezeigt"
+
+msgid "_START_"
+msgstr "_START_"
+
+msgid "_END_"
+msgstr "_ENDE_"
+
+msgid "_TOTAL_"
+msgstr "_GESAMT_"
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Zeige 0 bis 0 von 0 Einträgen"
+
+msgid "filtered from % total entries"
+msgstr "gefiltert aus% aller Einträge"
+
+msgid "_MAX_"
+msgstr "_MAX_"
+
+msgid "Show % entries"
+msgstr "%-Einträge anzeigen"
+
+msgid "Search:"
+msgstr "Suche:"
+
+msgid "No matching records found"
+msgstr "Keine übereinstimmenden Datensätze gefunden"
+
+msgid "<<"
+msgstr "<<"
+
+msgid ">>"
+msgstr ">>"
+
+msgid ">"
+msgstr ">"
+
+msgid "<"
+msgstr "<"
+
+msgid "activate to sort column ascending"
+msgstr "aktivieren, um die Spalte aufsteigend zu sortieren"
+
+msgid "activate to sort column descending"
+msgstr "aktivieren, um die Spalte absteigend zu sortieren"
+
+msgid "This value seems to be invalid."
+msgstr "Dieser Wert scheint ungültig zu sein."
+
+msgid "This value should be a valid email."
+msgstr "Dieser Wert sollte eine gültige E-Mail sein."
+
+msgid "This value should be a valid url."
+msgstr "Dieser Wert sollte eine gültige URL sein."
+
+msgid "This value should be a valid number."
+msgstr "Dieser Wert sollte eine gültige Zahl sein."
+
+msgid "This value should be digits."
+msgstr "Dieser Wert sollte Ziffern sein."
+
+msgid "This value should be a valid date (YYYY-MM-DD)."
+msgstr "Dieser Wert sollte ein gültiges Datum sein (YYYY-MM-DD)."
+
+msgid "This value should be alphanumeric."
+msgstr "Dieser Wert sollte alphanumerisch sein."
+
+msgid "This value should be a valid phone number."
+msgstr "Dieser Wert sollte eine gültige Telefonnummer sein."
+
+msgid "This value should not be null."
+msgstr "Dieser Wert sollte nicht Null sein."
+
+msgid "This value should not be blank."
+msgstr "Dieser Wert sollte nicht leer sein."
+
+msgid "This value is required."
+msgstr "Dieser Wert ist erforderlich."
+
+msgid "This value should be greater than or equal to %s."
+msgstr "Dieser Wert sollte größer oder gleich sein%s."
+
+msgid "This value should be lower than or equal to %s."
+msgstr "Dieser Wert sollte niedriger oder gleich sein%s."
+
+msgid "This value should be between %s and %s."
+msgstr "Dieser Wert sollte zwischen %s und liegen%s."
+
+msgid "This value is too short. It should have %s characters or more."
+msgstr "Dieser Wert ist zu kurz. Er sollte %s Zeichen oder mehr enthalten."
+
+msgid "This value is too long. It should have %s characters or less."
+msgstr "Dieser Wert ist zu lang. Er sollte %s Zeichen oder weniger enthalten."
+
+msgid ""
+"This value length is invalid. It should be between %s and %s characters long."
+msgstr ""
+"Die Länge dieses Werts ist ungültig. Er sollte zwischen %s und %s Zeichen "
+"lang sein."
+
+msgid "You must select at least %s choices."
+msgstr "Sie müssen mindestens %s Optionen auswählen."
+
+msgid "You must select %s choices or less."
+msgstr "Sie müssen %s Optionen oder weniger auswählen."
+
+msgid "You must select between %s and %s choices."
+msgstr "Sie müssen zwischen %s und %s Wahlmöglichkeiten wählen."
+
+msgid "This value should be the same."
+msgstr "Dieser Wert sollte derselbe sein."
+
+msgid "Loading Graph"
+msgstr "Grafik wird geladen"
+
+msgid "NOTICE:"
+msgstr "HINWEIS:"
+
+msgid "You have modified the availability to some Product Groups."
+msgstr "Sie haben die Verfügbarkeit einiger Produktgruppen geändert."
+
+msgid "Do you want existing clients to continue being charged this addon?"
+msgstr ""
+"Möchten Sie, dass Bestandskunden dieses Addon weiterhin in Rechnung gestellt "
+"wird?"
+
+msgid "Plugin Variable"
+msgstr "Plugin-Variable"
+
+msgid "Used in products"
+msgstr "Wird in Produkten verwendet"
+
+msgid "Not used in any products"
+msgstr "Wird in keinem Produkt verwendet"
+
+msgid "Edit"
+msgstr "Bearbeiten"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Post Date"
+msgstr "Datum des Beitrags"
+
+msgid "Published"
+msgstr "Veröffentlichte"
+
+msgid "Pinned"
+msgstr "Gepinnt"
+
+msgid "Add Announcement"
+msgstr "Ankündigung hinzufügen"
+
+msgid "Are you sure you want to delete the selected announcement(s)"
+msgstr "Möchten Sie die ausgewählten Ankündigungen wirklich löschen?"
+
+msgid "Are you sure you want to delete the selected client groups(s)?"
+msgstr "Möchten Sie die ausgewählten Kundengruppen (n) wirklich löschen?"
+
+msgid "Description:"
+msgstr "Beschreibung:"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Members"
+msgstr "Mitglieder"
+
+msgid "Add/Edit Client Group"
+msgstr "Kundengruppe hinzufügen/bearbeiten"
+
+msgid "Your secret key"
+msgstr "Dein geheimer Schlüssel"
+
+msgid "Event Name"
+msgstr "Name der Veranstaltung"
+
+msgid "From Name"
+msgstr "Von Name"
+
+msgid "From Email"
+msgstr "Aus E-Mail"
+
+msgid "Notified"
+msgstr "benachrichtigt"
+
+msgid "Last Notified"
+msgstr "Zuletzt benachrichtigt"
+
+msgid "Enabled"
+msgstr "Aktiviert"
+
+msgid "Notification Window"
+msgstr "Fenster „Benachrichtigung“"
+
+msgid ""
+"Are you sure you want to reset the selected notification(s)?<br>Doing so "
+"will allow the notification(s) to email again the previously ignored clients."
+msgstr ""
+"Möchten Sie die ausgewählten Benachrichtigungen wirklich zurücksetzen? "
+"<br>Auf diese Weise können die Benachrichtigungen erneut E-Mails an die "
+"zuvor ignorierten Clients senden."
+
+msgid "Are you sure you want to delete the selected notification(s)?"
+msgstr "Möchten Sie die ausgewählten Benachrichtigungen wirklich löschen?"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Display Type"
+msgstr "Display-Typ"
+
+msgid "WARNING!"
+msgstr "Warnung!"
+
+msgid "Are you sure you want to add/update the selected addon?"
+msgstr "Möchten Sie das gewählte Addon wirklich hinzufügen/aktualisieren?"
+
+msgid "Drop-down menus"
+msgstr "Dropdown-Menüs"
+
+msgid "Radio buttons"
+msgstr "Optionsfelder"
+
+msgid ""
+"If the addon is been added, existing clients will be applied the default "
+"value: 'None' option if available, or the first option if not."
+msgstr ""
+"Wenn das Addon hinzugefügt wurde, wird auf bestehende Clients der "
+"Standardwert angewendet: Option „Keine“, falls verfügbar, oder die erste "
+"Option, falls nicht."
+
+msgid ""
+"If the addon is been updated to quantity type, existing clients will use a "
+"quantity of 1 by default."
+msgstr ""
+"Wenn das Addon auf den Mengentyp aktualisiert wurde, verwenden bestehende "
+"Kunden standardmäßig eine Menge von 1."
+
+msgid ""
+"If the addon is been updated from quantity type to a different type, "
+"existing clients will change their quantity to 1."
+msgstr ""
+"Wenn das Addon vom Mengentyp auf einen anderen Typ aktualisiert wurde, "
+"ändern bestehende Kunden ihre Menge auf 1."
+
+msgid "Billing Period(s)"
+msgstr "Abrechnungszeitraum (e)"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Transfer"
+msgstr "Überstellung"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Renew"
+msgstr "Erneuern"
+
+msgid "Are you sure you want to delete the selected TLD billing period(s)"
+msgstr ""
+"Möchten Sie die ausgewählten TLD-Abrechnungszeiträume wirklich löschen?"
+
+msgid "TLD Setup Window"
+msgstr "TLD-Setup-Fenster"
+
+msgid "Pricing"
+msgstr "Preisgestaltung"
+
+msgid "Addons"
+msgstr "Addons"
+
+msgid "Upgrade/Downgrade"
+msgstr "Hochstufen/Herabstufen"
+
+msgid "Advanced & Plugin Settings"
+msgstr "Erweiterte Einstellungen und Plugin-Einstellungen"
+
+msgid "Are you sure you want to delete this product group"
+msgstr "Möchten Sie diese Produktgruppe wirklich löschen?"
+
+msgid "Are you sure you want to delete the selected product(s)"
+msgstr "Möchten Sie die ausgewählten Produkte wirklich löschen"
+
+msgid "Late Fee"
+msgstr "Verspätete Gebühr"
+
+msgid "Tax"
+msgstr "Steuersch."
+
+msgid "Signup?"
+msgstr "Melden Sie sich an?"
+
+msgid "Hidden"
+msgstr "Versteckt"
+
+msgid "Product Group Window"
+msgstr "Fenster „Produktgruppe“"
+
+msgid "You must save your server first"
+msgstr "Sie müssen zuerst Ihren Server speichern"
+
+msgid "Are you sure you want to delete the selected servers(s)"
+msgstr "Möchten Sie die ausgewählten Server wirklich löschen"
+
+msgid "No status message"
+msgstr "Keine Statusmeldung"
+
+msgid "Status Message:"
+msgstr "Statusmeldung:"
+
+msgid "Server Name"
+msgstr "Servername"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "Shared IP"
+msgstr "Geteilte IP"
+
+msgid "Quota"
+msgstr "Kontingent"
+
+msgid "Monthly Cost"
+msgstr "Monatliche Kosten"
+
+msgid "DataCenter / Provider"
+msgstr "Rechenzentrum/Anbieter"
+
+msgid "New API Key has been generated"
+msgstr "Ein neuer API-Schlüssel wurde generiert"
+
+msgid "Are you sure you want to delete the selected billing cycle(s)"
+msgstr "Möchten Sie die ausgewählten Abrechnungszeiträume wirklich löschen?"
+
+msgid "Time Unit"
+msgstr "Zeit-Einheit"
+
+msgid "Amount of Units"
+msgstr "Anzahl der Einheiten"
+
+msgid "Recurring Fees"
+msgstr "Wiederkehrende Gebühren"
+
+msgid "Add/Edit Billing Cycle"
+msgstr "Abrechnungszeitraum hinzufügen/bearbeiten"
+
+msgid "Archive"
+msgstr "Archiv"
+
+msgid "Unarchive"
+msgstr "Archivierung aufheben"
+
+msgid "Are you sure you want to delete the selected billing types(s)"
+msgstr "Möchten Sie die ausgewählten Abrechnungsarten wirklich löschen?"
+
+msgid "Invoice Description"
+msgstr "Beschreibung der Rechnung"
+
+msgid "Count"
+msgstr "Zählen Sie"
+
+msgid "Add/Edit Billing Type"
+msgstr "Abrechnungstyp hinzufügen/bearbeiten"
+
+msgid "Are you sure you want to delete the selected email templates(s)?"
+msgstr "Möchten Sie die ausgewählten E-Mail-Vorlagen wirklich löschen?"
+
+msgid "You can not delete the system email templates."
+msgstr "Sie können die System-E-Mail-Vorlagen nicht löschen."
+
+msgid "Email Template Window"
+msgstr "Fenster „E-Mail-Vorlage“"
+
+msgid "Code"
+msgstr "Kode"
+
+msgid "Are you sure you want to delete the selected coupon(s)?"
+msgstr "Möchten Sie die ausgewählten Coupons wirklich löschen?"
+
+msgid "Are you sure you want to unarchive the selected coupon(s)?"
+msgstr ""
+"Möchten Sie die Archivierung der ausgewählten Coupons wirklich aufheben?"
+
+msgid "Are you sure you want to archive the selected coupon(s)?"
+msgstr "Möchten Sie die ausgewählten Coupons wirklich archivieren?"
+
+msgid "Discount"
+msgstr "Rabatt"
+
+msgid "Recurring"
+msgstr "wiederkehrend"
+
+msgid "Billing Cycles"
+msgstr "Abrechnungszyklen"
+
+msgid "In Effect"
+msgstr "In Kraft"
+
+msgid "Currency Name"
+msgstr "Name der Währung"
+
+msgid "Default"
+msgstr "Standardwert"
+
+msgid "Symbol"
+msgstr "Symbol"
+
+msgid "Alignment"
+msgstr "Ausrichtung"
+
+msgid "Precision"
+msgstr "Präzision"
+
+msgid "Rate"
+msgstr "Bewerten"
+
+msgid "Please select only one currency for the default"
+msgstr "Bitte wählen Sie nur eine Währung für die Standardwährung"
+
+msgid "Are you sure you want to delete the selected currencies?"
+msgstr "Möchten Sie die ausgewählten Währungen wirklich löschen?"
+
+msgid "Add/Edit Currency"
+msgstr "Währung hinzufügen/bearbeiten"
+
+msgid "Custom fields reordered successfully"
+msgstr "Benutzerdefinierte Felder wurden erfolgreich neu angeordnet"
+
+msgid "Enter the name of the new custom field"
+msgstr "Geben Sie den Namen des neuen benutzerdefinierten Felds ein"
+
+msgid " added to custom fields."
+msgstr " zu benutzerdefinierten Feldern hinzugefügt."
+
+msgid " saved successfully."
+msgstr " erfolgreich gespeichert."
+
+msgid "Are you sure you want to delete "
+msgstr "Möchten Sie wirklich löschen? "
+
+msgid "Custom field created by plugin:"
+msgstr "Benutzerdefiniertes Feld, das vom Plugin erstellt wurde:"
+
+msgid "Are you sure you want to delete the selected departments(s)"
+msgstr "Möchten Sie die ausgewählten Abteilungen wirklich löschen"
+
+msgid "Department Name"
+msgstr "Abteilname"
+
+msgid "Lead"
+msgstr "Blei"
+
+msgid "Add/Edit Department"
+msgstr "Abteilung hinzufügen/bearbeiten"
+
+msgid "Users Affected"
+msgstr "Betroffene Benutzer"
+
+msgid "Source"
+msgstr "SOURCE"
+
+msgid "Email’s Checked"
+msgstr "E-Mail wurde überprüft"
+
+msgid "Open Ticket ?"
+msgstr "Ticket öffnen?"
+
+msgid "Autoresponder"
+msgstr "Autoresponder"
+
+msgid "Are you sure you want to delete the selected routing rules(s)"
+msgstr "Möchten Sie die ausgewählten Routing-Regeln wirklich löschen?"
+
+msgid "Are you sure you want to delete the selected alias(es)"
+msgstr "Möchten Sie die ausgewählten Alias wirklich löschen"
+
+msgid "Alias To"
+msgstr "Alias für"
+
+msgid "System Status"
+msgstr "Status des Systems"
+
+msgid "Add/Edit Status Alias"
+msgstr "Status-Alias hinzufügen/bearbeiten"
+
+msgid "Gateway updated properly"
+msgstr "Gateway wurde ordnungsgemäß aktualisiert"
+
+msgid "Already selected"
+msgstr "Bereits ausgewählt"
+
+msgid "Billing Profile IDs successfully deleted"
+msgstr "Abrechnungsprofil-IDs wurden erfolgreich gelöscht"
+
+msgid "Are you sure you want to delete the selected spam filter(s)"
+msgstr "Möchten Sie die ausgewählten Spamfilter wirklich löschen?"
+
+msgid "Value"
+msgstr "Wert"
+
+msgid "Enabled?"
+msgstr "Aktiviert?"
+
+msgid "Manage Spam Filter"
+msgstr "Spamfilter verwalten"
+
+msgid "All (Default)"
+msgstr "Alle (Standard)"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Division"
+msgstr "Geschäftsbereich"
+
+msgid "Level"
+msgstr "Level"
+
+msgid "Compound"
+msgstr "Compound"
+
+msgid "VAT"
+msgstr "MwSt."
+
+msgid "Add/Edit Tax Rule"
+msgstr "Steuerregel hinzufügen/bearbeiten"
+
+msgid "Click to edit this ticket type"
+msgstr "Klicken Sie hier, um diesen Tickettyp zu bearbeiten"
+
+msgid "Are you sure you want to delete the selected ticket types(s)?"
+msgstr "Möchten Sie die ausgewählten Ticketarten wirklich löschen?"
+
+msgid "None"
+msgstr "Keine"
+
+msgid "Tickets"
+msgstr "Fahrkarten"
+
+msgid "Manage Ticket Type"
+msgstr "Tickettyp verwalten"
+
+msgid "No staff available - click to add your first staff member to this group"
+msgstr ""
+"Keine Mitarbeiter verfügbar — klicken Sie hier, um Ihren ersten Mitarbeiter "
+"zu dieser Gruppe hinzuzufügen"
+
+msgid "Are you sure you want to delete this role?"
+msgstr "Möchten Sie diese Rolle wirklich löschen?"
+
+msgid "Save"
+msgstr "Speichern"
+
+msgid "Email"
+msgstr "E-Mail"
+
+msgid "Add Staff"
+msgstr "Personal hinzufügen"
+
+msgid "Role Name"
+msgstr "Name der Rolle"
+
+msgid ""
+"Are you sure you want to delete this account? WARNING: All support ticket "
+"information for this user will be replaced to generic Tech Support"
+msgstr ""
+"Möchten Sie dieses Konto wirklich löschen? WARNUNG: Alle Informationen zum "
+"Support-Ticket für diesen Benutzer werden durch generischen technischen "
+"Support ersetzt"
+
+msgid "Are you sure you want to activate the follow clients as affiliates?"
+msgstr "Möchten Sie die folgenden Kunden wirklich als Affiliates aktivieren?"
+
+msgid "Are you sure you want to decline the follow clients as affiliates?"
+msgstr ""
+"Sind Sie sicher, dass Sie die folgenden Kunden als Affiliates ablehnen "
+"möchten?"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Visitors"
+msgstr "Besucher"
+
+msgid "Sales"
+msgstr "Verkäufe"
+
+msgid "Unpaid Balance"
+msgstr "Unbezahlter Saldo"
+
+msgid "Total Paid"
+msgstr "Insgesamt bezahlt"
+
+msgid "No name entered"
+msgstr "Kein Name eingegeben"
+
+msgid "Package"
+msgstr "Package"
+
+msgid "Are you sure you want to approve these commissions?"
+msgstr "Möchten Sie diese Provisionen wirklich genehmigen?"
+
+msgid "Are you sure you want to decline these commissions?"
+msgstr "Möchten Sie diese Provisionen wirklich ablehnen?"
+
+msgid "Are you sure you want to manually mark these commissions as paid out?"
+msgstr ""
+"Möchten Sie diese Provisionen wirklich manuell als ausgezahlt markieren?"
+
+msgid "Client"
+msgstr "Mandant"
+
+msgid "Affiliate"
+msgstr "Partner"
+
+msgid "Clearing Date"
+msgstr "Abrechnungsdatum"
+
+msgid "Order Value"
+msgstr "Wert der Bestellung"
+
+msgid "Commission"
+msgstr "Provision"
+
+msgid "Enter the invoice id:"
+msgstr "Geben Sie die Rechnungs-ID ein:"
+
+msgid "Response"
+msgstr "Antwort"
+
+msgid "Edited on"
+msgstr "Bearbeitet am"
+
+msgid ""
+"Are you sure you want to delete this charge? If yes please make sure you "
+"also click <b>Save Changes</b>"
+msgstr ""
+"Möchten Sie diese Gebühr wirklich löschen? Falls ja, stellen Sie bitte "
+"sicher, dass Sie auch auf Änderungen <b> speichern klicken. </b>"
+
+msgid "Are you sure you want to split this charge into a new invoice?"
+msgstr "Möchten Sie diese Gebühr wirklich in eine neue Rechnung aufteilen?"
+
+msgid "Add period start and end dates"
+msgstr "Start- und Enddatum der Periode hinzufügen"
+
+msgid "Period Dates"
+msgstr "Periodendaten"
+
+msgid "Start"
+msgstr "Fange an"
+
+msgid "End"
+msgstr "Ende"
+
+msgid "Select date"
+msgstr "Datum auswählen"
+
+msgid "Stop Processing"
+msgstr " Verarbeitung beenden "
+
+msgid "Please wait"
+msgstr "Bitte warte"
+
+msgid "Preparing data"
+msgstr "Daten aufbereiten"
+
+msgid "Completed"
+msgstr "Abgeschlossen"
+
+msgid "Generating Invoice(s)"
+msgstr "Rechnung (en) generieren"
+
+msgid "Processing Invoice(s)"
+msgstr "Rechnung (en) bearbeiten"
+
+msgid "Viewing all failed invoices."
+msgstr "Alle fehlgeschlagenen Rechnungen anzeigen."
+
+msgid "Viewing all paid invoices."
+msgstr "Alle bezahlten Rechnungen anzeigen."
+
+msgid "Outstanding Amount"
+msgstr "Ausstehender Betrag"
+
+msgid "User id field may not be left blank"
+msgstr "Das Benutzer-ID-Feld darf nicht leer gelassen werden"
+
+msgid "Viewing all invoices that are past their due date, but not paid."
+msgstr ""
+"Anzeige aller Rechnungen, deren Fälligkeitsdatum überschritten, aber noch "
+"nicht bezahlt wurde."
+
+msgid "Viewing all invoices that have not been paid."
+msgstr "Alle Rechnungen anzeigen, die noch nicht bezahlt wurden."
+
+msgid "Viewing all invoices."
+msgstr "Alle Rechnungen anzeigen."
+
+msgid "Viewing invoices for a filtered user."
+msgstr "Rechnungen für einen gefilterten Benutzer anzeigen."
+
+msgid ""
+"Viewing pending invoices. Invoices that have been sent to a merchant but not "
+"cleared.  i.e. eChecks"
+msgstr ""
+"Ausstehende Rechnungen anzeigen. Rechnungen, die an einen Händler gesendet, "
+"aber nicht freigegeben wurden, z. B. eChecks"
+
+msgid ""
+"Viewing all draft invoices. These invoices are not ready to be processed."
+msgstr ""
+"Alle Rechnungsentwürfe anzeigen. Diese Rechnungen sind noch nicht zur "
+"Bearbeitung bereit."
+
+msgid "Created"
+msgstr "Erstellt"
+
+msgid "Client Name"
+msgstr "Name des Kunden"
+
+msgid "Failed Reason"
+msgstr "Grund für einen Fehlschlag"
+
+msgid "Start Date"
+msgstr "Anfangsdatum"
+
+msgid "End Date"
+msgstr "Enddatum"
+
+msgid "Are you sure you want to delete the selected charges(s)"
+msgstr "Möchten Sie die ausgewählten Gebühren wirklich löschen?"
+
+msgid "Are you sure you want to create invoice(s) with the selected charges(s)"
+msgstr ""
+"Möchten Sie wirklich eine Rechnung (en) mit den ausgewählten Gebühren "
+"erstellen"
+
+msgid "Due Date"
+msgstr "Fälligkeitsdatum"
+
+msgid "Do you wish to activate this clients packages as well?"
+msgstr "Möchten Sie auch diese Kundenpakete aktivieren?"
+
+msgid "Do you wish to use the server plugin to activate these packages?"
+msgstr ""
+"Möchten Sie das Server-Plugin verwenden, um diese Pakete zu aktivieren?"
+
+msgid "Do you wish to suspend this clients packages as well?"
+msgstr "Möchten Sie auch die Pakete dieser Kunden aussetzen?"
+
+msgid "Do you wish to use the server plugin to suspend these packages?"
+msgstr "Möchten Sie das Server-Plugin verwenden, um diese Pakete zu sperren?"
+
+msgid "Do you wish to cancel this clients packages as well?"
+msgstr "Möchten Sie auch diese Kundenpakete stornieren?"
+
+msgid "Do you wish to use the server plugin to cancel these packages?"
+msgstr ""
+"Möchten Sie das Server-Plugin verwenden, um diese Pakete zu stornieren?"
+
+msgid "Are you sure you wish to register this account?"
+msgstr "Sind Sie sicher, dass Sie dieses Konto registrieren möchten?"
+
+msgid "There was an error when updating your status"
+msgstr "Beim Aktualisieren Ihres Status ist ein Fehler aufgetreten"
+
+msgid "Status has been updated successfully"
+msgstr "Status wurde erfolgreich aktualisiert"
+
+msgid "Subject"
+msgstr "Subjekt"
+
+msgid "To"
+msgstr " zu"
+
+msgid "From"
+msgstr "from"
+
+msgid "Are you sure you want to activate the selected packages(s)"
+msgstr "Möchten Sie die ausgewählten Pakete wirklich aktivieren"
+
+msgid "Are you sure you want to delete the selected packages(s)"
+msgstr "Möchten Sie die ausgewählten Pakete wirklich löschen"
+
+msgid "Do you want to delete this client if they have no packages?"
+msgstr "Möchten Sie diesen Client löschen, wenn er keine Pakete hat?"
+
+msgid "Are you sure you want to cancel the selected package(s)?"
+msgstr "Möchten Sie die ausgewählten Pakete wirklich stornieren?"
+
+msgid "Are you sure you want to cancel the selected package(s)"
+msgstr "Möchten Sie die ausgewählten Pakete wirklich stornieren?"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Reason"
+msgstr "Grund"
+
+msgid "Request Date & Time"
+msgstr "Datum und Uhrzeit der Anfrage"
+
+msgid "Cancel On"
+msgstr "Stornieren am"
+
+msgid "Invalid payment term for domain"
+msgstr "Ungültige Zahlungsbedingung für Domain"
+
+msgid "Are you sure you want to % these domain(s)?"
+msgstr "Möchten Sie diese Domain (s) wirklich mit% versehen?"
+
+msgid "Domain Name"
+msgstr "Domain-Name"
+
+msgid "Expiration"
+msgstr "Ablaufdatum"
+
+msgid "Next Bill Date"
+msgstr "Nächstes Rechnungsdatum"
+
+msgid "Period"
+msgstr "Zeitraum"
+
+msgid "Auto Renew"
+msgstr "Automatische Verlängerung"
+
+msgid "Registrar"
+msgstr "Standesbeamter"
+
+msgid "Are you sure you want to % these package(s)?"
+msgstr "Möchten Sie diese Pakete wirklich mit% versehen?"
+
+msgid ""
+"Do you want to use the respective server plugin(s) to % these package(s)?"
+msgstr ""
+"Möchten Sie die jeweiligen Server-Plug-ins verwenden, um diese Pakete zu "
+"prozentuieren?"
+
+msgid "CSR Details"
+msgstr "CSR-Einzelheiten"
+
+msgid "Reassign"
+msgstr "Neu zuweisen"
+
+msgid "Toggle"
+msgstr "Umschalten"
+
+msgid ""
+"Are you sure you want to toggle the Registrar Lock option via the selected "
+"plugin?"
+msgstr ""
+"Möchten Sie die Option Registrar Lock wirklich über das ausgewählte Plugin "
+"umschalten?"
+
+msgid "Unknown"
+msgstr "unbekannt"
+
+msgid "Not Yet Registered"
+msgstr "Noch nicht registriert"
+
+msgid "Select IP Address"
+msgstr "Wählen Sie die IP-Adresse"
+
+msgid "Delete"
+msgstr "Löschen"
+
+msgid ""
+"Point your domain to a web site by pointing to an IP Address, or forward to "
+"another site, or point to a temporary page (known as 'Parking'), and more. "
+"These records are also known as sub-domains (e.g. webmail.example.com)."
+msgstr ""
+"Verweisen Sie Ihre Domain auf eine Website, indem Sie auf eine IP-Adresse "
+"verweisen, oder leiten Sie sie auf eine andere Website weiter oder verweisen "
+"Sie auf eine temporäre Seite (bekannt als „Parken“) und mehr. Diese Einträge "
+"werden auch als Subdomains bezeichnet (z. B. webmail.example.com)."
+
+msgid ""
+"The setting <strong>Use Defaults</strong> must be set to No if you want to "
+"add your own Name Server"
+msgstr ""
+"Die Einstellung Standardwerte <strong> verwenden </strong> muss auf Nein "
+"gesetzt sein, wenn Sie Ihren eigenen Nameserver hinzufügen möchten."
+
+msgid "Are you sure you want to % these certificate(s)?"
+msgstr "Möchten Sie diese Zertifikate wirklich auf% setzen?"
+
+msgid "Expiration Date"
+msgstr "Verfallsdatum"
+
+msgid "Outstanding balance"
+msgstr "Ausstehender Saldo"
+
+msgid ""
+"Do you want to use the respective server plugins to delete all these users?"
+msgstr ""
+"Möchten Sie die jeweiligen Server-Plugins verwenden, um all diese Benutzer "
+"zu löschen?"
+
+msgid ""
+"Do you want to use the respective server plugins to cancel all these users?"
+msgstr ""
+"Möchten Sie die jeweiligen Server-Plugins verwenden, um all diese Benutzer "
+"zu kündigen?"
+
+msgid "Successfully validated credit cards"
+msgstr "Kreditkarten wurden erfolgreich validiert"
+
+msgid "Client Type"
+msgstr "Typ des Kunden"
+
+msgid "Activated"
+msgstr "Aktiviert"
+
+msgid "Score"
+msgstr "Punktzahl"
+
+msgid "Currency"
+msgstr " WÄHRUNG "
+
+msgid "Package Count"
+msgstr "Anzahl Pakete"
+
+msgid "Add Client"
+msgstr "Kunde hinzufügen"
+
+msgid "Validate CC"
+msgstr "CC validieren"
+
+msgid "Are you sure you want to delete the selected accounts(s)"
+msgstr "Möchten Sie die ausgewählten Konten wirklich löschen?"
+
+msgid "Notifications?"
+msgstr "Benachrichtigungen?"
+
+msgid "Invoices?"
+msgstr "Rechnungen?"
+
+msgid "Support?"
+msgstr "Unterstützung?"
+
+msgid "Manage Alternate Account"
+msgstr "Alternatives Konto verwalten"
+
+msgid "Are you sure you want to register this client as an affiliate?"
+msgstr "Möchten Sie diesen Kunden wirklich als Affiliate registrieren?"
+
+msgid "Credit Card Number"
+msgstr "Kreditkartennummer"
+
+msgid "<b>Are you sure you want to change the currency?</b>"
+msgstr "<b>Möchten Sie die Währung wirklich ändern? </b>"
+
+msgid ""
+"Please note that changing the currency will not convert the price amount to "
+"existing charges."
+msgstr ""
+"Bitte beachten Sie, dass durch eine Änderung der Währung der Preisbetrag "
+"nicht in bestehende Gebühren umgerechnet wird."
+
+msgid ""
+"You will need to review the prices on the existing invoices and recurring "
+"fees and reconfigure the packages and addons to make sure they are using "
+"prices for the new currency."
+msgstr ""
+"Sie müssen die Preise auf den bestehenden Rechnungen und die wiederkehrenden "
+"Gebühren überprüfen und die Pakete und Addons neu konfigurieren, um "
+"sicherzustellen, dass sie die Preise für die neue Währung verwenden."
+
+msgid "Are you sure you want to delete the billing profile id on file?"
+msgstr "Möchten Sie die hinterlegte Rechnungsprofil-ID wirklich löschen?"
+
+msgid "Are you sure you want to delete the credit card on file?"
+msgstr "Möchten Sie die hinterlegte Kreditkarte wirklich löschen?"
+
+msgid "Update Billing Profile ID"
+msgstr "Rechnungsprofil-ID aktualisieren"
+
+msgid "Add Credit"
+msgstr "Guthaben hinzufügen"
+
+msgid "Remove Credit"
+msgstr "Kredit entfernen"
+
+msgid "Are you sure you want to reset the password of this client?"
+msgstr "Möchten Sie das Passwort dieses Clients wirklich zurücksetzen?"
+
+msgid "Are you sure you want to export this client data?"
+msgstr "Möchten Sie diese Kundendaten wirklich exportieren?"
+
+msgid "Are you sure you want to delete this client?"
+msgstr "Möchten Sie diesen Client wirklich löschen?"
+
+msgid ""
+"Do you want to delete this client's packages using the respective server "
+"plugin(s)?"
+msgstr ""
+"Möchten Sie die Pakete dieses Clients mit den entsprechenden Server-Plug-ins "
+"löschen?"
+
+msgid "Associated to Ticket Type"
+msgstr "Dem Tickettyp zugeordnet"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Un-Archive"
+msgstr "Archivieren"
+
+msgid "Are you sure you want to delete the selected notes(s)"
+msgstr "Möchten Sie die ausgewählten Notizen wirklich löschen?"
+
+msgid "Date Submitted"
+msgstr "Datum der Einreichung"
+
+msgid "Entered By"
+msgstr "Eingetragen von"
+
+msgid "Viewable By Client"
+msgstr "Für den Kunden sichtbar"
+
+msgid "Ticket Type"
+msgstr "Typ der Eintrittskarte"
+
+msgid "No items found"
+msgstr "Keine Artikel gefunden"
+
+msgid "The package upgrade/downgrade has been canceled"
+msgstr "Das Paket-Upgrade/Downgrade wurde storniert"
+
+msgid "Upgrade/Downgrade Package"
+msgstr "Upgrade-/Downgrade-Paket"
+
+msgid ""
+"Are you sure you want to generate the next recurring invoice that applies to "
+"the selected package(s) as long as they have recurring charges?"
+msgstr ""
+"Möchten Sie wirklich die nächste wiederkehrende Rechnung erstellen, die für "
+"die ausgewählten Pakete gilt, sofern für sie wiederkehrende Gebühren "
+"anfallen?"
+
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr "Möchten Sie die ausgewählten Pakete wirklich löschen?"
+
+msgid "Add a new product"
+msgstr "Ein neues Produkt hinzufügen"
+
+msgid "Next Payment Date"
+msgstr "nächster Zahlungstermin"
+
+msgid "Next Date"
+msgstr "Nächstes Datum"
+
+msgid "Billing Type"
+msgstr "Art der Abrechnung"
+
+msgid "Price per unit"
+msgstr "Preis pro Einheit"
+
+msgid "Taxable"
+msgstr "Steuerpflichtig"
+
+msgid "Cycle"
+msgstr "Zyklus"
+
+msgid "Are you sure you want to delete the selected recurring fee(s)"
+msgstr ""
+"Möchten Sie die ausgewählte (n) wiederkehrende (n) Gebühr (en) wirklich "
+"löschen?"
+
+msgid "Add Recurring Charge"
+msgstr "Wiederkehrende Gebühr hinzufügen"
+
+msgid ""
+"This subscription needs to be canceled directly from your PayPal account."
+"<br><br>Subscriptions with ID starting with <b>S-</b> can not be canceled "
+"using the PayPal API."
+msgstr ""
+"Dieses Abonnement muss direkt von Ihrem PayPal-Konto aus gekündigt werden. "
+"<br><br>Abonnements, deren ID mit <b> S- beginnt, </b> können nicht über die "
+"PayPal-API gekündigt werden."
+
+msgid "Are sure you want to cancel this subscription?"
+msgstr "Sind Sie sicher, dass Sie dieses Abonnement kündigen möchten?"
+
+msgid "Upload Progress"
+msgstr "Fortschritt hochladen"
+
+msgid "Event Details"
+msgstr "Einzelheiten zur Veranstaltung"
+
+msgid "On"
+msgstr "ON"
+
+msgid "User"
+msgstr "Nutzer"
+
+msgid "IP Address"
+msgstr "IP-Adresse"
+
+msgid "Modified User"
+msgstr "Geänderter Benutzer"
+
+msgid "No Pending Orders"
+msgstr "Keine ausstehenden Bestellungen"
+
+msgid "No Tickets Found"
+msgstr "Keine Tickets gefunden"
+
+msgid "Dashboard Settings"
+msgstr "Dashboard-Einstellungen"
+
+msgid "There are no services enabled"
+msgstr "Es sind keine Dienste aktiviert"
+
+msgid "No errors or warnings found"
+msgstr "Keine Fehler oder Warnungen gefunden"
+
+msgid "Are you sure you want to delete this category?"
+msgstr "Möchten Sie diese Kategorie wirklich löschen?"
+
+msgid "Draft"
+msgstr "Entwurf"
+
+msgid "Are you sure you want to delete the selected article(s)"
+msgstr "Möchten Sie die ausgewählten Artikel wirklich löschen"
+
+msgid "Invalid value entered"
+msgstr "Ungültiger Wert eingegeben"
+
+msgid "Author"
+msgstr "Autor"
+
+msgid "Views"
+msgstr "Views"
+
+msgid "Modified"
+msgstr "Geändert"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Category Window"
+msgstr "Kategorie Fenster"
+
+msgid "Article Window"
+msgstr "Fenster „Artikel“"
+
+msgid "Are you sure you want to delete the selected comment(s)"
+msgstr "Möchten Sie die ausgewählten Kommentare wirklich löschen?"
+
+msgid "Comment"
+msgstr "Kommentar"
+
+msgid "Art"
+msgstr "Kunst"
+
+msgid "Added"
+msgstr "Hinzugefügt"
+
+msgid "Approved"
+msgstr "Genehmigte"
+
+msgid "Viewing"
+msgstr "Viewing"
+
+msgid "Comments"
+msgstr "Kommentare"
+
+msgid "Viewing All Comments"
+msgstr "Alle Kommentare ansehen"
+
+msgid "Are you sure you want to delete the selected response(s)"
+msgstr "Möchten Sie die ausgewählte (n) Antwort (en) wirklich löschen?"
+
+msgid "Creator"
+msgstr "Schöpfer"
+
+msgid "Manage Canned Reply"
+msgstr "Vorgefertigte Antworten verwalten"
+
+msgid "Select Groups"
+msgstr "Wählen Sie Gruppen"
+
+msgid "Select Autoresponder Template"
+msgstr "Wählen Sie eine Autoresponder-Vorlage"
+
+msgid "Select Ticket Type"
+msgstr "Wählen Sie die Ticketart"
+
+msgid "Select Ticket Assignee"
+msgstr "Ticketbevollmächtigten auswählen"
+
+msgid "Selected by client"
+msgstr "Vom Kunden ausgewählt"
+
+msgid "Time Elapsed: %"
+msgstr "Verstrichene Zeit:%"
+
+msgid "Last Reply: %"
+msgstr "Letzte Antwort:%"
+
+msgid "You have subscribed to this ticket"
+msgstr "Sie haben dieses Ticket abonniert"
+
+msgid "You have unsubscribed from this ticket"
+msgstr "Sie haben sich von diesem Ticket abgemeldet"
+
+msgid "himself"
+msgstr "sich selbst"
+
+msgid "Unassigned"
+msgstr "Unassigned"
+
+msgid "No Package"
+msgstr "Kein Paket"
+
+msgid "You must complete all the fields before proceeding"
+msgstr "Sie müssen alle Felder ausfüllen, bevor Sie fortfahren können"
+
+msgid "Select a valid ticket type"
+msgstr "Wählen Sie einen gültigen Tickettyp"
+
+msgid "You can not leave the subject blank"
+msgstr "Sie können den Betreff nicht leer lassen"
+
+msgid "You can not leave the message blank"
+msgstr "Sie können die Nachricht nicht leer lassen"
+
+msgid "Are you sure you want to delete this ticket?"
+msgstr "Möchten Sie dieses Ticket wirklich löschen?"
+
+msgid "Are you sure you want to mark this ticket as spam?"
+msgstr "Möchten Sie dieses Ticket wirklich als Spam markieren?"
+
+msgid "Unsubscribe"
+msgstr "Austragen"
+
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+msgid "Dept."
+msgstr "Abt."
+
+msgid "Others viewing: "
+msgstr "Andere schauen sich an: "
+
+msgid "All"
+msgstr "allen"
+
+msgid "Open"
+msgstr "offenstehend"
+
+msgid "all"
+msgstr "allen"
+
+msgid "open"
+msgstr "offenstehend"
+
+msgid "tickets with keyword(s)"
+msgstr "Tickets mit Schlüsselwort (en)"
+
+msgid "from % to %"
+msgstr "von% bis%"
+
+msgid "from %"
+msgstr "ab%"
+
+msgid "to %"
+msgstr "zu%"
+
+msgid "for client %"
+msgstr "für Kunde%"
+
+msgid "for assignee %"
+msgstr "für den Bevollmächtigten%"
+
+msgid "Close Ticket(s)"
+msgstr "Ticket (s) schließen"
+
+msgid "Are you sure you want to delete the selected ticket(s)"
+msgstr "Möchten Sie die ausgewählten Tickets wirklich löschen"
+
+msgid "Are you sure you want to merge the selected tickets?"
+msgstr "Möchten Sie die ausgewählten Tickets wirklich zusammenführen?"
+
+msgid "Are you sure you want to close the selected ticket(s)"
+msgstr "Möchten Sie die ausgewählten Tickets wirklich schließen"
+
+msgid "Are you sure you want to re-open the selected ticket(s)"
+msgstr "Möchten Sie die ausgewählten Tickets wirklich erneut öffnen?"
+
+msgid ""
+"Are you sure you want to prevent tickets from being created from the "
+"selected ticket(s) email addresses?"
+msgstr ""
+"Möchten Sie wirklich verhindern, dass Tickets von den ausgewählten Ticket-"
+"Email-Adressen aus erstellt werden?"
+
+msgid "Ticket Filter"
+msgstr "Ticketfilter"
+
+msgid "By"
+msgstr "VON"
+
+msgid "Setting filter as favorite"
+msgstr "Filter als Favorit festlegen"
+
+msgid "This file type is not accepted. Please select a different file."
+msgstr ""
+"Dieser Dateityp wird nicht akzeptiert. Bitte wählen Sie eine andere Datei "
+"aus."
+
+msgid "To attach"
+msgstr "Zum Anhängen"
+
+msgid "Created By"
+msgstr "Erstellt von"
+
+msgid "Assigned To"
+msgstr "Zugewiesen an"
+
+msgid "Last Reply"
+msgstr "Letzte Antwort"
+
+msgid "Elapsed"
+msgstr "verstrichen"
+
+msgid "No Rating"
+msgstr "Keine Bewertung"
+
+msgid "Excellent"
+msgstr "ausgezeichnet"
+
+msgid "Good"
+msgstr "Gut"
+
+msgid "Not Great"
+msgstr "Nicht großartig"
+
+msgid "Poor"
+msgstr "Schlecht"
+
+msgid "Ticket ID"
+msgstr "Ticket-ID"
+
+msgid "Rating"
+msgstr "Bewertung"
+
+msgid "Show _MENU_ entries"
+msgstr "_MENU_ Einträge anzeigen"
+
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Zeige _START_ bis _END_ von _TOTAL_ Einträgen"
+
+msgid "(filtered from _MAX_ total records)"
+msgstr "(gefiltert aus _MAX_ Gesamtdatensätzen)"
+
+msgid "Previous"
+msgstr "Bisherige"
+
+msgid "Next"
+msgstr "Next"
+
+msgid ""
+"Changing currencies will reset your cart. Are you sure you want to continue?"
+msgstr ""
+
+msgid "Failed Captcha"
+msgstr "Captcha fehlgeschlagen"
+
+msgid "No email accounts to show"
+msgstr "Keine E-Mail-Konten zum Anzeigen"
+
+msgid "No matching email accounts found"
+msgstr "Keine passenden E-Mail-Konten gefunden"
+
+msgid "Currently unable to login to SolusVM."
+msgstr "Derzeit kann ich mich nicht bei SolusVM anmelden."
+
+msgid "No Commissions To Show"
+msgstr "Keine Provisionen zum Ausweisen"
+
+msgid "No Invoices To Show"
+msgstr "Keine Rechnungen zum Anzeigen"
+
+msgid "Please select a payment method."
+msgstr "Bitte wählen Sie eine Zahlungsmethode aus."
+
+msgid "Invoice has been successfully emailed"
+msgstr "Die Rechnung wurde erfolgreich per E-Mail versendet"
+
+msgid "No emails to show"
+msgstr "Keine E-Mails zum Anzeigen"
+
+msgid "No matching emails found"
+msgstr "Keine passenden E-Mails gefunden"
+
+msgid "No domains to show"
+msgstr "Keine Domains zum Anzeigen"
+
+msgid "No matching domains found"
+msgstr "Keine passenden Domains gefunden"
+
+msgid "Certificate"
+msgstr "Zertifikat"
+
+msgid "Please enter your new CSR"
+msgstr "Bitte geben Sie Ihre neue CSR ein"
+
+msgid "Password Change"
+msgstr "Passwort ändern"
+
+msgid "Please enter a new password"
+msgstr "Bitte geben Sie ein neues Passwort"
+
+msgid "Please enter a new value"
+msgstr "Bitte geben Sie einen neuen Wert ein"
+
+msgid "Please ensure you have at least 2 name servers entered."
+msgstr ""
+"Bitte stellen Sie sicher, dass Sie mindestens 2 Nameserver eingegeben haben."
+
+msgid "No packages to show"
+msgstr "Keine Pakete zum Anzeigen"
+
+msgid "No matching packages found"
+msgstr "Keine passenden Pakete gefunden"
+
+msgid "No account notes to show"
+msgstr "Keine Kontonotizen zum Anzeigen"
+
+msgid "No matching notes found"
+msgstr "Keine passenden Notizen gefunden"
+
+msgid "No tickets to show"
+msgstr "Keine Tickets zum Vorzeigen"
+
+msgid "No matching tickets found"
+msgstr "Keine passenden Tickets gefunden"
+
+msgid "There is 1 article that might answer your question."
+msgstr "Es gibt 1 Artikel, der Ihre Frage beantworten könnte."
+
+msgid "There are % articles that might answer your question."
+msgstr "Es gibt% Artikel, die Ihre Frage beantworten könnten."
+
+msgid "You saved %"
+msgstr "Du hast% gespart"
+
+msgid "Sorry, % is invalid."
+msgstr "Entschuldigung,% ist ungültig."
+
+msgid "%: %"
+msgstr "%:%"
+
+msgid "(renews at %)"
+msgstr "(verlängert sich um%)"
+
+msgid "Add to cart"
+msgstr "Add to Cart"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Leaving now will cancel this item.  Are you sure you want to leave?"
+msgstr ""
+"Wenn Sie jetzt abreisen, wird dieser Artikel storniert. Bist du sicher, dass "
+"du gehen willst?"
+
+msgid "Please enter a valid domain"
+msgstr "Bitte geben Sie eine gültige Domain ein"
+
+msgid "Searching domain availability..."
+msgstr "Domainverfügbarkeit wird gesucht..."
+
+msgid "There was an error looking up that domain.  Please try again."
+msgstr ""
+"Bei der Suche nach dieser Domain ist ein Fehler aufgetreten. Bitte versuchen "
+"Sie es erneut."
+
+msgid "Sorry, % is already registered"
+msgstr "Entschuldigung,% ist bereits registriert"
+
+msgid "Good news, % is available to register"
+msgstr "Gute Nachrichten,% kann registriert werden"
+
+msgid "Good news, % is available to transfer"
+msgstr "Gute Nachrichten,% ist für eine Überweisung verfügbar"
+
+msgid "Sorry, % is not available to transfer"
+msgstr "Es tut uns leid,% ist nicht für eine Übertragung verfügbar"
+
+msgid "Available Domains"
+msgstr "Verfügbare Domains"
+
+msgid "Years"
+msgstr "Jahre"
+
+msgid "But don’t worry, we found these other great domains for you."
+msgstr ""
+"Aber keine Sorge, wir haben diese anderen großartigen Domains für Sie "
+"gefunden."
+
+msgid "We also found additional results for you..."
+msgstr "Wir haben auch zusätzliche Ergebnisse für Sie gefunden..."
+
+msgid "Additional information required for this domain extension"
+msgstr "Zusätzliche Informationen für diese Domainendung erforderlich"
+
+msgid "Product Add-ons"
+msgstr "Produkt-Add-Ons"
+
+msgid ""
+"Are you sure that you wish to remove the item from your cart? <br>Note: The "
+"associated items will also be removed."
+msgstr ""
+"Sind Sie sicher, dass Sie den Artikel aus Ihrem Einkaufswagen entfernen "
+"möchten? <br>Hinweis: Die zugehörigen Artikel werden ebenfalls entfernt."
+
+msgid "Are you sure that you wish to remove the item from your cart?"
+msgstr ""
+"Sind Sie sicher, dass Sie den Artikel aus Ihrem Einkaufswagen entfernen "
+"möchten?"
+
+msgid "Removing Cart Item"
+msgstr "Artikel aus dem Einkaufswagen entfernen"
+
+msgid "% Items"
+msgstr "% Artikel"
+
+msgid "1 Item"
+msgstr "1 Artikel"
+
+msgid "Hide Product Addons"
+msgstr "Produkt-Addons ausblenden"
+
+msgid "Show Product Addons"
+msgstr "Produkt-Addons anzeigen"

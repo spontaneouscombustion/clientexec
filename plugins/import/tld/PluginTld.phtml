@@ -1,0 +1,43 @@
+<script src="../plugins/import/tld/PluginTld.js?version=<?php echo $this->gVersion; ?>"></script>
+
+<form>
+    <dl class="form tld-import-form">
+        <dt><label>Registrar: </label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <select name="registrar" id="registrar">
+                <?php foreach ($this->registrars as $registrar) { ?>
+                    <option value="<?php echo $registrar;?>"><?php echo $registrar; ?></option>
+                <?php } ?>
+            </select>
+        </dd>
+        <dt><label>Product Group: </label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <select name="group" id="group">
+                <?php foreach ($this->productGroups as $group) { ?>
+                    <option value="<?php echo $group->getId();?>"><?php echo $group->name; ?></option>
+                <?php } ?>
+            </select>
+        </dd>
+
+        <dt><label data-toggle="tooltip" title="Enter the margin percentage increase from your TLD pricing in your registrar account">Margin: </label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="text" name="margin" id="margin" value="10" />%
+        </dd>
+
+        <dt><label data-toggle="tooltip" title="Selecting this will override all existing TLDs with the new margin">Overriding Existing Prices?</label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="checkbox" name="override" id="override" />
+        </dd>
+
+
+    </dl>
+    <button class="rich-button" id="importTLDButton"><span><?php echo $this->user->lang("Import"); ?></span></button>
+</form>
+
+<br/>
+<br/>
+
+<div class="alert ce-alert hidden" id="import-results-div">
+    <span class="bold-item"><?php echo $this->user->lang('Import Results'); ?>:</span>
+    <ul id="tld-import-result"></ul>
+</div>

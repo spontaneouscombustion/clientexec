@@ -1,0 +1,37 @@
+<style>
+    .window-description .inputRow {
+        margin-bottom: 10px;
+    }
+    .window-description .inputRow label {
+        display: inline-block;
+        vertical-align: middle;
+        width: 142px;
+    }
+    .window-description .inputRow input {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+    }
+
+    .window-description .inputRow > div {
+        width:  95%;
+    }
+
+    .window-description .inputRow .input-append input {
+        width: 91.5%;
+        border-radius: 4px
+    }
+    .window-description .inputRow input {
+        width: 100%;
+    }
+
+</style>
+
+<div class="inputRow">
+    <label class="fieldlabel">
+        <?php echo $this->user->lang("Billing Profile ID");?>
+    </label>
+    <div>
+        <input class="required" type="text" name="billingid" placeholder="Billing Profile ID" value="<?php echo $this->profileId; ?>" />
+    </div>
+</div>

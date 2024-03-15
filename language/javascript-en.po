@@ -1,0 +1,1898 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: i18n@clientexec.com\n"
+"POT-Creation-Date: 2014-06-04 17:15-0500\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Localazy (https://localazy.com)\n"
+"Plural-Forms: nplurals=2; plural=(n==1) ? 0 : 1;\n"
+
+msgid "Invalid Email format for field %."
+msgstr "Invalid Email format for field %."
+
+msgid "The field % can't be empty."
+msgstr "The field % can't be empty."
+
+msgid "The following form field(s) were incomplete or incorrect"
+msgstr "The following form field(s) were incomplete or incorrect"
+
+msgid "Please complete or correct the form and submit again."
+msgstr "Please complete or correct the form and submit again."
+
+msgid "Visa is not accepted at this time"
+msgstr "Visa is not accepted at this time"
+
+msgid "MasterCard is not accepted at this time"
+msgstr "MasterCard is not accepted at this time"
+
+msgid "American Express is not accepted at this time"
+msgstr "American Express is not accepted at this time"
+
+msgid "Discover is not accepted at this time"
+msgstr "Discover is not accepted at this time"
+
+msgid "LaserCard is not accepted at this time"
+msgstr "LaserCard is not accepted at this time"
+
+msgid "Diners Club is not accepted at this time"
+msgstr "Diners Club is not accepted at this time"
+
+msgid "Switch is not accepted at this time"
+msgstr "Switch is not accepted at this time"
+
+msgid "Quantity"
+msgstr "Quantity"
+
+msgid "Option"
+msgstr "Option"
+
+msgid "Prices will be multiplied by the quantity"
+msgstr "Prices will be multiplied by the quantity"
+
+msgid "Validating..."
+msgstr "Validating..."
+
+msgid "Valid VAT Number"
+msgstr "Valid VAT Number"
+
+msgid "Invalid VAT Number"
+msgstr "Invalid VAT Number"
+
+msgid "Retry"
+msgstr "Retry"
+
+msgid "Unable to validate at the moment."
+msgstr "Unable to validate at the moment."
+
+msgid "This field is required"
+msgstr "This field is required"
+
+msgid "Yes"
+msgstr "Yes"
+
+msgid "No Active Chats"
+msgstr "No Active Chats"
+
+msgid "Cancel"
+msgstr "Cancel"
+
+msgid "Are you sure you want to delete this message?"
+msgstr "Are you sure you want to delete this message?"
+
+msgid "Your reply:"
+msgstr "Your reply:"
+
+msgid "Your status:"
+msgstr "Your status:"
+
+msgid "Domain"
+msgstr "Domain"
+
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+msgid "View PDF Invoice"
+msgstr "View PDF Invoice"
+
+msgid "Enter your passphrase:"
+msgstr "Enter your passphrase:"
+
+msgid "Invoice"
+msgstr "Invoice"
+
+msgid "Due"
+msgstr "Due"
+
+msgid "Gateway"
+msgstr "Gateway"
+
+msgid "Pmt Reference"
+msgstr "Pmt Reference"
+
+msgid "Balance Due"
+msgstr "Balance Due"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Add Payment Reference"
+msgstr "Add Payment Reference"
+
+msgid "Viewing Invoices"
+msgstr "Viewing Invoices"
+
+msgid "Are sure you want to cancel the subscription tied to this invoice?"
+msgstr "Are sure you want to cancel the subscription tied to this invoice?"
+
+msgid "No"
+msgstr "No"
+
+msgid "Do you want to send a receipt?"
+msgstr "Do you want to send a receipt?"
+
+msgid "Are sure you want to delete the selected invoice(s)."
+msgstr "Are sure you want to delete the selected invoice(s)."
+
+msgid "Amount"
+msgstr "Amount"
+
+msgid "Add optional information"
+msgstr "Add optional information"
+
+msgid "Remove Optional Information"
+msgstr "Remove Optional Information"
+
+msgid "Payment Reference (Optional)"
+msgstr "Payment Reference (Optional)"
+
+msgid "Payment Date (Optional)"
+msgstr "Payment Date (Optional)"
+
+msgid "Payment Time (Optional)"
+msgstr "Payment Time (Optional)"
+
+msgid "Payment Processor (Optional)"
+msgstr "Payment Processor (Optional)"
+
+msgid "Some invoices are not due. Are you sure you want to proceed?"
+msgstr "Some invoices are not due. Are you sure you want to proceed?"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Are you sure you want to process the selected account(s)?"
+msgstr "Are you sure you want to process the selected account(s)?"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Transaction ID"
+msgstr "Transaction ID"
+
+msgid "Transaction Id"
+msgstr "Transaction Id"
+
+msgid "Result"
+msgstr "Result"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Plugin"
+msgstr "Plugin"
+
+msgid "Share information"
+msgstr "Share information"
+
+msgid "Add License(s)"
+msgstr "Add License(s)"
+
+msgid "Add License(s) to"
+msgstr "Add License(s) to"
+
+msgid "Are you sure you want to delete the selected license(s)"
+msgstr "Are you sure you want to delete the selected license(s)"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Attributes"
+msgstr "Attributes"
+
+msgid "Reseller"
+msgstr "Reseller"
+
+msgid "Are you sure you want to delete the selected resellers(s)"
+msgstr "Are you sure you want to delete the selected resellers(s)"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "Used"
+msgstr "Used"
+
+msgid "Add Reseller"
+msgstr "Add Reseller"
+
+msgid "Advanced Search"
+msgstr "Advanced Search"
+
+msgid "Ticket Search"
+msgstr "Ticket Search"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "Mar"
+msgstr "Mar"
+
+msgid "Apr"
+msgstr "Apr"
+
+msgid "May"
+msgstr "May"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Aug"
+msgstr "Aug"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "Oct"
+msgstr "Oct"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Dec"
+msgstr "Dec"
+
+msgid "January"
+msgstr "January"
+
+msgid "February"
+msgstr "February"
+
+msgid "March"
+msgstr "March"
+
+msgid "April"
+msgstr "April"
+
+msgid "June"
+msgstr "June"
+
+msgid "July"
+msgstr "July"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "October"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Sun"
+msgstr "Sun"
+
+msgid "Mon"
+msgstr "Mon"
+
+msgid "Tue"
+msgstr "Tue"
+
+msgid "Wed"
+msgstr "Wed"
+
+msgid "Thu"
+msgstr "Thu"
+
+msgid "Fri"
+msgstr "Fri"
+
+msgid "Sat"
+msgstr "Sat"
+
+msgid "Sunday"
+msgstr "Sunday"
+
+msgid "Monday"
+msgstr "Monday"
+
+msgid "Tuesday"
+msgstr "Tuesday"
+
+msgid "Wednesday"
+msgstr "Wednesday"
+
+msgid "Thursday"
+msgstr "Thursday"
+
+msgid "Friday"
+msgstr "Friday"
+
+msgid "Saturday"
+msgstr "Saturday"
+
+msgid "Loading"
+msgstr "Loading"
+
+msgid "Quick Search"
+msgstr "Quick Search"
+
+msgid ""
+"NOTE: This operation will move all the tickets from this Email to the user "
+"whose ID you will enter.\n"
+"Also, this Email will be added as an alternate address for future support "
+"requests from this user."
+msgstr ""
+"NOTE: This operation will move all the tickets from this Email to the user "
+"whose ID you will enter.\n"
+"Also, this Email will be added as an alternate address for future support "
+"requests from this user."
+
+msgid "Migrate Guest to User ID:"
+msgstr "Migrate Guest to User ID:"
+
+msgid "My Notes"
+msgstr "My Notes"
+
+msgid "Add Staff Note"
+msgstr "Add Staff Note"
+
+msgid "Add Support Ticket"
+msgstr "Add Support Ticket"
+
+msgid "You must fill in all the required fields before submitting your ticket."
+msgstr ""
+"You must fill in all the required fields before submitting your ticket."
+
+msgid "There was an error with this operation"
+msgstr "There was an error with this operation"
+
+msgid "Email Client"
+msgstr "Email Client"
+
+msgid "Loading..."
+msgstr "Loading..."
+
+msgid "No data available in table"
+msgstr "No data available in table"
+
+msgid "Showing % to % of % entries"
+msgstr "Showing % to % of % entries"
+
+msgid "_START_"
+msgstr "_START_"
+
+msgid "_END_"
+msgstr "_END_"
+
+msgid "_TOTAL_"
+msgstr "_TOTAL_"
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Showing 0 to 0 of 0 entries"
+
+msgid "filtered from % total entries"
+msgstr "filtered from % total entries"
+
+msgid "_MAX_"
+msgstr "_MAX_"
+
+msgid "Show % entries"
+msgstr "Show % entries"
+
+msgid "Search:"
+msgstr "Search:"
+
+msgid "No matching records found"
+msgstr "No matching records found"
+
+msgid "<<"
+msgstr "<<"
+
+msgid ">>"
+msgstr ">>"
+
+msgid ">"
+msgstr ">"
+
+msgid "<"
+msgstr "<"
+
+msgid "activate to sort column ascending"
+msgstr "activate to sort column ascending"
+
+msgid "activate to sort column descending"
+msgstr "activate to sort column descending"
+
+msgid "This value seems to be invalid."
+msgstr "This value seems to be invalid."
+
+msgid "This value should be a valid email."
+msgstr "This value should be a valid email."
+
+msgid "This value should be a valid url."
+msgstr "This value should be a valid url."
+
+msgid "This value should be a valid number."
+msgstr "This value should be a valid number."
+
+msgid "This value should be digits."
+msgstr "This value should be digits."
+
+msgid "This value should be a valid date (YYYY-MM-DD)."
+msgstr "This value should be a valid date (YYYY-MM-DD)."
+
+msgid "This value should be alphanumeric."
+msgstr "This value should be alphanumeric."
+
+msgid "This value should be a valid phone number."
+msgstr "This value should be a valid phone number."
+
+msgid "This value should not be null."
+msgstr "This value should not be null."
+
+msgid "This value should not be blank."
+msgstr "This value should not be blank."
+
+msgid "This value is required."
+msgstr "This value is required."
+
+msgid "This value should be greater than or equal to %s."
+msgstr "This value should be greater than or equal to %s."
+
+msgid "This value should be lower than or equal to %s."
+msgstr "This value should be lower than or equal to %s."
+
+msgid "This value should be between %s and %s."
+msgstr "This value should be between %s and %s."
+
+msgid "This value is too short. It should have %s characters or more."
+msgstr "This value is too short. It should have %s characters or more."
+
+msgid "This value is too long. It should have %s characters or less."
+msgstr "This value is too long. It should have %s characters or less."
+
+msgid ""
+"This value length is invalid. It should be between %s and %s characters long."
+msgstr ""
+"This value length is invalid. It should be between %s and %s characters long."
+
+msgid "You must select at least %s choices."
+msgstr "You must select at least %s choices."
+
+msgid "You must select %s choices or less."
+msgstr "You must select %s choices or less."
+
+msgid "You must select between %s and %s choices."
+msgstr "You must select between %s and %s choices."
+
+msgid "This value should be the same."
+msgstr "This value should be the same."
+
+msgid "Loading Graph"
+msgstr "Loading Graph"
+
+msgid "NOTICE:"
+msgstr "NOTICE:"
+
+msgid "You have modified the availability to some Product Groups."
+msgstr "You have modified the availability to some Product Groups."
+
+msgid "Do you want existing clients to continue being charged this addon?"
+msgstr "Do you want existing clients to continue being charged this addon?"
+
+msgid "Plugin Variable"
+msgstr "Plugin Variable"
+
+msgid "Used in products"
+msgstr "Used in products"
+
+msgid "Not used in any products"
+msgstr "Not used in any products"
+
+msgid "Edit"
+msgstr "Edit"
+
+msgid "Title"
+msgstr "Title"
+
+msgid "Post Date"
+msgstr "Post Date"
+
+msgid "Published"
+msgstr "Published"
+
+msgid "Pinned"
+msgstr "Pinned"
+
+msgid "Add Announcement"
+msgstr "Add Announcement"
+
+msgid "Are you sure you want to delete the selected announcement(s)"
+msgstr "Are you sure you want to delete the selected announcement(s)"
+
+msgid "Are you sure you want to delete the selected client groups(s)?"
+msgstr "Are you sure you want to delete the selected client groups(s)?"
+
+msgid "Description:"
+msgstr "Description:"
+
+msgid "Group"
+msgstr "Group"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Members"
+msgstr "Members"
+
+msgid "Add/Edit Client Group"
+msgstr "Add/Edit Client Group"
+
+msgid "Your secret key"
+msgstr "Your secret key"
+
+msgid "Event Name"
+msgstr "Event Name"
+
+msgid "From Name"
+msgstr "From Name"
+
+msgid "From Email"
+msgstr "From Email"
+
+msgid "Notified"
+msgstr "Notified"
+
+msgid "Last Notified"
+msgstr "Last Notified"
+
+msgid "Enabled"
+msgstr "Enabled"
+
+msgid "Notification Window"
+msgstr "Notification Window"
+
+msgid ""
+"Are you sure you want to reset the selected notification(s)?<br>Doing so "
+"will allow the notification(s) to email again the previously ignored clients."
+msgstr ""
+"Are you sure you want to reset the selected notification(s)?<br>Doing so "
+"will allow the notification(s) to email again the previously ignored clients."
+
+msgid "Are you sure you want to delete the selected notification(s)?"
+msgstr "Are you sure you want to delete the selected notification(s)?"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Display Type"
+msgstr "Display Type"
+
+msgid "WARNING!"
+msgstr "WARNING!"
+
+msgid "Are you sure you want to add/update the selected addon?"
+msgstr "Are you sure you want to add/update the selected addon?"
+
+msgid "Drop-down menus"
+msgstr "Drop-down menus"
+
+msgid "Radio buttons"
+msgstr "Radio buttons"
+
+msgid ""
+"If the addon is been added, existing clients will be applied the default "
+"value: 'None' option if available, or the first option if not."
+msgstr ""
+"If the addon is been added, existing clients will be applied the default "
+"value: 'None' option if available, or the first option if not."
+
+msgid ""
+"If the addon is been updated to quantity type, existing clients will use a "
+"quantity of 1 by default."
+msgstr ""
+"If the addon is been updated to quantity type, existing clients will use a "
+"quantity of 1 by default."
+
+msgid ""
+"If the addon is been updated from quantity type to a different type, "
+"existing clients will change their quantity to 1."
+msgstr ""
+"If the addon is been updated from quantity type to a different type, "
+"existing clients will change their quantity to 1."
+
+msgid "Billing Period(s)"
+msgstr "Billing Period(s)"
+
+msgid "Price"
+msgstr "Price"
+
+msgid "Transfer"
+msgstr "Transfer"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Renew"
+msgstr "Renew"
+
+msgid "Are you sure you want to delete the selected TLD billing period(s)"
+msgstr "Are you sure you want to delete the selected TLD billing period(s)"
+
+msgid "TLD Setup Window"
+msgstr "TLD Setup Window"
+
+msgid "Pricing"
+msgstr "Pricing"
+
+msgid "Addons"
+msgstr "Addons"
+
+msgid "Upgrade/Downgrade"
+msgstr "Upgrade/Downgrade"
+
+msgid "Advanced & Plugin Settings"
+msgstr "Advanced & Plugin Settings"
+
+msgid "Are you sure you want to delete this product group"
+msgstr "Are you sure you want to delete this product group"
+
+msgid "Are you sure you want to delete the selected product(s)"
+msgstr "Are you sure you want to delete the selected product(s)"
+
+msgid "Late Fee"
+msgstr "Late Fee"
+
+msgid "Tax"
+msgstr "Tax"
+
+msgid "Signup?"
+msgstr "Signup?"
+
+msgid "Hidden"
+msgstr "Hidden"
+
+msgid "Product Group Window"
+msgstr "Product Group Window"
+
+msgid "You must save your server first"
+msgstr "You must save your server first"
+
+msgid "Are you sure you want to delete the selected servers(s)"
+msgstr "Are you sure you want to delete the selected servers(s)"
+
+msgid "No status message"
+msgstr "No status message"
+
+msgid "Status Message:"
+msgstr "Status Message:"
+
+msgid "Server Name"
+msgstr "Server Name"
+
+msgid "Hostname"
+msgstr "Hostname"
+
+msgid "Shared IP"
+msgstr "Shared IP"
+
+msgid "Quota"
+msgstr "Quota"
+
+msgid "Monthly Cost"
+msgstr "Monthly Cost"
+
+msgid "DataCenter / Provider"
+msgstr "DataCenter / Provider"
+
+msgid "New API Key has been generated"
+msgstr "New API Key has been generated"
+
+msgid "Are you sure you want to delete the selected billing cycle(s)"
+msgstr "Are you sure you want to delete the selected billing cycle(s)"
+
+msgid "Time Unit"
+msgstr "Time Unit"
+
+msgid "Amount of Units"
+msgstr "Amount of Units"
+
+msgid "Recurring Fees"
+msgstr "Recurring Fees"
+
+msgid "Add/Edit Billing Cycle"
+msgstr "Add/Edit Billing Cycle"
+
+msgid "Archive"
+msgstr "Archive"
+
+msgid "Unarchive"
+msgstr "Unarchive"
+
+msgid "Are you sure you want to delete the selected billing types(s)"
+msgstr "Are you sure you want to delete the selected billing types(s)"
+
+msgid "Invoice Description"
+msgstr "Invoice Description"
+
+msgid "Count"
+msgstr "Count"
+
+msgid "Add/Edit Billing Type"
+msgstr "Add/Edit Billing Type"
+
+msgid "Are you sure you want to delete the selected email templates(s)?"
+msgstr "Are you sure you want to delete the selected email templates(s)?"
+
+msgid "You can not delete the system email templates."
+msgstr "You can not delete the system email templates."
+
+msgid "Email Template Window"
+msgstr "Email Template Window"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "Are you sure you want to delete the selected coupon(s)?"
+msgstr "Are you sure you want to delete the selected coupon(s)?"
+
+msgid "Are you sure you want to unarchive the selected coupon(s)?"
+msgstr "Are you sure you want to unarchive the selected coupon(s)?"
+
+msgid "Are you sure you want to archive the selected coupon(s)?"
+msgstr "Are you sure you want to archive the selected coupon(s)?"
+
+msgid "Discount"
+msgstr "Discount"
+
+msgid "Recurring"
+msgstr "Recurring"
+
+msgid "Billing Cycles"
+msgstr "Billing Cycles"
+
+msgid "In Effect"
+msgstr "In Effect"
+
+msgid "Currency Name"
+msgstr "Currency Name"
+
+msgid "Default"
+msgstr "Default"
+
+msgid "Symbol"
+msgstr "Symbol"
+
+msgid "Alignment"
+msgstr "Alignment"
+
+msgid "Precision"
+msgstr "Precision"
+
+msgid "Rate"
+msgstr "Rate"
+
+msgid "Please select only one currency for the default"
+msgstr "Please select only one currency for the default"
+
+msgid "Are you sure you want to delete the selected currencies?"
+msgstr "Are you sure you want to delete the selected currencies?"
+
+msgid "Add/Edit Currency"
+msgstr "Add/Edit Currency"
+
+msgid "Custom fields reordered successfully"
+msgstr "Custom fields reordered successfully"
+
+msgid "Enter the name of the new custom field"
+msgstr "Enter the name of the new custom field"
+
+msgid " added to custom fields."
+msgstr " added to custom fields."
+
+msgid " saved successfully."
+msgstr " saved successfully."
+
+msgid "Are you sure you want to delete "
+msgstr "Are you sure you want to delete "
+
+msgid "Custom field created by plugin:"
+msgstr "Custom field created by plugin:"
+
+msgid "Are you sure you want to delete the selected departments(s)"
+msgstr "Are you sure you want to delete the selected departments(s)"
+
+msgid "Department Name"
+msgstr "Department Name"
+
+msgid "Lead"
+msgstr "Lead"
+
+msgid "Add/Edit Department"
+msgstr "Add/Edit Department"
+
+msgid "Users Affected"
+msgstr "Users Affected"
+
+msgid "Source"
+msgstr "Source"
+
+msgid "Email’s Checked"
+msgstr "Email’s Checked"
+
+msgid "Open Ticket ?"
+msgstr "Open Ticket ?"
+
+msgid "Autoresponder"
+msgstr "Autoresponder"
+
+msgid "Are you sure you want to delete the selected routing rules(s)"
+msgstr "Are you sure you want to delete the selected routing rules(s)"
+
+msgid "Are you sure you want to delete the selected alias(es)"
+msgstr "Are you sure you want to delete the selected alias(es)"
+
+msgid "Alias To"
+msgstr "Alias To"
+
+msgid "System Status"
+msgstr "System Status"
+
+msgid "Add/Edit Status Alias"
+msgstr "Add/Edit Status Alias"
+
+msgid "Gateway updated properly"
+msgstr "Gateway updated properly"
+
+msgid "Already selected"
+msgstr "Already selected"
+
+msgid "Billing Profile IDs successfully deleted"
+msgstr "Billing Profile IDs successfully deleted"
+
+msgid "Are you sure you want to delete the selected spam filter(s)"
+msgstr "Are you sure you want to delete the selected spam filter(s)"
+
+msgid "Value"
+msgstr "Value"
+
+msgid "Enabled?"
+msgstr "Enabled?"
+
+msgid "Manage Spam Filter"
+msgstr "Manage Spam Filter"
+
+msgid "All (Default)"
+msgstr "All (Default)"
+
+msgid "Country"
+msgstr "Country"
+
+msgid "Division"
+msgstr "Division"
+
+msgid "Level"
+msgstr "Level"
+
+msgid "Compound"
+msgstr "Compound"
+
+msgid "VAT"
+msgstr "VAT"
+
+msgid "Add/Edit Tax Rule"
+msgstr "Add/Edit Tax Rule"
+
+msgid "Click to edit this ticket type"
+msgstr "Click to edit this ticket type"
+
+msgid "Are you sure you want to delete the selected ticket types(s)?"
+msgstr "Are you sure you want to delete the selected ticket types(s)?"
+
+msgid "None"
+msgstr "None"
+
+msgid "Tickets"
+msgstr "Tickets"
+
+msgid "Manage Ticket Type"
+msgstr "Manage Ticket Type"
+
+msgid "No staff available - click to add your first staff member to this group"
+msgstr ""
+"No staff available - click to add your first staff member to this group"
+
+msgid "Are you sure you want to delete this role?"
+msgstr "Are you sure you want to delete this role?"
+
+msgid "Save"
+msgstr "Save"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Add Staff"
+msgstr "Add Staff"
+
+msgid "Role Name"
+msgstr "Role Name"
+
+msgid ""
+"Are you sure you want to delete this account? WARNING: All support ticket "
+"information for this user will be replaced to generic Tech Support"
+msgstr ""
+"Are you sure you want to delete this account? WARNING: All support ticket "
+"information for this user will be replaced to generic Tech Support"
+
+msgid "Are you sure you want to activate the follow clients as affiliates?"
+msgstr "Are you sure you want to activate the follow clients as affiliates?"
+
+msgid "Are you sure you want to decline the follow clients as affiliates?"
+msgstr "Are you sure you want to decline the follow clients as affiliates?"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "Visitors"
+msgstr "Visitors"
+
+msgid "Sales"
+msgstr "Sales"
+
+msgid "Unpaid Balance"
+msgstr "Unpaid Balance"
+
+msgid "Total Paid"
+msgstr "Total Paid"
+
+msgid "No name entered"
+msgstr "No name entered"
+
+msgid "Package"
+msgstr "Package"
+
+msgid "Are you sure you want to approve these commissions?"
+msgstr "Are you sure you want to approve these commissions?"
+
+msgid "Are you sure you want to decline these commissions?"
+msgstr "Are you sure you want to decline these commissions?"
+
+msgid "Are you sure you want to manually mark these commissions as paid out?"
+msgstr "Are you sure you want to manually mark these commissions as paid out?"
+
+msgid "Client"
+msgstr "Client"
+
+msgid "Affiliate"
+msgstr "Affiliate"
+
+msgid "Clearing Date"
+msgstr "Clearing Date"
+
+msgid "Order Value"
+msgstr "Order Value"
+
+msgid "Commission"
+msgstr "Commission"
+
+msgid "Enter the invoice id:"
+msgstr "Enter the invoice id:"
+
+msgid "Response"
+msgstr "Response"
+
+msgid "Edited on"
+msgstr "Edited on"
+
+msgid ""
+"Are you sure you want to delete this charge? If yes please make sure you "
+"also click <b>Save Changes</b>"
+msgstr ""
+"Are you sure you want to delete this charge? If yes please make sure you "
+"also click <b>Save Changes</b>"
+
+msgid "Are you sure you want to split this charge into a new invoice?"
+msgstr "Are you sure you want to split this charge into a new invoice?"
+
+msgid "Add period start and end dates"
+msgstr "Add period start and end dates"
+
+msgid "Period Dates"
+msgstr "Period Dates"
+
+msgid "Start"
+msgstr "Start"
+
+msgid "End"
+msgstr "End"
+
+msgid "Select date"
+msgstr "Select date"
+
+msgid "Stop Processing"
+msgstr "Stop Processing"
+
+msgid "Please wait"
+msgstr "Please wait"
+
+msgid "Preparing data"
+msgstr "Preparing data"
+
+msgid "Completed"
+msgstr "Completed"
+
+msgid "Generating Invoice(s)"
+msgstr "Generating Invoice(s)"
+
+msgid "Processing Invoice(s)"
+msgstr "Processing Invoice(s)"
+
+msgid "Viewing all failed invoices."
+msgstr "Viewing all failed invoices."
+
+msgid "Viewing all paid invoices."
+msgstr "Viewing all paid invoices."
+
+msgid "Outstanding Amount"
+msgstr "Outstanding Amount"
+
+msgid "User id field may not be left blank"
+msgstr "User id field may not be left blank"
+
+msgid "Viewing all invoices that are past their due date, but not paid."
+msgstr "Viewing all invoices that are past their due date, but not paid."
+
+msgid "Viewing all invoices that have not been paid."
+msgstr "Viewing all invoices that have not been paid."
+
+msgid "Viewing all invoices."
+msgstr "Viewing all invoices."
+
+msgid "Viewing invoices for a filtered user."
+msgstr "Viewing invoices for a filtered user."
+
+msgid ""
+"Viewing pending invoices. Invoices that have been sent to a merchant but not "
+"cleared.  i.e. eChecks"
+msgstr ""
+"Viewing pending invoices. Invoices that have been sent to a merchant but not "
+"cleared.  i.e. eChecks"
+
+msgid ""
+"Viewing all draft invoices. These invoices are not ready to be processed."
+msgstr ""
+"Viewing all draft invoices. These invoices are not ready to be processed."
+
+msgid "Created"
+msgstr "Created"
+
+msgid "Client Name"
+msgstr "Client Name"
+
+msgid "Failed Reason"
+msgstr "Failed Reason"
+
+msgid "Start Date"
+msgstr "Start Date"
+
+msgid "End Date"
+msgstr "End Date"
+
+msgid "Are you sure you want to delete the selected charges(s)"
+msgstr "Are you sure you want to delete the selected charges(s)"
+
+msgid "Are you sure you want to create invoice(s) with the selected charges(s)"
+msgstr ""
+"Are you sure you want to create invoice(s) with the selected charges(s)"
+
+msgid "Due Date"
+msgstr "Due Date"
+
+msgid "Do you wish to activate this clients packages as well?"
+msgstr "Do you wish to activate this clients packages as well?"
+
+msgid "Do you wish to use the server plugin to activate these packages?"
+msgstr "Do you wish to use the server plugin to activate these packages?"
+
+msgid "Do you wish to suspend this clients packages as well?"
+msgstr "Do you wish to suspend this clients packages as well?"
+
+msgid "Do you wish to use the server plugin to suspend these packages?"
+msgstr "Do you wish to use the server plugin to suspend these packages?"
+
+msgid "Do you wish to cancel this clients packages as well?"
+msgstr "Do you wish to cancel this clients packages as well?"
+
+msgid "Do you wish to use the server plugin to cancel these packages?"
+msgstr "Do you wish to use the server plugin to cancel these packages?"
+
+msgid "Are you sure you wish to register this account?"
+msgstr "Are you sure you wish to register this account?"
+
+msgid "There was an error when updating your status"
+msgstr "There was an error when updating your status"
+
+msgid "Status has been updated successfully"
+msgstr "Status has been updated successfully"
+
+msgid "Subject"
+msgstr "Subject"
+
+msgid "To"
+msgstr "To"
+
+msgid "From"
+msgstr "From"
+
+msgid "Are you sure you want to activate the selected packages(s)"
+msgstr "Are you sure you want to activate the selected packages(s)"
+
+msgid "Are you sure you want to delete the selected packages(s)"
+msgstr "Are you sure you want to delete the selected packages(s)"
+
+msgid "Do you want to delete this client if they have no packages?"
+msgstr "Do you want to delete this client if they have no packages?"
+
+msgid "Are you sure you want to cancel the selected package(s)?"
+msgstr "Are you sure you want to cancel the selected package(s)?"
+
+msgid "Are you sure you want to cancel the selected package(s)"
+msgstr "Are you sure you want to cancel the selected package(s)"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Reason"
+msgstr "Reason"
+
+msgid "Request Date & Time"
+msgstr "Request Date & Time"
+
+msgid "Cancel On"
+msgstr "Cancel On"
+
+msgid "Invalid payment term for domain"
+msgstr "Invalid payment term for domain"
+
+msgid "Are you sure you want to % these domain(s)?"
+msgstr "Are you sure you want to % these domain(s)?"
+
+msgid "Domain Name"
+msgstr "Domain Name"
+
+msgid "Expiration"
+msgstr "Expiration"
+
+msgid "Next Bill Date"
+msgstr "Next Bill Date"
+
+msgid "Period"
+msgstr "Period"
+
+msgid "Auto Renew"
+msgstr "Auto Renew"
+
+msgid "Registrar"
+msgstr "Registrar"
+
+msgid "Are you sure you want to % these package(s)?"
+msgstr "Are you sure you want to % these package(s)?"
+
+msgid ""
+"Do you want to use the respective server plugin(s) to % these package(s)?"
+msgstr ""
+"Do you want to use the respective server plugin(s) to % these package(s)?"
+
+msgid "CSR Details"
+msgstr "CSR Details"
+
+msgid "Reassign"
+msgstr "Reassign"
+
+msgid "Toggle"
+msgstr "Toggle"
+
+msgid ""
+"Are you sure you want to toggle the Registrar Lock option via the selected "
+"plugin?"
+msgstr ""
+"Are you sure you want to toggle the Registrar Lock option via the selected "
+"plugin?"
+
+msgid "Unknown"
+msgstr "Unknown"
+
+msgid "Not Yet Registered"
+msgstr "Not Yet Registered"
+
+msgid "Select IP Address"
+msgstr "Select IP Address"
+
+msgid "Delete"
+msgstr "Delete"
+
+msgid ""
+"Point your domain to a web site by pointing to an IP Address, or forward to "
+"another site, or point to a temporary page (known as 'Parking'), and more. "
+"These records are also known as sub-domains (e.g. webmail.example.com)."
+msgstr ""
+"Point your domain to a web site by pointing to an IP Address, or forward to "
+"another site, or point to a temporary page (known as 'Parking'), and more. "
+"These records are also known as sub-domains (e.g. webmail.example.com)."
+
+msgid ""
+"The setting <strong>Use Defaults</strong> must be set to No if you want to "
+"add your own Name Server"
+msgstr ""
+"The setting <strong>Use Defaults</strong> must be set to No if you want to "
+"add your own Name Server"
+
+msgid "Are you sure you want to % these certificate(s)?"
+msgstr "Are you sure you want to % these certificate(s)?"
+
+msgid "Expiration Date"
+msgstr "Expiration Date"
+
+msgid "Outstanding balance"
+msgstr "Outstanding balance"
+
+msgid ""
+"Do you want to use the respective server plugins to delete all these users?"
+msgstr ""
+"Do you want to use the respective server plugins to delete all these users?"
+
+msgid ""
+"Do you want to use the respective server plugins to cancel all these users?"
+msgstr ""
+"Do you want to use the respective server plugins to cancel all these users?"
+
+msgid "Successfully validated credit cards"
+msgstr "Successfully validated credit cards"
+
+msgid "Client Type"
+msgstr "Client Type"
+
+msgid "Activated"
+msgstr "Activated"
+
+msgid "Score"
+msgstr "Score"
+
+msgid "Currency"
+msgstr "Currency"
+
+msgid "Package Count"
+msgstr "Package Count"
+
+msgid "Add Client"
+msgstr "Add Client"
+
+msgid "Validate CC"
+msgstr "Validate CC"
+
+msgid "Are you sure you want to delete the selected accounts(s)"
+msgstr "Are you sure you want to delete the selected accounts(s)"
+
+msgid "Notifications?"
+msgstr "Notifications?"
+
+msgid "Invoices?"
+msgstr "Invoices?"
+
+msgid "Support?"
+msgstr "Support?"
+
+msgid "Manage Alternate Account"
+msgstr "Manage Alternate Account"
+
+msgid "Are you sure you want to register this client as an affiliate?"
+msgstr "Are you sure you want to register this client as an affiliate?"
+
+msgid "Credit Card Number"
+msgstr "Credit Card Number"
+
+msgid "<b>Are you sure you want to change the currency?</b>"
+msgstr "<b>Are you sure you want to change the currency?</b>"
+
+msgid ""
+"Please note that changing the currency will not convert the price amount to "
+"existing charges."
+msgstr ""
+"Please note that changing the currency will not convert the price amount to "
+"existing charges."
+
+msgid ""
+"You will need to review the prices on the existing invoices and recurring "
+"fees and reconfigure the packages and addons to make sure they are using "
+"prices for the new currency."
+msgstr ""
+"You will need to review the prices on the existing invoices and recurring "
+"fees and reconfigure the packages and addons to make sure they are using "
+"prices for the new currency."
+
+msgid "Are you sure you want to delete the billing profile id on file?"
+msgstr "Are you sure you want to delete the billing profile id on file?"
+
+msgid "Are you sure you want to delete the credit card on file?"
+msgstr "Are you sure you want to delete the credit card on file?"
+
+msgid "Update Billing Profile ID"
+msgstr "Update Billing Profile ID"
+
+msgid "Add Credit"
+msgstr "Add Credit"
+
+msgid "Remove Credit"
+msgstr "Remove Credit"
+
+msgid "Are you sure you want to reset the password of this client?"
+msgstr "Are you sure you want to reset the password of this client?"
+
+msgid "Are you sure you want to export this client data?"
+msgstr "Are you sure you want to export this client data?"
+
+msgid "Are you sure you want to delete this client?"
+msgstr "Are you sure you want to delete this client?"
+
+msgid ""
+"Do you want to delete this client's packages using the respective server "
+"plugin(s)?"
+msgstr ""
+"Do you want to delete this client's packages using the respective server "
+"plugin(s)?"
+
+msgid "Associated to Ticket Type"
+msgstr "Associated to Ticket Type"
+
+msgid "Note"
+msgstr "Note"
+
+msgid "Un-Archive"
+msgstr "Un-Archive"
+
+msgid "Are you sure you want to delete the selected notes(s)"
+msgstr "Are you sure you want to delete the selected notes(s)"
+
+msgid "Date Submitted"
+msgstr "Date Submitted"
+
+msgid "Entered By"
+msgstr "Entered By"
+
+msgid "Viewable By Client"
+msgstr "Viewable By Client"
+
+msgid "Ticket Type"
+msgstr "Ticket Type"
+
+msgid "No items found"
+msgstr "No items found"
+
+msgid "The package upgrade/downgrade has been canceled"
+msgstr "The package upgrade/downgrade has been canceled"
+
+msgid "Upgrade/Downgrade Package"
+msgstr "Upgrade/Downgrade Package"
+
+msgid ""
+"Are you sure you want to generate the next recurring invoice that applies to "
+"the selected package(s) as long as they have recurring charges?"
+msgstr ""
+"Are you sure you want to generate the next recurring invoice that applies to "
+"the selected package(s) as long as they have recurring charges?"
+
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr "Are you sure you want to delete the selected package(s)?"
+
+msgid "Add a new product"
+msgstr "Add a new product"
+
+msgid "Next Payment Date"
+msgstr "Next Payment Date"
+
+msgid "Next Date"
+msgstr "Next Date"
+
+msgid "Billing Type"
+msgstr "Billing Type"
+
+msgid "Price per unit"
+msgstr "Price per unit"
+
+msgid "Taxable"
+msgstr "Taxable"
+
+msgid "Cycle"
+msgstr "Cycle"
+
+msgid "Are you sure you want to delete the selected recurring fee(s)"
+msgstr "Are you sure you want to delete the selected recurring fee(s)"
+
+msgid "Add Recurring Charge"
+msgstr "Add Recurring Charge"
+
+msgid ""
+"This subscription needs to be canceled directly from your PayPal account."
+"<br><br>Subscriptions with ID starting with <b>S-</b> can not be canceled "
+"using the PayPal API."
+msgstr ""
+"This subscription needs to be canceled directly from your PayPal account."
+"<br><br>Subscriptions with ID starting with <b>S-</b> can not be canceled "
+"using the PayPal API."
+
+msgid "Are sure you want to cancel this subscription?"
+msgstr "Are sure you want to cancel this subscription?"
+
+msgid "Upload Progress"
+msgstr "Upload Progress"
+
+msgid "Event Details"
+msgstr "Event Details"
+
+msgid "On"
+msgstr "On"
+
+msgid "User"
+msgstr "User"
+
+msgid "IP Address"
+msgstr "IP Address"
+
+msgid "Modified User"
+msgstr "Modified User"
+
+msgid "No Pending Orders"
+msgstr "No Pending Orders"
+
+msgid "No Tickets Found"
+msgstr "No Tickets Found"
+
+msgid "Dashboard Settings"
+msgstr "Dashboard Settings"
+
+msgid "There are no services enabled"
+msgstr "There are no services enabled"
+
+msgid "No errors or warnings found"
+msgstr "No errors or warnings found"
+
+msgid "Are you sure you want to delete this category?"
+msgstr "Are you sure you want to delete this category?"
+
+msgid "Draft"
+msgstr "Draft"
+
+msgid "Are you sure you want to delete the selected article(s)"
+msgstr "Are you sure you want to delete the selected article(s)"
+
+msgid "Invalid value entered"
+msgstr "Invalid value entered"
+
+msgid "Author"
+msgstr "Author"
+
+msgid "Views"
+msgstr "Views"
+
+msgid "Modified"
+msgstr "Modified"
+
+msgid "Order"
+msgstr "Order"
+
+msgid "Category Window"
+msgstr "Category Window"
+
+msgid "Article Window"
+msgstr "Article Window"
+
+msgid "Are you sure you want to delete the selected comment(s)"
+msgstr "Are you sure you want to delete the selected comment(s)"
+
+msgid "Comment"
+msgstr "Comment"
+
+msgid "Art"
+msgstr "Art"
+
+msgid "Added"
+msgstr "Added"
+
+msgid "Approved"
+msgstr "Approved"
+
+msgid "Viewing"
+msgstr "Viewing"
+
+msgid "Comments"
+msgstr "Comments"
+
+msgid "Viewing All Comments"
+msgstr "Viewing All Comments"
+
+msgid "Are you sure you want to delete the selected response(s)"
+msgstr "Are you sure you want to delete the selected response(s)"
+
+msgid "Creator"
+msgstr "Creator"
+
+msgid "Manage Canned Reply"
+msgstr "Manage Canned Reply"
+
+msgid "Select Groups"
+msgstr "Select Groups"
+
+msgid "Select Autoresponder Template"
+msgstr "Select Autoresponder Template"
+
+msgid "Select Ticket Type"
+msgstr "Select Ticket Type"
+
+msgid "Select Ticket Assignee"
+msgstr "Select Ticket Assignee"
+
+msgid "Selected by client"
+msgstr "Selected by client"
+
+msgid "Time Elapsed: %"
+msgstr "Time Elapsed: %"
+
+msgid "Last Reply: %"
+msgstr "Last Reply: %"
+
+msgid "You have subscribed to this ticket"
+msgstr "You have subscribed to this ticket"
+
+msgid "You have unsubscribed from this ticket"
+msgstr "You have unsubscribed from this ticket"
+
+msgid "himself"
+msgstr "himself"
+
+msgid "Unassigned"
+msgstr "Unassigned"
+
+msgid "No Package"
+msgstr "No Package"
+
+msgid "You must complete all the fields before proceeding"
+msgstr "You must complete all the fields before proceeding"
+
+msgid "Select a valid ticket type"
+msgstr "Select a valid ticket type"
+
+msgid "You can not leave the subject blank"
+msgstr "You can not leave the subject blank"
+
+msgid "You can not leave the message blank"
+msgstr "You can not leave the message blank"
+
+msgid "Are you sure you want to delete this ticket?"
+msgstr "Are you sure you want to delete this ticket?"
+
+msgid "Are you sure you want to mark this ticket as spam?"
+msgstr "Are you sure you want to mark this ticket as spam?"
+
+msgid "Unsubscribe"
+msgstr "Unsubscribe"
+
+msgid "Subscribe"
+msgstr "Subscribe"
+
+msgid "Dept."
+msgstr "Dept."
+
+msgid "Others viewing: "
+msgstr "Others viewing: "
+
+msgid "All"
+msgstr "All"
+
+msgid "Open"
+msgstr "Open"
+
+msgid "all"
+msgstr "all"
+
+msgid "open"
+msgstr "open"
+
+msgid "tickets with keyword(s)"
+msgstr "tickets with keyword(s)"
+
+msgid "from % to %"
+msgstr "from % to %"
+
+msgid "from %"
+msgstr "from %"
+
+msgid "to %"
+msgstr "to %"
+
+msgid "for client %"
+msgstr "for client %"
+
+msgid "for assignee %"
+msgstr "for assignee %"
+
+msgid "Close Ticket(s)"
+msgstr "Close Ticket(s)"
+
+msgid "Are you sure you want to delete the selected ticket(s)"
+msgstr "Are you sure you want to delete the selected ticket(s)"
+
+msgid "Are you sure you want to merge the selected tickets?"
+msgstr "Are you sure you want to merge the selected tickets?"
+
+msgid "Are you sure you want to close the selected ticket(s)"
+msgstr "Are you sure you want to close the selected ticket(s)"
+
+msgid "Are you sure you want to re-open the selected ticket(s)"
+msgstr "Are you sure you want to re-open the selected ticket(s)"
+
+msgid ""
+"Are you sure you want to prevent tickets from being created from the "
+"selected ticket(s) email addresses?"
+msgstr ""
+"Are you sure you want to prevent tickets from being created from the "
+"selected ticket(s) email addresses?"
+
+msgid "Ticket Filter"
+msgstr "Ticket Filter"
+
+msgid "By"
+msgstr "By"
+
+msgid "Setting filter as favorite"
+msgstr "Setting filter as favorite"
+
+msgid "This file type is not accepted. Please select a different file."
+msgstr "This file type is not accepted. Please select a different file."
+
+msgid "To attach"
+msgstr "To attach"
+
+msgid "Created By"
+msgstr "Created By"
+
+msgid "Assigned To"
+msgstr "Assigned To"
+
+msgid "Last Reply"
+msgstr "Last Reply"
+
+msgid "Elapsed"
+msgstr "Elapsed"
+
+msgid "No Rating"
+msgstr "No Rating"
+
+msgid "Excellent"
+msgstr "Excellent"
+
+msgid "Good"
+msgstr "Good"
+
+msgid "Not Great"
+msgstr "Not Great"
+
+msgid "Poor"
+msgstr "Poor"
+
+msgid "Ticket ID"
+msgstr "Ticket ID"
+
+msgid "Rating"
+msgstr "Rating"
+
+msgid "Show _MENU_ entries"
+msgstr "Show _MENU_ entries"
+
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Showing _START_ to _END_ of _TOTAL_ entries"
+
+msgid "(filtered from _MAX_ total records)"
+msgstr "(filtered from _MAX_ total records)"
+
+msgid "Previous"
+msgstr "Previous"
+
+msgid "Next"
+msgstr "Next"
+
+msgid ""
+"Changing currencies will reset your cart. Are you sure you want to continue?"
+msgstr ""
+
+msgid "Failed Captcha"
+msgstr "Failed Captcha"
+
+msgid "No email accounts to show"
+msgstr "No email accounts to show"
+
+msgid "No matching email accounts found"
+msgstr "No matching email accounts found"
+
+msgid "Currently unable to login to SolusVM."
+msgstr "Currently unable to login to SolusVM."
+
+msgid "No Commissions To Show"
+msgstr "No Commissions To Show"
+
+msgid "No Invoices To Show"
+msgstr "No Invoices To Show"
+
+msgid "Please select a payment method."
+msgstr "Please select a payment method."
+
+msgid "Invoice has been successfully emailed"
+msgstr "Invoice has been successfully emailed"
+
+msgid "No emails to show"
+msgstr "No emails to show"
+
+msgid "No matching emails found"
+msgstr "No matching emails found"
+
+msgid "No domains to show"
+msgstr "No domains to show"
+
+msgid "No matching domains found"
+msgstr "No matching domains found"
+
+msgid "Certificate"
+msgstr "Certificate"
+
+msgid "Please enter your new CSR"
+msgstr "Please enter your new CSR"
+
+msgid "Password Change"
+msgstr "Password Change"
+
+msgid "Please enter a new password"
+msgstr "Please enter a new password"
+
+msgid "Please enter a new value"
+msgstr "Please enter a new value"
+
+msgid "Please ensure you have at least 2 name servers entered."
+msgstr "Please ensure you have at least 2 name servers entered."
+
+msgid "No packages to show"
+msgstr "No packages to show"
+
+msgid "No matching packages found"
+msgstr "No matching packages found"
+
+msgid "No account notes to show"
+msgstr "No account notes to show"
+
+msgid "No matching notes found"
+msgstr "No matching notes found"
+
+msgid "No tickets to show"
+msgstr "No tickets to show"
+
+msgid "No matching tickets found"
+msgstr "No matching tickets found"
+
+msgid "There is 1 article that might answer your question."
+msgstr "There is 1 article that might answer your question."
+
+msgid "There are % articles that might answer your question."
+msgstr "There are % articles that might answer your question."
+
+msgid "You saved %"
+msgstr "You saved %"
+
+msgid "Sorry, % is invalid."
+msgstr "Sorry, % is invalid."
+
+msgid "%: %"
+msgstr "%: %"
+
+msgid "(renews at %)"
+msgstr "(renews at %)"
+
+msgid "Add to cart"
+msgstr "Add to cart"
+
+msgid "Continue"
+msgstr "Continue"
+
+msgid "Leaving now will cancel this item.  Are you sure you want to leave?"
+msgstr "Leaving now will cancel this item.  Are you sure you want to leave?"
+
+msgid "Please enter a valid domain"
+msgstr "Please enter a valid domain"
+
+msgid "Searching domain availability..."
+msgstr "Searching domain availability..."
+
+msgid "There was an error looking up that domain.  Please try again."
+msgstr "There was an error looking up that domain.  Please try again."
+
+msgid "Sorry, % is already registered"
+msgstr "Sorry, % is already registered"
+
+msgid "Good news, % is available to register"
+msgstr "Good news, % is available to register"
+
+msgid "Good news, % is available to transfer"
+msgstr "Good news, % is available to transfer"
+
+msgid "Sorry, % is not available to transfer"
+msgstr "Sorry, % is not available to transfer"
+
+msgid "Available Domains"
+msgstr "Available Domains"
+
+msgid "Years"
+msgstr "Years"
+
+msgid "But don’t worry, we found these other great domains for you."
+msgstr "But don’t worry, we found these other great domains for you."
+
+msgid "We also found additional results for you..."
+msgstr "We also found additional results for you..."
+
+msgid "Additional information required for this domain extension"
+msgstr "Additional information required for this domain extension"
+
+msgid "Product Add-ons"
+msgstr "Product Add-ons"
+
+msgid ""
+"Are you sure that you wish to remove the item from your cart? <br>Note: The "
+"associated items will also be removed."
+msgstr ""
+"Are you sure that you wish to remove the item from your cart? <br>Note: The "
+"associated items will also be removed."
+
+msgid "Are you sure that you wish to remove the item from your cart?"
+msgstr "Are you sure that you wish to remove the item from your cart?"
+
+msgid "Removing Cart Item"
+msgstr "Removing Cart Item"
+
+msgid "% Items"
+msgstr "% Items"
+
+msgid "1 Item"
+msgstr "1 Item"
+
+msgid "Hide Product Addons"
+msgstr "Hide Product Addons"
+
+msgid "Show Product Addons"
+msgstr "Show Product Addons"

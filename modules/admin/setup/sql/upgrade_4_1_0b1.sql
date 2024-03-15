@@ -1,0 +1,1 @@
+ALTER TABLE  `package` ADD  `advanced` TEXT NOT NULL;

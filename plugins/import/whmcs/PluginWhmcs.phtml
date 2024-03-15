@@ -1,0 +1,168 @@
+<div class="alert ce-alert ce-alert-error">
+  <div class="inside">
+    <span class="bold-item"><?php echo $this->user->lang('BEFORE YOU CONTINUE'); ?></span>
+  </div>
+  <br>
+  <div class="inside">
+    <div>
+        <?php
+            echo $this->user->lang('Before proceeding please generate a backup of both your WHMCS database and Clientexec database giving you the ability to revert back in the event of an issue.');
+        ?>
+    </div>
+    <div>
+        <?php
+            echo $this->user->lang('Also, please first make sure to set your default currency, as the imported data will use that currency.');
+        ?>
+        <a href="../admin/index.php?fuse=admin&controller=settings&view=currencies&settings=billing"> <?php echo $this->user->lang('Set your default currency here.'); ?></a>
+    </div>
+    <div>
+        <?php
+            echo $this->user->lang('The WHMCS importer has been tested with WHMCS 8.x though may be compatible with other versions.');
+        ?>
+    </div>
+    <div>
+        <?php
+            echo $this->user->lang('If you experience any issues while migrating to Clientexec feel free to send an email to support@clientexec.com for assistance.');
+        ?>
+    </div>
+  </div>
+</div>
+
+<div class="alert ce-alert ce-alert-error">
+  <div class="inside">
+    <span class="bold-item"><?php echo $this->user->lang('"Collections" status in WHMCS'); ?></span>
+  </div>
+  <br>
+  <div class="inside">
+    <span><?php echo $this->user->lang('Please note that any package with "Collections" status in WHMCS will be set as "Active" status in Clientexec, and any invoice with "Collections" status in WHMCS will be set as "Unpaid" status in Clientexec, so change the status of those items in WHMCS if required before importing.'); ?></span>
+  </div>
+</div>
+
+<div class="alert ce-alert ce-alert-error">
+  <div class="inside">
+    <span class="bold-item"><?php echo $this->user->lang('Paypal Subscriptions'); ?></span>
+  </div>
+  <br>
+  <div class="inside">
+    <span><?php echo $this->user->lang('Please only add this redirect when you are ready to fully migrate to Clientexec. This redirect will prevent WHMCS from receiving PayPal callbacks.'); ?></span>
+  </div>
+  <div class="inside">
+    <span><?php echo $this->user->lang('At the beginning of the .htaccess file, add the following:'); ?></span>
+  </div>
+  <br>
+  <div class="alert ce-alert">
+    <div class="inside">
+      <span class="bold-item">Redirect 301 /modules/gateways/callback/paypal.php /plugins/gateways/paypal/callbackRedirect.php</span>
+    </div>
+  </div>
+  <div class="inside">
+    <span><?php echo $this->user->lang('This redirect may need to be adjusted depending on your path to paypal.php in your WHMCS and your Clientexec installation directory.'); ?></span>
+  </div>
+</div>
+
+<div class="alert ce-alert">
+  <div class="inside">
+    <span class="bold-item"><?php echo $this->user->lang('The following values can be obtained from the configuration.php file located on your WHMCS root directory.'); ?></span>
+  </div>
+</div>
+
+<div><br />
+    <input type="hidden" name="importer_name" id="importer_name" value="whmcs" />
+
+    <dl class="form whmcs-import-form">
+        <dt>
+            <label data-toggle="tooltip" title="Enter the database host of your WHMCS installation, or leave this field empty to use localhost">
+                Database Host:
+            </label>
+        </dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="text" name="db_host" id="db_host" value="" />
+        </dd>
+    </dl>
+
+    <dl class="form whmcs-import-form">
+        <dt>
+            <label data-toggle="tooltip" title="Enter the database name of your WHMCS installation">
+                Database Name:
+            </label>
+        </dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="text" name="db_name" id="db_name" value="" />
+        </dd>
+    </dl>
+    <dl class="form whmcs-import-form">
+        <dt>
+            <label data-toggle="tooltip" title="Enter the database username of your WHMCS installation">
+                Database Username:
+            </label>
+        </dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="text" name="db_username" id="db_username" value="" />
+        </dd>
+    </dl>
+    <dl class="form whmcs-import-form">
+        <dt>
+            <label data-toggle="tooltip" title="Enter the database password of your WHMCS installation">
+                Database Password:
+            </label>
+        </dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="password" name="db_password" id="db_password" value="" />
+        </dd>
+    </dl>
+    <dl class="form whmcs-import-form">
+        <dt>
+            <label data-toggle="tooltip" title="Enter the database port of your WHMCS installation, or leave this field empty if not required">
+                Database Port:
+            </label>
+        </dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="text" name="db_port" id="db_port" value="" />
+        </dd>
+    </dl>
+    <dl class="form whmcs-import-form">
+        <dt>
+            <label data-toggle="tooltip" title="Enter the credit card encryption hash of your WHMCS installation">
+                CC Encryption Hash:
+            </label>
+        </dt>
+        <dd class="ddelement" style="width:260px;">
+            <input type="password" name="cc_encryption_hash" id="cc_encryption_hash" value="" />
+        </dd>
+    </dl>
+</div>
+<br/>
+
+<button class="rich-button" id="importButton"><span><?php echo $this->user->lang("Import"); ?></span></button>
+
+<br/>
+<br/>
+
+<?php if (isset($this->error)) { ?>
+<div class="alert ce-alert alert-warning">
+    <?php echo $this->errormessage; ?>
+</div>
+<?php } ?>
+
+<br/>
+
+<?php if (isset($this->results)) { ?>
+<div class="alert ce-alert">
+    <span class="bold-item"><?php echo $this->user->lang('Import Results'); ?>:</span>
+    <ul>
+        <li><?php echo $this->numDepartments; ?> <?php echo $this->user->lang("departments added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numAdmins; ?> <?php echo $this->user->lang("admin accounts added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numAccounts; ?> <?php echo $this->user->lang("client accounts added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numServers; ?> <?php echo $this->user->lang("servers added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numPackagesGroups; ?> <?php echo $this->user->lang("product groups added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numPackages; ?> <?php echo $this->user->lang("products added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numPackagesAddons; ?> <?php echo $this->user->lang("product addons added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numCoupons; ?> <?php echo $this->user->lang("coupons added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numDomains; ?> <?php echo $this->user->lang("client domains added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numHosting; ?> <?php echo $this->user->lang("client packages added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numHostingAddons; ?> <?php echo $this->user->lang("client package addons added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numInvoices; ?> <?php echo $this->user->lang("invoices added from %s.", "WHMCS"); ?></li>
+        <li><?php echo $this->numTickets; ?> <?php echo $this->user->lang("tickets added from %s.", "WHMCS"); ?></li>
+    </ul>
+</div>
+<?php } ?>

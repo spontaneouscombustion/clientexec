@@ -1,0 +1,35 @@
+<div class="alert alert-info ce-page-header">
+  <div class="alert-header"><?php echo $this->user->lang("Billing Cycles"); ?></div>
+  <p class="alert-content"><?php echo $this->user->lang("Configure billing cycles available."); ?></p>
+</div>
+
+<span class="grid-meta" id="billingCycles-grid-metadata"></span>
+<div id="gridheader" class="blue-box">
+    <table class="automation">
+        <tbody>
+            <tr>
+                <td><button id="addCycleButton" class="rich-button white"><span><?php echo $this->user->lang("Add Cycle");?></span></button></td>
+                <td align="right"><label><?php echo $this->user->lang("Show");?></label></td>
+                <td align="left" style="width:60px">
+                    <select id='billingCycles-grid-filter' class="change-grid-showrecords" style='width:60px;'>
+                        <option value='5'>5</option>
+                        <option value='10'>10</option>
+                        <option value='25'>25</option>
+                        <option value='50'>50</option>
+                        <option value='150'>150</option>
+                        <option value='300'>300</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="billingCycles-grid"></div>
+<div id="billingCycles-grid-footer" style="display:none;">
+    <button class="rich-button" id="deleteCyclesButton"><span><?php echo $this->user->lang("Delete"); ?></span></button>
+</div>
+
+<div class="table-summary-notice" style="margin-bottom:10px;margin-top:10px;">
+    <?php echo $this->user->lang("Products of type Domain and their respective Addons will only be able to use Billing Cycles which have their Time Unit in Years.");?>
+</div>

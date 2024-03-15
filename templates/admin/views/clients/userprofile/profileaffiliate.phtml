@@ -1,0 +1,74 @@
+<?php echo $this->profileheader($this->customer); ?>
+
+<?php if (!$this->isRegisteredAffiliate) { ?>
+<button class="btn btn-success" id="registerAffiliateBtn">
+    <span><?php echo $this->user->lang('Register Affiliate'); ?></span>
+</button>
+<?php } else { ?>
+<form method="post" id="affiliatedata" name="affiliatedata" action="index.php?fuse=affiliates&controller=affiliate&action=updateaffiliate" autocomplete="off">
+<input type="hidden" name="affiliateId" value="<?php echo $this->affiliateId;?>" />
+
+<div id="profile-fields">
+    <dl class="form">
+
+        <dt><label><?php echo $this->user->lang('Affiliate Link:'); ?></label></dt>
+        <dd class="ddelement">
+            <?php echo $this->link; ?>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Status:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <select name="status" style="width:255px;">
+                <?php foreach ($this->statues as $id => $status) {?>
+                <option value="<?php echo $id; ?>" <?php if ($this->status == $id) { ?>selected="selected"<?php } ?>><?php echo $status; ?></option>
+                <?php } ?>
+            </select>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Commission Type:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <select name="payType" style="width:255px;">
+                <?php foreach ($this->payTypes as $id => $payType) {?>
+                <option value="<?php echo $id; ?>" <?php if ($this->payType == $id) { ?>selected="selected"<?php } ?>><?php echo $payType; ?></option>
+                <?php } ?>
+            </select>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Pending Commissions:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <?php echo $this->pendingCommission; ?>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Approved Commissions:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <?php echo $this->availableBalance; ?>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Paid Commissions:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <?php echo $this->totalCommissions; ?>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Total Clicks:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <?php echo $this->hits; ?>
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Total Sales:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <?php echo $this->sales; ?> (<a href="index.php?fuse=affiliates&controller=commission&view=viewcommissions&affiliateId=<?php echo $this->affiliateId; ?>">View Commissions</a>)
+        </dd>
+
+        <dt><label><?php echo $this->user->lang('Conversion Rate:'); ?></label></dt>
+        <dd class="ddelement" style="width:260px;">
+            <?php echo $this->rate; ?>%
+        </dd>
+    </dl>
+    <div style="width:445px;">
+        <button style="width:445px;height: 35px;" id="updateAffiliate" class="btn btn-success">
+            <span><?php echo $this->user->lang("Update");?></span>
+        </button>
+    </div>
+</div>
+</form>
+<?php } ?>

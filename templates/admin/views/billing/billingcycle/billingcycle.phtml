@@ -1,0 +1,42 @@
+<style>
+    .window-description .inputRow {
+        margin-bottom: 10px;
+    }
+    .window-description .inputRow label {
+        display: inline-block;
+        vertical-align: middle;
+        width: 142px;
+    }
+    .window-description .inputRow input, .window-description .inputRow textarea {
+        display: inline-block;
+        vertical-align: middle;
+        margin-bottom: 0;
+    }
+
+    .window-description .inputRow input {
+        width: 95%;
+    }
+
+    .window-description .inputRow textarea {
+        width: 99%;
+    }
+</style>
+
+<div class="inputRow">
+    <label class="fieldlabel"><?php echo $this->user->lang("Name");?></label>
+    <input class="required" type="text" name="name" value="<?php echo $this->name;?>" />
+</div>
+<div class="inputRow">
+    <label class="fieldlabel tooltip-inner-wide"><span class="tip-target" data-toggle="tooltip" data-placement="right" data-html="true" title="<?php echo $this->user->lang('Products of type Domain and their respective Addons will only be able to use Billing Cycles which have their Time Unit in Years.'); ?>"><?php echo $this->user->lang("Time Unit");?></span></label>
+    <select id="select-time_unit" name="time_unit" style="width: 100%;" <?php echo ($this->id === '0')? ' disabled': ''; ?>>
+        <option value="d" <?php echo $this->time_unit == 'd' ? 'SELECTED' : ''; ?>><?php echo $this->user->lang('Days'); ?></option>
+        <option value="w" <?php echo $this->time_unit == 'w' ? 'SELECTED' : ''; ?>><?php echo $this->user->lang('Weeks'); ?></option>
+        <option value="m" <?php echo $this->time_unit == 'm' ? 'SELECTED' : ''; ?>><?php echo $this->user->lang('Months'); ?></option>
+        <option value="y" <?php echo $this->time_unit == 'y' ? 'SELECTED' : ''; ?>><?php echo $this->user->lang('Years'); ?></option>
+    </select>
+</div>
+<div class="inputRow">
+    <label class="fieldlabel"><?php echo $this->user->lang("Amount of Units");?></label>
+    <input class="required" type="number" step="1" min="1" name="amount_of_units" value="<?php echo $this->amount_of_units;?>" <?php echo ($this->id === '0')? ' disabled': ''; ?>/>
+</div>
+<input type="hidden" name="id" value="<?php echo $this->id; ?>" />

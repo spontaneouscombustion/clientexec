@@ -1,0 +1,44 @@
+<div class="alert alert-info ce-page-header">
+    <div class="alert-header">
+        <?php echo $this->user->lang("Support")." ".$this->user->lang("Settings")." - ".$this->user->lang("Spam Filters"); ?>
+    </div>
+    <p class="alert-content">
+        <?php echo $this->user->lang("Create Spam Filters to filter out spam from support tickets"); ?>
+    </p>
+</div>
+
+<div class="grid-meta" id="div-spamfilters-grid-metadata"></div>
+<div id="gridheader" class="blue-box">
+    <div class="change-grid-showrecords-wrapper">
+        <?php echo $this->user->lang('Display'); ?>:
+        <select id='spamfilters-grid-filter' class="change-grid-showrecords" style='width:60px;'>
+            <option value='5'>5</option>
+            <option value='10'>10</option>
+            <option value='25'>25</option>
+            <option value='50'>50</option>
+            <option value='150'>150</option>
+            <option value='300'>300</option>
+        </select>
+    </div>
+    <button id="addButton" class="rich-button">
+        <span>
+            <?php echo $this->user->lang("Add Spam Filter");?>
+        </span>
+    </button>
+</div>
+<div id="div-spamfilters-grid"></div>
+<div id="div-spamfilters-grid-footer" style="display:none;">
+    <button class="rich-button" id="deleteButton">
+        <span>
+            <?php echo $this->user->lang("Delete Spam Filter(s)"); ?>
+            </span>
+    </button>
+</div>
+
+<div class="alert ce-alert ce-alert-info" style="margin-top: 10px">
+    <?php echo $this->user->lang('Spam Filters are based on email header values.'); ?>
+    <br />
+    <?php echo $this->user->lang('Enter a header name and text to match against (ex. Subject: SPAM)'); ?>
+    <br />
+    <?php echo $this->user->lang('Emails matching the filter will be discarded. (ex. Emails with a subject of "SPAM" will be ignored)'); ?>
+</div>

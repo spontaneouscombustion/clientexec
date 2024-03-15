@@ -1,0 +1,1 @@
+UPDATE `setting` SET `istruefalse`=1, `ishidden`=0 WHERE `name`='plugin_fetchticket_Enabled';

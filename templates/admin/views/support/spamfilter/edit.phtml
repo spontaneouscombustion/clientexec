@@ -1,0 +1,16 @@
+<style>
+    .inputRow input[type='checkbox'] {
+        margin-top:  0px;
+    }
+</style>
+
+<div class="inputRow">
+    <label for="input-value" class="bold">
+        <?php echo $this->user->lang('Value / Header'); ?>:</label>
+        <input type="text" class="required" name="value" id="input-value" class="validate[required]" value="<?php echo $this->value ?>" />
+</div>
+<div class="inputRow">
+    <label for="input-enabled" class="bold">
+        <?php echo $this->user->lang('Enabled?'); ?>:</label>
+        <input type="checkbox" name="enabled" id="input-enabled" <?php if ($this->enabled == 1) { ?>checked="checked" <?php } ?> />
+</div>

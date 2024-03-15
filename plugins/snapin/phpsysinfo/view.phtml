@@ -1,0 +1,253 @@
+<div class="content-page phpsysinfo-page">
+    <div class="container">
+        <div class="cm-holder">
+            <div class="data-table-wrapper">
+                <div class="head">
+                    <h1>
+                        <?php echo $this->user->lang("Server Info");?>
+                    </h1>
+                </div>
+                <div id="content" class="cs-padding">
+                    <div class="row pb-4">
+                        <?php if (count($this->servers) == 0) { ?>
+                            <div class="alert alert-danger" role="alert">
+                                <b><?php echo $this->user->lang("There are no servers configured");?></b><br><?php echo $this->user->lang("If you have a hosted account or server you wish to obtain stats for please submit a support ticket and request your server be added.");?>
+                            </div>
+                        <?php } else { ?>
+                        <div class="col-md-6">
+                            <select class="normalSelect2 form-control" name="servers" onchange=jumpMenu('self',this,0);>
+                                <option value="0">-- <?php echo $this->user->lang('Select A Server'); ?> --</option>
+                                <?php foreach ( $this->servers as $server) { ?>
+                                <option <?php echo $server['selected']; ?> value="index.php?fuse=admin&view=<?php echo $server['view']; ?>&plugin=phpsysinfo&pluginaction=showserver&serverid=<?php echo $server['id']; ?>&controller=snapins&v=view"><?php echo $server['name']; ?></option>
+                                <?php  } ?>
+                            </select>
+                        </div>
+                    </div>
+
+
+                    <?php if ( $this->serverId > 0 ) { ?>
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <img src="<?php echo CE_Lib::getSoftwareURL(); ?>/plugins/snapin/phpsysinfo/images/icon-overall.gif" hspace="5" align="absmiddle">
+                            <?php echo $this->user->lang('System Vitals'); ?>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Hostname'); ?></td>
+                                        <td><?php echo $this->SYSINFO_HOSTNAME; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Listening IP'); ?></td>
+                                        <td><?php echo $this->SYSINFO_LISTENINGIP; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <?php echo $this->user->lang('Kernel Version'); ?>
+                                        </td>
+                                        <td>
+                                            <?php echo $this->SYSINFO_KERNALVER; ?>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Distro Name'); ?></td>
+                                        <td><?php echo $this->SYSINFO_DISTRONAME; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Uptime'); ?></td>
+                                        <td><?php echo $this->SYSINFO_UPTIME; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Current Users'); ?></td>
+                                        <td><?php echo $this->SYSINFO_CURRENTUSERS; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Load Averages'); ?></td>
+                                        <td>
+                                            <table style="width:100%;">
+                                                <tr>
+                                                    <td style="padding-left: 0;width:50%;">
+                                                        <?php echo $this->SYSINFO_LOADAVERAGE; ?>
+                                                    </td>
+                                                    <td>
+                                                        <div class="progress">
+                                                            <div class="progress-bar bg-info" style="width: <?php echo $this->SYSINFO_CPULOAD; ?>%;">
+                                                            </div>
+                                                        </div>
+                                                        <div class="percent"><?php echo $this->SYSINFO_CPULOAD; ?>%</div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <img src="<?php echo CE_Lib::getSoftwareURL(); ?>/plugins/snapin/phpsysinfo/images/icon-hardware.gif" hspace="5" align="absmiddle">
+                            <?php echo $this->user->lang('Hardware Information'); ?>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Processors'); ?></td>
+                                        <td width="100%"><?php echo $this->SYSINFO_PROCESSORS; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Model'); ?></td>
+                                        <td><?php echo $this->SYSINFO_CPUMODEL; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('CPU Speed'); ?></td>
+                                        <td><?php echo $this->SYSINFO_CPUSPEED; ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td><?php echo $this->user->lang('Cache Size'); ?></td>
+                                        <td><?php echo $this->SYSINFO_CPUCACHESIZE; ?></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                     <div class="card mb-4">
+                        <div class="card-header">
+                            <img src="<?php echo CE_Lib::getSoftwareURL(); ?>/plugins/snapin/phpsysinfo/images/icon-network.gif" hspace="5" align="absmiddle">
+                            <?php echo $this->user->lang('Network Usage'); ?>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                                <tr>
+                                    <th><?php echo $this->user->lang('Device'); ?></th>
+                                    <th><?php echo $this->user->lang('Received'); ?></th>
+                                    <th><?php echo $this->user->lang('Sent'); ?></th>
+                                    <th><?php echo $this->user->lang('Err/Drop'); ?></th>
+                                </tr>
+                                <?php foreach ($this->netDevices as $device) { ?>
+                                <tr>
+                                    <td><?php echo $device['SYSINFO_DEVICENAME']; ?></td>
+                                    <td><?php echo $device['SYSINFO_DEVICERECEIVED']; ?></td>
+                                    <td><?php echo $device['SYSINFO_DEVICESENT']; ?></td>
+                                    <td>
+                                        <?php echo $device['SYSINFO_DEVICEERR']; ?> / <?php echo $device['SYSINFO_DEVICEDROP']; ?>
+                                    </td>
+                                </tr>
+                                <?php } ?>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <img src="<?php echo CE_Lib::getSoftwareURL(); ?>/plugins/snapin/phpsysinfo/images/icon-memory.gif" hspace="5" align="absmiddle">
+                            <?php echo $this->user->lang('Memory Usage'); ?>
+                        </div>
+                        <div class="card-body">
+                            <table class="table">
+                                <tr>
+                                    <th><?php echo $this->user->lang('Type'); ?></th>
+                                    <th><?php echo $this->user->lang('Percent Capacity'); ?></th>
+                                    <th><?php echo $this->user->lang('Free'); ?></th>
+                                    <th><?php echo $this->user->lang('Used'); ?></th>
+                                    <th><?php echo $this->user->lang('Size'); ?></th>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $this->user->lang('Physical Memory'); ?></td>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" style="width: <?php echo $this->SYSINFO_KERNPERCENT; ?>%;">
+                                            </div>
+                                            <div class="progress-bar bg-warning" style="width: <?php echo $this->SYSINFO_CACHPERCENT; ?>%;">
+                                            </div>
+                                            <div class="progress-bar bg-danger" style="width: <?php echo $this->SYSINFO_BUFFPERCENT; ?>%;">
+                                            </div>
+                                        </div>
+                                        <div class="percent">
+                                            Total: <?php echo $this->totalMemUsed; ?>% (Kernel + applications: <?php echo $this->SYSINFO_KERNPERCENT; ?>% - Cached: <?php echo $this->SYSINFO_CACHPERCENT; ?>% - Buffers: <?php echo $this->SYSINFO_BUFFPERCENT; ?>%)
+                                        </div>
+                                    </td>
+                                    <td><?php echo $this->SYSINFO_MEMFREE; ?></td>
+                                    <td><?php echo $this->SYSINFO_MEMUSED; ?></td>
+                                    <td><?php echo $this->SYSINFO_MEMTOTAL; ?></td>
+                                </tr>
+                                <tr>
+                                    <td><?php echo $this->user->lang('SWAP'); ?></td>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-info" style="width: <?php echo $this->SYSINFO_SWAPPERCENT; ?>%;">
+                                            </div>
+                                        </div>
+                                        <div class="percent"><?php echo $this->SYSINFO_SWAPPERCENT; ?>%</div>
+                                    </td>
+                                    <td><?php echo $this->SYSINFO_SWAPFREE; ?></td>
+                                    <td><?php echo $this->SYSINFO_SWAPUSED; ?></td>
+                                    <td><?php echo $this->SYSINFO_SWAPTOTAL; ?></td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+
+                     <div class="card mb-4">
+                        <div class="card-header">
+                           <img src="<?php echo CE_Lib::getSoftwareURL(); ?>/plugins/snapin/phpsysinfo/images/icon-filesystem.gif" hspace="5" align="absmiddle">
+                           <?php echo $this->user->lang('Mounted Filesystems'); ?>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                            <table class="table">
+                                <tr>
+                                    <th><?php echo $this->user->lang('Mountpoint'); ?></th>
+                                    <th><?php echo $this->user->lang('Type'); ?></th>
+                                    <th><?php echo $this->user->lang('Partition'); ?></th>
+                                    <th><?php echo $this->user->lang('Usage'); ?></th>
+                                    <th><?php echo $this->user->lang('Free'); ?></th>
+                                    <th><?php echo $this->user->lang('Used'); ?></th>
+                                    <th><?php echo $this->user->lang('Size'); ?></th>
+                                </tr>
+                                <?php foreach ($this->mounts as $mount) { ?>
+                                <tr>
+                                    <td><?php echo $mount['SYSINFO_MOUNTPOINT']; ?></td>
+                                    <td><?php echo $mount['SYSINFO_MOUNTTYPE']; ?></td>
+                                    <td><?php echo $mount['SYSINFO_MOUNTPARTITION']; ?></td>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar <?php echo $mount['barColor']; ?>" style="width: <?php echo $mount['SYSINFO_MOUNTPERCENT']; ?>%;">
+                                            </div>
+                                        </div>
+                                        <div class="percent"><?php echo $mount['SYSINFO_MOUNTPERCENT']; ?>%</div>
+                                    </td>
+                                    <td><?php echo $mount['SYSINFO_MOUNTFREE']; ?></td>
+                                    <td><?php echo $mount['SYSINFO_MOUNTUSED']; ?></td>
+                                    <td><?php echo $mount['SYSINFO_MOUNTSIZE']; ?></td>
+                                </tr>
+                                <?php } ?>
+                            </table>
+                            </div>
+
+                        </div>
+                    </div>
+                    <?php } ?>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function jumpMenu(targ,selObj,restore)
+{
+    s = new String(selObj.options[selObj.selectedIndex].value);
+    s.replace("&amp;","&");
+    if (s == "") return false;
+    if (selObj.selectedIndex==0) return false;
+    eval(targ+".location='"+s+"'");
+    if (restore) selObj.selectedIndex=0;
+}
+</script>

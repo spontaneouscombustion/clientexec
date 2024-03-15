@@ -1,0 +1,44 @@
+<div class="fieldwrapper withcolor">
+    <form id="generaltab">
+
+        <table cellpadding="0" cellspacing="10">
+            <tr>
+                <td width="250">
+                    <label class="fieldlabel" style="margin-bottom: 10px;"><?php echo $this->user->lang("Select addon to add to this product");?></label>
+                    <div style="position:relative;top:-3px;float:left;">
+                    <select name="product-addons-toadd" style="width:200px;" id="product-addons-toadd">
+                        <option value="-1">-- <?php echo $this->user->lang("Select an Addon");?> --</option>
+                        <?php foreach($this->addons as $addon) { ?>
+                            <option value="<?php echo $addon['id'];?>"><?php echo $addon['name'];?></option>
+                        <?php } ?>
+                    </select>
+                    </div>
+                </td>
+
+                <td width="250">
+                    <label class="fieldlabel" style="margin-bottom: 10px;"><span class="tip-target" data-toggle="tooltip" title="The type you want to apply to the selected addon you are about to add/update to this product. Each addon can now use a different type." ><?php echo $this->user->lang("Select a type for the selected addon");?></span></label>
+                    <div style="position:relative;top:-3px;">
+                    <select name="product-addons-type" style="width:200px;" id="product-addons-type">
+                        <option value="0"><?php echo $this->user->lang("Drop-down menus");?></option>
+                        <option value="1"><?php echo $this->user->lang("Radio buttons");?></option>
+                        <option value="2"><?php echo $this->user->lang("Quantity");?></option>
+                    </select>
+                    </div>
+                </td>
+
+                <td style="padding-left:30px;padding-top:30px;">
+                    <button class="rich-button" disabled="disabled" id="btnAddAddon" style="float:right;position:relative;top:-4px;right:15px;"><span><?php echo $this->user->lang("Add/Update to Product"); ?></span></button>
+                </td>
+            </tr>
+        </table>
+        <br/>
+        <label class="fieldlabel" style="margin-bottom: 10px;"><?php echo $this->user->lang("Included Addons");?></label>
+        <div id="addons-list"></div>
+        <div id="addons-list-footer" style="display:none;">
+            <button class="rich-button" id="btnDelAddon"><span><?php echo $this->user->lang("Delete Addon(s)"); ?></span></button>
+        </div>
+
+
+    </form>
+</div>
+

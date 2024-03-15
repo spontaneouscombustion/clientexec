@@ -1,0 +1,1 @@
+UPDATE `setting` set name = "Guest users can post comments" WHERE `name` = 'Guest users can post articles';

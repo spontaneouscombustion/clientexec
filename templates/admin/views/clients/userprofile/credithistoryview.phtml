@@ -1,0 +1,31 @@
+<?php echo $this->profileheader($this->customer);?>
+
+<span class="grid-meta" id="credithistoryList-grid-metadata"></span>
+<div class="blue-box">
+    <table class="automation">
+        <tbody>
+            <tr>
+                <td>
+                    <?php echo $this->user->lang("Credit History");?>:
+                </td>
+                <td align="left" style="width:60px">
+                    <select id='credithistoryList-grid-filter' class="change-grid-showrecords" style='width:60px;'>
+                        <option value='5'>5</option>
+                        <option value='10'>10</option>
+                        <option value='25'>25</option>
+                        <option value='50'>50</option>
+                        <option value='150'>150</option>
+                        <option value='300'>300</option>
+                    </select>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div id="credithistoryList-grid"></div>
+<div id="credithistoryList-footer">
+    <div id="credithistoryList-grid-buttons" style="float:left;display:none;">
+    </div>
+    <div style="float:right;" id="credithistoryList-grid-pagination"></div>
+</div>

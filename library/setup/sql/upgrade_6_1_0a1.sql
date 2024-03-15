@@ -1,0 +1,2 @@
+ALTER TABLE `email` ADD `sender` TEXT NOT NULL;
+ALTER TABLE `email` ADD `fromName` TEXT NOT NULL;

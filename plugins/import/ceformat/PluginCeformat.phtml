@@ -1,0 +1,48 @@
+<?php if ( isset($this->error) ) { ?>
+<div class="alert alert-danger">
+    <?php echo $this->user->lang('File upload failed.'); ?>
+</div>
+<?php } ?>
+
+<?php if ( isset($this->results) ) { ?>
+<div class="alert alert-warning">
+    <span class="bold-item"><?php echo $this->user->lang('Import Results'); ?>:</span>
+    <ul>
+        <li><?php echo $this->numAccounts; ?> <?php echo $this->user->lang('accounts added.'); ?></li>
+        <li><?php echo $this->numPackages; ?> <?php echo $this->user->lang('packages added.'); ?></li>
+        <li><?php echo $this->numHosting; ?> <?php echo $this->user->lang('client packages added.'); ?></li>
+        <li><?php echo $this->numInvoices; ?> <?php echo $this->user->lang('invoices added.'); ?></li>
+        <li><?php echo $this->numTickets; ?> <?php echo $this->user->lang('tickets added.'); ?></li>
+    </ul>
+</div>
+<?php } ?>
+
+<div class="alert ce-alert ce-alert-error">
+  <div class="inside">
+    <span class="bold-item"><?php echo $this->user->lang('BEFORE YOU CONTINUE'); ?></span>
+  </div>
+  <br>
+  <div class="inside">
+    <div>
+        <?php
+            echo $this->user->lang('Before proceeding please generate a backup of your Clientexec database giving you the ability to revert back in the event of an issue.');
+        ?>
+    </div>
+    <div>
+        <?php
+            echo $this->user->lang('Also, please first make sure to set your default currency, as the imported data will use that currency.');
+        ?>
+        <a href="../admin/index.php?fuse=admin&controller=settings&view=currencies&settings=billing"> <?php echo $this->user->lang('Set your default currency here.'); ?></a>
+    </div>
+    <div>
+        <?php
+            echo $this->user->lang('If you experience any issues while importing to Clientexec feel free to send an email to support@clientexec.com for assistance.');
+        ?>
+    </div>
+  </div>
+</div>
+
+<h6><?php echo $this->user->lang('Import File'); ?></h6>
+<div><br /><?php echo $this->user->lang('Upload File'); ?>: <input type="file" name="importfile" /></div>
+<br/>
+<button class="rich-button" id="importButton"><span><?php echo $this->user->lang("Import"); ?></span></button>

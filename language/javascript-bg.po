@@ -1,0 +1,1927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: i18n@clientexec.com\n"
+"POT-Creation-Date: 2014-06-04 17:15-0500\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: bg_BG\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==1) ? 0 : 1;\n"
+"X-Generator: Poedit 3.3.2\n"
+
+msgid "Invalid Email format for field %."
+msgstr "Невалиден имейл формат за поле%."
+
+msgid "The field % can't be empty."
+msgstr "Полето% не може да е празно."
+
+msgid "The following form field(s) were incomplete or incorrect"
+msgstr "Следните полета на формуляра са непълни или неправилни"
+
+msgid "Please complete or correct the form and submit again."
+msgstr "Моля, попълнете или коригирайте формуляра и изпратете отново."
+
+msgid "Visa is not accepted at this time"
+msgstr "Понастоящем визата не се приема"
+
+msgid "MasterCard is not accepted at this time"
+msgstr "MasterCard не се приема в момента"
+
+msgid "American Express is not accepted at this time"
+msgstr "American Express не е приет в момента"
+
+msgid "Discover is not accepted at this time"
+msgstr "Discover не се приема в момента"
+
+msgid "LaserCard is not accepted at this time"
+msgstr "LaserCard не се приема в момента"
+
+msgid "Diners Club is not accepted at this time"
+msgstr "Diners Club не се приема в момента"
+
+msgid "Switch is not accepted at this time"
+msgstr "Превключвателят не се приема в момента"
+
+msgid "Quantity"
+msgstr "Количество"
+
+msgid "Option"
+msgstr "опция"
+
+msgid "Prices will be multiplied by the quantity"
+msgstr "Цените ще бъдат умножени по количеството"
+
+msgid "Validating..."
+msgstr "Валидиране..."
+
+msgid "Valid VAT Number"
+msgstr "Валиден номер по ДДС"
+
+msgid "Invalid VAT Number"
+msgstr "Невалиден ДДС номер"
+
+msgid "Retry"
+msgstr "Повторен опит"
+
+msgid "Unable to validate at the moment."
+msgstr "В момента не може да се потвърди."
+
+msgid "This field is required"
+msgstr "Това поле е задължително"
+
+msgid "Yes"
+msgstr "Да"
+
+msgid "No Active Chats"
+msgstr "Няма активни чатове"
+
+msgid "Cancel"
+msgstr "Отказ"
+
+msgid "Are you sure you want to delete this message?"
+msgstr "Сигурни ли сте, че искате да изтриете това съобщение?"
+
+msgid "Your reply:"
+msgstr "Вашият отговор:"
+
+msgid "Your status:"
+msgstr "Вашият статус:"
+
+msgid "Domain"
+msgstr "Домейн"
+
+msgid "Expiry Date"
+msgstr "Срок на годност"
+
+msgid "View PDF Invoice"
+msgstr "Преглед на PDF фактура"
+
+msgid "Enter your passphrase:"
+msgstr "Въведете паролата си:"
+
+msgid "Invoice"
+msgstr "Фактура"
+
+msgid "Due"
+msgstr "Поради"
+
+msgid "Gateway"
+msgstr "Портал"
+
+msgid "Pmt Reference"
+msgstr "Pmt Референция"
+
+msgid "Balance Due"
+msgstr "Баланс"
+
+msgid "Total"
+msgstr "ОБЩА СУМА"
+
+msgid "Status"
+msgstr "Статус"
+
+msgid "Add Payment Reference"
+msgstr "Добавяне на справка за плащане"
+
+msgid "Viewing Invoices"
+msgstr "Преглед на фактури"
+
+msgid "Are sure you want to cancel the subscription tied to this invoice?"
+msgstr ""
+"Сигурни ли сте, че искате да анулирате абонамента, свързан с тази фактура?"
+
+msgid "No"
+msgstr "Не"
+
+msgid "Do you want to send a receipt?"
+msgstr "Искате ли да изпратите разписка?"
+
+msgid "Are sure you want to delete the selected invoice(s)."
+msgstr "Сигурни ли сте, че искате да изтриете избраната фактура (и)."
+
+msgid "Amount"
+msgstr "Количество"
+
+msgid "Add optional information"
+msgstr "Добавяне на незадължителна информация"
+
+msgid "Remove Optional Information"
+msgstr "Премахване на незадължителна информация"
+
+msgid "Payment Reference (Optional)"
+msgstr "Справка за плащане (незадължително)"
+
+msgid "Payment Date (Optional)"
+msgstr "Дата на плащане (по избор)"
+
+msgid "Payment Time (Optional)"
+msgstr "Време за плащане (незадължително)"
+
+msgid "Payment Processor (Optional)"
+msgstr "Процесор за плащане (по избор)"
+
+msgid "Some invoices are not due. Are you sure you want to proceed?"
+msgstr "Някои фактури не са дължими. Сигурен ли си, че искаш да продължиш?"
+
+msgid "OK"
+msgstr "ОК"
+
+msgid "Are you sure you want to process the selected account(s)?"
+msgstr "Сигурни ли сте, че искате да обработите избрания акаунт (и)?"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Transaction ID"
+msgstr "ID на транзакция"
+
+msgid "Transaction Id"
+msgstr "ID на транзакция"
+
+msgid "Result"
+msgstr "Резултат"
+
+msgid "Action"
+msgstr "Действие"
+
+msgid "Plugin"
+msgstr "Плъгин"
+
+msgid "Share information"
+msgstr "Споделяне на информация"
+
+msgid "Add License(s)"
+msgstr "Добавяне на лиценз (и)"
+
+msgid "Add License(s) to"
+msgstr "Добавяне на лиценз (и) към"
+
+msgid "Are you sure you want to delete the selected license(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания лиценз (и)"
+
+msgid "Type"
+msgstr "Вид"
+
+msgid "Attributes"
+msgstr "Атрибути"
+
+msgid "Reseller"
+msgstr "Риселър"
+
+msgid "Are you sure you want to delete the selected resellers(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните дистрибутори"
+
+msgid "Profile"
+msgstr "Профил"
+
+msgid "Used"
+msgstr "Използвани"
+
+msgid "Add Reseller"
+msgstr "Добави Риселър"
+
+msgid "Advanced Search"
+msgstr "Разширено търсене"
+
+msgid "Ticket Search"
+msgstr "Търсене на билети"
+
+msgid "Jan"
+msgstr "Ян"
+
+msgid "Feb"
+msgstr "фев"
+
+msgid "Mar"
+msgstr "Мар"
+
+msgid "Apr"
+msgstr "апр"
+
+msgid "May"
+msgstr "Май"
+
+msgid "Jun"
+msgstr "Юни"
+
+msgid "Jul"
+msgstr "Юли"
+
+msgid "Aug"
+msgstr "авг"
+
+msgid "Sep"
+msgstr "сеп"
+
+msgid "Oct"
+msgstr "окт"
+
+msgid "Nov"
+msgstr "nov"
+
+msgid "Dec"
+msgstr "декември"
+
+msgid "January"
+msgstr "Януари"
+
+msgid "February"
+msgstr "февруари"
+
+msgid "March"
+msgstr "март"
+
+msgid "April"
+msgstr "април"
+
+msgid "June"
+msgstr "Юни"
+
+msgid "July"
+msgstr "Юли"
+
+msgid "August"
+msgstr "август"
+
+msgid "September"
+msgstr "септември"
+
+msgid "October"
+msgstr "октомври"
+
+msgid "November"
+msgstr "ноември"
+
+msgid "December"
+msgstr "декември"
+
+msgid "Sun"
+msgstr "Слънце"
+
+msgid "Mon"
+msgstr "Mon"
+
+msgid "Tue"
+msgstr "вт"
+
+msgid "Wed"
+msgstr "ср"
+
+msgid "Thu"
+msgstr "чт"
+
+msgid "Fri"
+msgstr "Пт"
+
+msgid "Sat"
+msgstr "сб"
+
+msgid "Sunday"
+msgstr "Неделя"
+
+msgid "Monday"
+msgstr "Понеделник"
+
+msgid "Tuesday"
+msgstr "Вторник"
+
+msgid "Wednesday"
+msgstr "Сряда"
+
+msgid "Thursday"
+msgstr "Четвъртък"
+
+msgid "Friday"
+msgstr "Петък"
+
+msgid "Saturday"
+msgstr "Събота"
+
+msgid "Loading"
+msgstr "ЗАРЕЖДАНЕ"
+
+msgid "Quick Search"
+msgstr "Бързо търсене"
+
+msgid ""
+"NOTE: This operation will move all the tickets from this Email to the user "
+"whose ID you will enter.\n"
+"Also, this Email will be added as an alternate address for future support "
+"requests from this user."
+msgstr ""
+"ЗАБЕЛЕЖКА: Тази операция ще премести всички билети от този имейл на "
+"потребителя, чийто идентификатор ще въведете.\n"
+"Също така, този имейл ще бъде добавен като алтернативен адрес за бъдещи "
+"заявки за поддръжка от този потребител."
+
+msgid "Migrate Guest to User ID:"
+msgstr "Мигриране на гост към потребителско име:"
+
+msgid "My Notes"
+msgstr "Моите бележки"
+
+msgid "Add Staff Note"
+msgstr "Добавяне на бележка за персонала"
+
+msgid "Add Support Ticket"
+msgstr "Добави билет за поддръжка"
+
+msgid "You must fill in all the required fields before submitting your ticket."
+msgstr ""
+"Трябва да попълните всички задължителни полета, преди да изпратите билета си."
+
+msgid "There was an error with this operation"
+msgstr "Имаше грешка с тази операция"
+
+msgid "Email Client"
+msgstr "Имейл клиент"
+
+msgid "Loading..."
+msgstr "Зареждане…"
+
+msgid "No data available in table"
+msgstr "Няма налични данни в таблицата"
+
+msgid "Showing % to % of % entries"
+msgstr "Показва% до%% вписвания"
+
+msgid "_START_"
+msgstr "_ЗАПОЧНЕТЕ_"
+
+msgid "_END_"
+msgstr "_КРАЯ_"
+
+msgid "_TOTAL_"
+msgstr "_ОБЩО_"
+
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Показване на 0 до 0 от 0 вписвания"
+
+msgid "filtered from % total entries"
+msgstr "филтрирани от% общо вписвания"
+
+msgid "_MAX_"
+msgstr "_МАКС_"
+
+msgid "Show % entries"
+msgstr "Показване на% записи"
+
+msgid "Search:"
+msgstr "Търсене:"
+
+msgid "No matching records found"
+msgstr "Не са намерени съвпадащи записи"
+
+msgid "<<"
+msgstr "<<"
+
+msgid ">>"
+msgstr ">>"
+
+msgid ">"
+msgstr ">"
+
+msgid "<"
+msgstr "<"
+
+msgid "activate to sort column ascending"
+msgstr "активирайте, за да сортирате колоната възходящо"
+
+msgid "activate to sort column descending"
+msgstr "активирайте, за да сортирате низходящата колона"
+
+msgid "This value seems to be invalid."
+msgstr "Тази стойност изглежда невалидна."
+
+msgid "This value should be a valid email."
+msgstr "Тази стойност трябва да бъде валиден имейл."
+
+msgid "This value should be a valid url."
+msgstr "Тази стойност трябва да бъде валиден URL адрес."
+
+msgid "This value should be a valid number."
+msgstr "Тази стойност трябва да бъде валиден номер."
+
+msgid "This value should be digits."
+msgstr "Тази стойност трябва да бъде цифри."
+
+msgid "This value should be a valid date (YYYY-MM-DD)."
+msgstr "Тази стойност трябва да бъде валидна дата (ГГГГ-ММ-ДД)."
+
+msgid "This value should be alphanumeric."
+msgstr "Тази стойност трябва да бъде буквено-цифрова."
+
+msgid "This value should be a valid phone number."
+msgstr "Тази стойност трябва да бъде валиден телефонен номер."
+
+msgid "This value should not be null."
+msgstr "Тази стойност не трябва да бъде нищожна."
+
+msgid "This value should not be blank."
+msgstr "Тази стойност не трябва да е празна."
+
+msgid "This value is required."
+msgstr "Тази стойност е необходима."
+
+msgid "This value should be greater than or equal to %s."
+msgstr "Тази стойност трябва да бъде по-голяма или равна на%s."
+
+msgid "This value should be lower than or equal to %s."
+msgstr "Тази стойност трябва да бъде по-ниска или равна на%s."
+
+msgid "This value should be between %s and %s."
+msgstr "Тази стойност трябва да бъде между %s и%s."
+
+msgid "This value is too short. It should have %s characters or more."
+msgstr "Тази стойност е твърде кратка. Тя трябва да има %s знаци или повече."
+
+msgid "This value is too long. It should have %s characters or less."
+msgstr ""
+"Тази стойност е твърде дълга. Тя трябва да има %s символи или по-малко."
+
+msgid ""
+"This value length is invalid. It should be between %s and %s characters long."
+msgstr ""
+"Тази дължина на стойността е невалидна. Тя трябва да бъде между %s и %s "
+"символи дълго."
+
+msgid "You must select at least %s choices."
+msgstr "Трябва да изберете най-малко %s възможности за избор."
+
+msgid "You must select %s choices or less."
+msgstr "Трябва да изберете %s избор или по-малко."
+
+msgid "You must select between %s and %s choices."
+msgstr "Трябва да изберете между %s и %s избор."
+
+msgid "This value should be the same."
+msgstr "Тази стойност трябва да е същата."
+
+msgid "Loading Graph"
+msgstr "Зареждане на графика"
+
+msgid "NOTICE:"
+msgstr "ИЗВЕСТИЕ:"
+
+msgid "You have modified the availability to some Product Groups."
+msgstr "Променили сте наличността на някои продуктови групи."
+
+msgid "Do you want existing clients to continue being charged this addon?"
+msgstr ""
+"Искате ли съществуващите клиенти да продължат да бъдат таксувани с тази "
+"добавка?"
+
+msgid "Plugin Variable"
+msgstr "Променлива плъгин"
+
+msgid "Used in products"
+msgstr "Използва се в продукти"
+
+msgid "Not used in any products"
+msgstr "Не се използва в никакви продукти"
+
+msgid "Edit"
+msgstr "Редактирай"
+
+msgid "Title"
+msgstr "Заглавие"
+
+msgid "Post Date"
+msgstr "Дата на публикуване"
+
+msgid "Published"
+msgstr "Публикуван"
+
+msgid "Pinned"
+msgstr "Закрепени"
+
+msgid "Add Announcement"
+msgstr "Добавяне на обявяване"
+
+msgid "Are you sure you want to delete the selected announcement(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраното съобщение (и)"
+
+msgid "Are you sure you want to delete the selected client groups(s)?"
+msgstr "Сигурни ли сте, че искате да изтриете избраните клиентски групи?"
+
+msgid "Description:"
+msgstr "описание/ Контрол:"
+
+msgid "Group"
+msgstr "Група"
+
+msgid "Color"
+msgstr "Цвят"
+
+msgid "Members"
+msgstr "Членове"
+
+msgid "Add/Edit Client Group"
+msgstr "Добавяне/редактиране на клиентска група"
+
+msgid "Your secret key"
+msgstr "Вашият таен ключ"
+
+msgid "Event Name"
+msgstr "Име на събитието"
+
+msgid "From Name"
+msgstr "От името"
+
+msgid "From Email"
+msgstr "От имейл"
+
+msgid "Notified"
+msgstr "Уведомени"
+
+msgid "Last Notified"
+msgstr "Последно уведомен"
+
+msgid "Enabled"
+msgstr "Активирано"
+
+msgid "Notification Window"
+msgstr "Прозорец за уведомяване"
+
+msgid ""
+"Are you sure you want to reset the selected notification(s)?<br>Doing so "
+"will allow the notification(s) to email again the previously ignored clients."
+msgstr ""
+"Сигурни ли сте, че искате да нулирате избраното известие (и)? <br>Това ще "
+"позволи на уведомлението (ите) да изпратят имейл отново на игнорираните "
+"преди това клиенти."
+
+msgid "Are you sure you want to delete the selected notification(s)?"
+msgstr "Сигурни ли сте, че искате да изтриете избраното (ите) известие (и)?"
+
+msgid "Name"
+msgstr "Име"
+
+msgid "Display Type"
+msgstr "Тип на дисплея"
+
+msgid "WARNING!"
+msgstr "Предупреждение!"
+
+msgid "Are you sure you want to add/update the selected addon?"
+msgstr "Сигурни ли сте, че искате да добавите/актуализирате избраната добавка?"
+
+msgid "Drop-down menus"
+msgstr "Падащи менюта"
+
+msgid "Radio buttons"
+msgstr "Радио бутони"
+
+msgid ""
+"If the addon is been added, existing clients will be applied the default "
+"value: 'None' option if available, or the first option if not."
+msgstr ""
+"Ако добавката е добавена, на съществуващите клиенти ще бъде приложена "
+"стойността по подразбиране: опция „Няма“, ако е налична, или първата опция, "
+"ако не."
+
+msgid ""
+"If the addon is been updated to quantity type, existing clients will use a "
+"quantity of 1 by default."
+msgstr ""
+"Ако добавката е актуализирана до тип количество, съществуващите клиенти ще "
+"използват количество 1 по подразбиране."
+
+msgid ""
+"If the addon is been updated from quantity type to a different type, "
+"existing clients will change their quantity to 1."
+msgstr ""
+"Ако добавката бъде актуализирана от тип количество до друг тип, "
+"съществуващите клиенти ще променят количеството си на 1."
+
+msgid "Billing Period(s)"
+msgstr "Период (и) на фактуриране"
+
+msgid "Price"
+msgstr "ЦЕНА"
+
+msgid "Transfer"
+msgstr "Прехвърляне"
+
+msgid "N/A"
+msgstr "П/А"
+
+msgid "Renew"
+msgstr "Обнови"
+
+msgid "Are you sure you want to delete the selected TLD billing period(s)"
+msgstr ""
+"Сигурни ли сте, че искате да изтриете избрания период (и) за таксуване на TLD"
+
+msgid "TLD Setup Window"
+msgstr "Прозорец за настройка на TLD"
+
+msgid "Pricing"
+msgstr "Ценообразуване"
+
+msgid "Addons"
+msgstr "Адони"
+
+msgid "Upgrade/Downgrade"
+msgstr "Ъпгрейд/понижаване"
+
+msgid "Advanced & Plugin Settings"
+msgstr "Разширени настройки за & плъгин"
+
+msgid "Are you sure you want to delete this product group"
+msgstr "Сигурни ли сте, че искате да изтриете тази продуктова група"
+
+msgid "Are you sure you want to delete the selected product(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания продукт (и)"
+
+msgid "Late Fee"
+msgstr "Късна такса"
+
+msgid "Tax"
+msgstr "Данък"
+
+msgid "Signup?"
+msgstr "Регистрация?"
+
+msgid "Hidden"
+msgstr "Скрити"
+
+msgid "Product Group Window"
+msgstr "Прозорец на продуктовата група"
+
+msgid "You must save your server first"
+msgstr "Първо трябва да запазите сървъра си"
+
+msgid "Are you sure you want to delete the selected servers(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните сървъри (и)"
+
+msgid "No status message"
+msgstr "Няма съобщение за състоянието"
+
+msgid "Status Message:"
+msgstr "Съобщение за състоянието:"
+
+msgid "Server Name"
+msgstr "Име на сървъра"
+
+msgid "Hostname"
+msgstr "Име на хост"
+
+msgid "Shared IP"
+msgstr "Споделен IP"
+
+msgid "Quota"
+msgstr "Квота"
+
+msgid "Monthly Cost"
+msgstr "Месечни разходи"
+
+msgid "DataCenter / Provider"
+msgstr "Център за данни/ Доставчик"
+
+msgid "New API Key has been generated"
+msgstr "Създаден е нов API ключ"
+
+msgid "Are you sure you want to delete the selected billing cycle(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания цикъл (и) на таксуване"
+
+msgid "Time Unit"
+msgstr "Единица за време"
+
+msgid "Amount of Units"
+msgstr "Количество единици"
+
+msgid "Recurring Fees"
+msgstr "Повтарящи се такси"
+
+msgid "Add/Edit Billing Cycle"
+msgstr "Добавяне/редактиране на цикъла на фактуриране"
+
+msgid "Archive"
+msgstr "Архив"
+
+msgid "Unarchive"
+msgstr "Неархив"
+
+msgid "Are you sure you want to delete the selected billing types(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните типове фактуриране"
+
+msgid "Invoice Description"
+msgstr "Описание на фактурата"
+
+msgid "Count"
+msgstr "Граф"
+
+msgid "Add/Edit Billing Type"
+msgstr "Добавяне/редактиране на тип фактуриране"
+
+msgid "Are you sure you want to delete the selected email templates(s)?"
+msgstr "Сигурни ли сте, че искате да изтриете избраните шаблони за имейл?"
+
+msgid "You can not delete the system email templates."
+msgstr "Не можете да изтриете шаблоните за електронна поща на системата."
+
+msgid "Email Template Window"
+msgstr "Прозорец за шаблони за имейли"
+
+msgid "Code"
+msgstr "Код"
+
+msgid "Are you sure you want to delete the selected coupon(s)?"
+msgstr "Сигурни ли сте, че искате да изтриете избрания талон (и)?"
+
+msgid "Are you sure you want to unarchive the selected coupon(s)?"
+msgstr "Сигурни ли сте, че искате да деархивирате избрания талон (и)?"
+
+msgid "Are you sure you want to archive the selected coupon(s)?"
+msgstr "Сигурни ли сте, че искате да архивирате избрания талон (и)?"
+
+msgid "Discount"
+msgstr "Отстъпка"
+
+msgid "Recurring"
+msgstr "Повтарящи се"
+
+msgid "Billing Cycles"
+msgstr "Цикли на фактуриране"
+
+msgid "In Effect"
+msgstr "Влияние"
+
+msgid "Currency Name"
+msgstr "Име на валута"
+
+msgid "Default"
+msgstr "По подразбиране"
+
+msgid "Symbol"
+msgstr "Символ"
+
+msgid "Alignment"
+msgstr "Подравняване"
+
+msgid "Precision"
+msgstr "Прецизност"
+
+msgid "Rate"
+msgstr "Оценете"
+
+msgid "Please select only one currency for the default"
+msgstr "Моля, изберете само една валута по подразбиране"
+
+msgid "Are you sure you want to delete the selected currencies?"
+msgstr "Сигурни ли сте, че искате да изтриете избраните валути?"
+
+msgid "Add/Edit Currency"
+msgstr "Добавяне/редактиране на валута"
+
+msgid "Custom fields reordered successfully"
+msgstr "Персонализираните полета се пренареждат успешно"
+
+msgid "Enter the name of the new custom field"
+msgstr "Въведете името на новото персонализирано поле"
+
+msgid " added to custom fields."
+msgstr " добавен към персонализирани полета."
+
+msgid " saved successfully."
+msgstr " спасен успешно."
+
+msgid "Are you sure you want to delete "
+msgstr "Сигурни ли сте, че искате да изтриете "
+
+msgid "Custom field created by plugin:"
+msgstr "Персонализирано поле, създадено от плъгин:"
+
+msgid "Are you sure you want to delete the selected departments(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните отдели"
+
+msgid "Department Name"
+msgstr "Име на отдел"
+
+msgid "Lead"
+msgstr "олово"
+
+msgid "Add/Edit Department"
+msgstr "Отдел „Добавяне/редактиране“"
+
+msgid "Users Affected"
+msgstr "Засегнати потребители"
+
+msgid "Source"
+msgstr "Източник"
+
+msgid "Email’s Checked"
+msgstr "Имейлът е проверен"
+
+msgid "Open Ticket ?"
+msgstr "Отворен билет?"
+
+msgid "Autoresponder"
+msgstr "Автоматичен отговор"
+
+msgid "Are you sure you want to delete the selected routing rules(s)"
+msgstr ""
+"Сигурни ли сте, че искате да изтриете избраните правила за маршрутизация"
+
+msgid "Are you sure you want to delete the selected alias(es)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания псевдоним (и)"
+
+msgid "Alias To"
+msgstr "Псевдоним"
+
+msgid "System Status"
+msgstr "Статус на системата"
+
+msgid "Add/Edit Status Alias"
+msgstr "Добавяне/редактиране на псевдоним на състоянието"
+
+msgid "Gateway updated properly"
+msgstr "Gateway актуализиран правилно"
+
+msgid "Already selected"
+msgstr "Вече е избран"
+
+msgid "Billing Profile IDs successfully deleted"
+msgstr "Идеи за фактуриране на профил успешно изтрити"
+
+msgid "Are you sure you want to delete the selected spam filter(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания (и) филтър (и) за спам"
+
+msgid "Value"
+msgstr "Стойност"
+
+msgid "Enabled?"
+msgstr "Активиран?"
+
+msgid "Manage Spam Filter"
+msgstr "Управление на филтъра за спам"
+
+msgid "All (Default)"
+msgstr "Всички (по подразбиране)"
+
+msgid "Country"
+msgstr "Държава"
+
+msgid "Division"
+msgstr "Дивизия"
+
+msgid "Level"
+msgstr "Ниво"
+
+msgid "Compound"
+msgstr "Съединение"
+
+msgid "VAT"
+msgstr "ДДС"
+
+msgid "Add/Edit Tax Rule"
+msgstr "Добавяне/редактиране на данъчно правило"
+
+msgid "Click to edit this ticket type"
+msgstr "Кликнете, за да редактирате този тип билет"
+
+msgid "Are you sure you want to delete the selected ticket types(s)?"
+msgstr "Сигурни ли сте, че искате да изтриете избраните типове билети?"
+
+msgid "None"
+msgstr "Никое"
+
+msgid "Tickets"
+msgstr "Билети"
+
+msgid "Manage Ticket Type"
+msgstr "Управление на типа билети"
+
+msgid "No staff available - click to add your first staff member to this group"
+msgstr ""
+"Няма наличен персонал - кликнете, за да добавите първия си член на персонала "
+"към тази група"
+
+msgid "Are you sure you want to delete this role?"
+msgstr "Сигурни ли сте, че искате да изтриете тази роля?"
+
+msgid "Save"
+msgstr "Запазете"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Add Staff"
+msgstr "Добавяне на персонал"
+
+msgid "Role Name"
+msgstr "Име на роля"
+
+msgid ""
+"Are you sure you want to delete this account? WARNING: All support ticket "
+"information for this user will be replaced to generic Tech Support"
+msgstr ""
+"Сигурни ли сте, че искате да изтриете този акаунт? ВНИМАНИЕ: Цялата "
+"информация за билети за поддръжка за този потребител ще бъде заменена с обща "
+"техническа поддръжка"
+
+msgid "Are you sure you want to activate the follow clients as affiliates?"
+msgstr ""
+"Сигурни ли сте, че искате да активирате следващите клиенти като филиали?"
+
+msgid "Are you sure you want to decline the follow clients as affiliates?"
+msgstr ""
+"Сигурни ли сте, че искате да откажете последващите клиенти като филиали?"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Visitors"
+msgstr "Посетители"
+
+msgid "Sales"
+msgstr "Продажби"
+
+msgid "Unpaid Balance"
+msgstr "Неплатен баланс"
+
+msgid "Total Paid"
+msgstr "Общо платени"
+
+msgid "No name entered"
+msgstr "Няма въведени имена"
+
+msgid "Package"
+msgstr "пакет"
+
+msgid "Are you sure you want to approve these commissions?"
+msgstr "Сигурен ли си, че искаш да одобриш тези комисионни?"
+
+msgid "Are you sure you want to decline these commissions?"
+msgstr "Сигурни ли сте, че искате да откажете тези комисионни?"
+
+msgid "Are you sure you want to manually mark these commissions as paid out?"
+msgstr ""
+"Сигурни ли сте, че искате ръчно да маркирате тези комисионни като изплатени?"
+
+msgid "Client"
+msgstr "Клиент"
+
+msgid "Affiliate"
+msgstr "Партньорски"
+
+msgid "Clearing Date"
+msgstr "Дата на изчистване"
+
+msgid "Order Value"
+msgstr "Стойност на поръчката"
+
+msgid "Commission"
+msgstr "Комисия"
+
+msgid "Enter the invoice id:"
+msgstr "Въведете идентификационния номер на фактурата:"
+
+msgid "Response"
+msgstr "Отговор"
+
+msgid "Edited on"
+msgstr "Редактирано на"
+
+msgid ""
+"Are you sure you want to delete this charge? If yes please make sure you "
+"also click <b>Save Changes</b>"
+msgstr ""
+"Сигурни ли сте, че искате да изтриете тази такса? Ако отговорът е да, моля, "
+"уверете се, че също щракнете върху <b> Запазване на промените </b>"
+
+msgid "Are you sure you want to split this charge into a new invoice?"
+msgstr "Сигурни ли сте, че искате да разделите таксата на нова фактура?"
+
+msgid "Add period start and end dates"
+msgstr "Добавете начални и крайни дати"
+
+msgid "Period Dates"
+msgstr "Период Дати"
+
+msgid "Start"
+msgstr "Старт"
+
+msgid "End"
+msgstr "Край"
+
+msgid "Select date"
+msgstr "Изберете дата"
+
+msgid "Stop Processing"
+msgstr "Спрете обработката"
+
+msgid "Please wait"
+msgstr "Моля, изчакайте"
+
+msgid "Preparing data"
+msgstr "Подготовка на данни"
+
+msgid "Completed"
+msgstr "Завършен"
+
+msgid "Generating Invoice(s)"
+msgstr "Генериране на фактура (и)"
+
+msgid "Processing Invoice(s)"
+msgstr "Обработка на фактура (и)"
+
+msgid "Viewing all failed invoices."
+msgstr "Преглед на всички неуспешни фактури."
+
+msgid "Viewing all paid invoices."
+msgstr "Преглед на всички платени фактури."
+
+msgid "Outstanding Amount"
+msgstr "Непогасена сума"
+
+msgid "User id field may not be left blank"
+msgstr "Полето за идентификатор на потребителя може да не остане празно"
+
+msgid "Viewing all invoices that are past their due date, but not paid."
+msgstr ""
+"Преглед на всички фактури, които са минали срока им на падежа, но не са "
+"платени."
+
+msgid "Viewing all invoices that have not been paid."
+msgstr "Преглед на всички фактури, които не са платени."
+
+msgid "Viewing all invoices."
+msgstr "Преглед на всички фактури."
+
+msgid "Viewing invoices for a filtered user."
+msgstr "Преглед на фактури за филтриран потребител."
+
+msgid ""
+"Viewing pending invoices. Invoices that have been sent to a merchant but not "
+"cleared.  i.e. eChecks"
+msgstr ""
+"Преглед на висящи фактури. Фактури, които са изпратени на търговец, но не са "
+"изчистени. т.е. eChecks"
+
+msgid ""
+"Viewing all draft invoices. These invoices are not ready to be processed."
+msgstr ""
+"Преглед на всички чернови на фактури. Тези фактури не са готови за обработка."
+
+msgid "Created"
+msgstr "Създаден"
+
+msgid "Client Name"
+msgstr "Име на клиент"
+
+msgid "Failed Reason"
+msgstr "Неуспешна причина"
+
+msgid "Start Date"
+msgstr "Начална дата"
+
+msgid "End Date"
+msgstr "Крайна дата"
+
+msgid "Are you sure you want to delete the selected charges(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните такси"
+
+msgid "Are you sure you want to create invoice(s) with the selected charges(s)"
+msgstr "Сигурни ли сте, че искате да създадете фактура (и) с избраните такси"
+
+msgid "Due Date"
+msgstr "Дата на падежа"
+
+msgid "Do you wish to activate this clients packages as well?"
+msgstr "Желаете ли да активирате и тези пакети за клиенти?"
+
+msgid "Do you wish to use the server plugin to activate these packages?"
+msgstr ""
+"Желаете ли да използвате приставката на сървъра, за да активирате тези "
+"пакети?"
+
+msgid "Do you wish to suspend this clients packages as well?"
+msgstr "Искате ли да прекратите и пакетите на тези клиенти?"
+
+msgid "Do you wish to use the server plugin to suspend these packages?"
+msgstr ""
+"Желаете ли да използвате приставката на сървъра, за да спрете тези пакети?"
+
+msgid "Do you wish to cancel this clients packages as well?"
+msgstr "Желаете ли да анулирате и тези клиентски пакети?"
+
+msgid "Do you wish to use the server plugin to cancel these packages?"
+msgstr ""
+"Желаете ли да използвате приставката на сървъра, за да отмените тези пакети?"
+
+msgid "Are you sure you wish to register this account?"
+msgstr "Сигурни ли сте, че искате да регистрирате този акаунт?"
+
+msgid "There was an error when updating your status"
+msgstr "Имаше грешка при актуализирането на състоянието ви"
+
+msgid "Status has been updated successfully"
+msgstr "Статусът е актуализиран успешно"
+
+msgid "Subject"
+msgstr "Тема"
+
+msgid "To"
+msgstr "До"
+
+msgid "From"
+msgstr "От"
+
+msgid "Are you sure you want to activate the selected packages(s)"
+msgstr "Сигурни ли сте, че искате да активирате избраните пакети"
+
+msgid "Are you sure you want to delete the selected packages(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните пакети"
+
+msgid "Do you want to delete this client if they have no packages?"
+msgstr "Искате ли да изтриете този клиент, ако нямат пакети?"
+
+msgid "Are you sure you want to cancel the selected package(s)?"
+msgstr "Сигурни ли сте, че искате да анулирате избрания пакет (и)?"
+
+msgid "Are you sure you want to cancel the selected package(s)"
+msgstr "Сигурни ли сте, че искате да отмените избрания пакет (и)"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Reason"
+msgstr "Причина"
+
+msgid "Request Date & Time"
+msgstr "Заявка за дата и час"
+
+msgid "Cancel On"
+msgstr "Отмени На"
+
+msgid "Invalid payment term for domain"
+msgstr "Невалиден срок на плащане за домейн"
+
+msgid "Are you sure you want to % these domain(s)?"
+msgstr "Сигурни ли сте, че искате да% тези домейн (и)?"
+
+msgid "Domain Name"
+msgstr "име на домейн"
+
+msgid "Expiration"
+msgstr "Изтичане"
+
+msgid "Next Bill Date"
+msgstr "Следваща дата на законопроекта"
+
+msgid "Period"
+msgstr "Период"
+
+msgid "Auto Renew"
+msgstr "Автоматично подновяване"
+
+msgid "Registrar"
+msgstr "Секретар"
+
+msgid "Are you sure you want to % these package(s)?"
+msgstr "Сигурни ли сте, че искате да% тези пакети (и)?"
+
+msgid ""
+"Do you want to use the respective server plugin(s) to % these package(s)?"
+msgstr ""
+"Искате ли да използвате съответния сървър плъгин (и) до% този пакет (и)?"
+
+msgid "CSR Details"
+msgstr "КСО Подробности"
+
+msgid "Reassign"
+msgstr "Преназначаване"
+
+msgid "Toggle"
+msgstr "Превключване"
+
+msgid ""
+"Are you sure you want to toggle the Registrar Lock option via the selected "
+"plugin?"
+msgstr ""
+"Сигурни ли сте, че искате да превключите опцията за заключване на "
+"регистратора чрез избрания плъгин?"
+
+msgid "Unknown"
+msgstr "Неизвестен"
+
+msgid "Not Yet Registered"
+msgstr "Все още не е регистриран"
+
+msgid "Select IP Address"
+msgstr "Изберете IP адрес"
+
+msgid "Delete"
+msgstr "Изтриване"
+
+msgid ""
+"Point your domain to a web site by pointing to an IP Address, or forward to "
+"another site, or point to a temporary page (known as 'Parking'), and more. "
+"These records are also known as sub-domains (e.g. webmail.example.com)."
+msgstr ""
+"Насочете домейна си към уеб сайт, като посочите IP адрес или препратете към "
+"друг сайт или посочете временна страница (известна като „Паркинг“) и др. "
+"Тези записи са известни също като поддомейни (например webmail.example.com)."
+
+msgid ""
+"The setting <strong>Use Defaults</strong> must be set to No if you want to "
+"add your own Name Server"
+msgstr ""
+"Настройката <strong> Използване на настройките по подразбиране </strong> "
+"трябва да е настроена на Не, ако искате да добавите свой собствен сървър за "
+"имена"
+
+msgid "Are you sure you want to % these certificate(s)?"
+msgstr "Сигурни ли сте, че искате да% тези сертификати?"
+
+msgid "Expiration Date"
+msgstr "Дата на валидност"
+
+msgid "Outstanding balance"
+msgstr "Неуреден баланс"
+
+msgid ""
+"Do you want to use the respective server plugins to delete all these users?"
+msgstr ""
+"Искате ли да използвате съответните сървърни плъгини, за да изтриете всички "
+"тези потребители?"
+
+msgid ""
+"Do you want to use the respective server plugins to cancel all these users?"
+msgstr ""
+"Искате ли да използвате съответните сървърни плъгини, за да отмените всички "
+"тези потребители?"
+
+msgid "Successfully validated credit cards"
+msgstr "Успешно валидирани кредитни карти"
+
+msgid "Client Type"
+msgstr "Тип клиент"
+
+msgid "Activated"
+msgstr "Активирано"
+
+msgid "Score"
+msgstr "Резултат"
+
+msgid "Currency"
+msgstr "Валута"
+
+msgid "Package Count"
+msgstr "Брой пакети"
+
+msgid "Add Client"
+msgstr "Добавяне на клиент"
+
+msgid "Validate CC"
+msgstr "Валидиране на CC"
+
+msgid "Are you sure you want to delete the selected accounts(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните акаунти"
+
+msgid "Notifications?"
+msgstr "Известия?"
+
+msgid "Invoices?"
+msgstr "Фактури?"
+
+msgid "Support?"
+msgstr "Подкрепа?"
+
+msgid "Manage Alternate Account"
+msgstr "Управление на алтернативен акаунт"
+
+msgid "Are you sure you want to register this client as an affiliate?"
+msgstr "Сигурни ли сте, че искате да регистрирате този клиент като филиал?"
+
+msgid "Credit Card Number"
+msgstr "Кредитна Карта"
+
+msgid "<b>Are you sure you want to change the currency?</b>"
+msgstr "<b>Сигурни ли сте, че искате да промените валутата? </b>"
+
+msgid ""
+"Please note that changing the currency will not convert the price amount to "
+"existing charges."
+msgstr ""
+"Моля, имайте предвид, че промяната на валутата няма да преобразува сумата на "
+"цената в съществуващи такси."
+
+msgid ""
+"You will need to review the prices on the existing invoices and recurring "
+"fees and reconfigure the packages and addons to make sure they are using "
+"prices for the new currency."
+msgstr ""
+"Ще трябва да прегледате цените на съществуващите фактури и периодични такси "
+"и да преконфигурирате пакетите и добавките, за да сте сигурни, че използват "
+"цени за новата валута."
+
+msgid "Are you sure you want to delete the billing profile id on file?"
+msgstr ""
+"Сигурни ли сте, че искате да изтриете идентификационния номер на профила за "
+"фактуриране във файла?"
+
+msgid "Are you sure you want to delete the credit card on file?"
+msgstr "Сигурни ли сте, че искате да изтриете кредитната карта на файла?"
+
+msgid "Update Billing Profile ID"
+msgstr "Актуализиране на идентификационния профил за фактуриране"
+
+msgid "Add Credit"
+msgstr "Добавяне на кредит"
+
+msgid "Remove Credit"
+msgstr "Премахване на кредит"
+
+msgid "Are you sure you want to reset the password of this client?"
+msgstr "Сигурни ли сте, че искате да възстановите паролата на този клиент?"
+
+msgid "Are you sure you want to export this client data?"
+msgstr "Сигурни ли сте, че искате да експортирате тези клиентски данни?"
+
+msgid "Are you sure you want to delete this client?"
+msgstr "Сигурни ли сте, че искате да изтриете този клиент?"
+
+msgid ""
+"Do you want to delete this client's packages using the respective server "
+"plugin(s)?"
+msgstr ""
+"Искате ли да изтриете пакетите на този клиент с помощта на съответния сървър "
+"плъгин (и)?"
+
+msgid "Associated to Ticket Type"
+msgstr "Свързан с вида на билета"
+
+msgid "Note"
+msgstr "Забележка"
+
+msgid "Un-Archive"
+msgstr "Un-Архив"
+
+msgid "Are you sure you want to delete the selected notes(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраните бележки"
+
+msgid "Date Submitted"
+msgstr "Дата на изпращане"
+
+msgid "Entered By"
+msgstr "Въведено от"
+
+msgid "Viewable By Client"
+msgstr "Видимо от клиента"
+
+msgid "Ticket Type"
+msgstr "Вид на билета"
+
+msgid "No items found"
+msgstr "Няма намерени артикули"
+
+msgid "The package upgrade/downgrade has been canceled"
+msgstr "Надстройката/понижаването на пакета е отменено"
+
+msgid "Upgrade/Downgrade Package"
+msgstr "Пакет за надстройка/понижаване"
+
+msgid ""
+"Are you sure you want to generate the next recurring invoice that applies to "
+"the selected package(s) as long as they have recurring charges?"
+msgstr ""
+"Сигурни ли сте, че искате да генерирате следващата повтаряща се фактура, "
+"която се отнася за избрания пакет (и), стига те да имат повтарящи се такси?"
+
+msgid "Are you sure you want to delete the selected package(s)?"
+msgstr "Сигурни ли сте, че искате да изтриете избрания пакет (и)?"
+
+msgid "Add a new product"
+msgstr "Добавяне на нов продукт"
+
+msgid "Next Payment Date"
+msgstr "Следваща дата на плащане"
+
+msgid "Next Date"
+msgstr "Следваща дата"
+
+msgid "Billing Type"
+msgstr "Тип фактуриране"
+
+msgid "Price per unit"
+msgstr "Цена за единица"
+
+msgid "Taxable"
+msgstr "Облагаема"
+
+msgid "Cycle"
+msgstr "Цикъл"
+
+msgid "Are you sure you want to delete the selected recurring fee(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраната периодична такса (и)"
+
+msgid "Add Recurring Charge"
+msgstr "Добавяне на повтарящ се заряд"
+
+msgid ""
+"This subscription needs to be canceled directly from your PayPal account."
+"<br><br>Subscriptions with ID starting with <b>S-</b> can not be canceled "
+"using the PayPal API."
+msgstr ""
+"Този абонамент трябва да бъде анулиран директно от вашия акаунт в PayPal. "
+"<br><br>Абонаментите с идентификационен номер, започващи с <b> S- не </b> "
+"могат да бъдат отменени с помощта на API на PayPal."
+
+msgid "Are sure you want to cancel this subscription?"
+msgstr "Сигурни ли сте, че искате да анулирате този абонамент?"
+
+msgid "Upload Progress"
+msgstr "Качване на напредъка"
+
+msgid "Event Details"
+msgstr "Подробности за събитието"
+
+msgid "On"
+msgstr "На"
+
+msgid "User"
+msgstr "Потребител"
+
+msgid "IP Address"
+msgstr "IP адрес"
+
+msgid "Modified User"
+msgstr "Модифициран потребител"
+
+msgid "No Pending Orders"
+msgstr "Няма чакащи поръчки"
+
+msgid "No Tickets Found"
+msgstr "Няма намерени билети"
+
+msgid "Dashboard Settings"
+msgstr "Настройки на таблото"
+
+msgid "There are no services enabled"
+msgstr "Няма активирани услуги"
+
+msgid "No errors or warnings found"
+msgstr "Не са открити грешки или предупреждения"
+
+msgid "Are you sure you want to delete this category?"
+msgstr "Сигурни ли сте, че искате да изтриете тази категория?"
+
+msgid "Draft"
+msgstr "Проект"
+
+msgid "Are you sure you want to delete the selected article(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избраната (ите) статия (и)"
+
+msgid "Invalid value entered"
+msgstr "Въведена невалидна стойност"
+
+msgid "Author"
+msgstr "Автор"
+
+msgid "Views"
+msgstr "изгледи"
+
+msgid "Modified"
+msgstr "Променено"
+
+msgid "Order"
+msgstr "Поръчка"
+
+msgid "Category Window"
+msgstr "Категория Прозорец"
+
+msgid "Article Window"
+msgstr "Прозорец на статията"
+
+msgid "Are you sure you want to delete the selected comment(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания коментар (и)"
+
+msgid "Comment"
+msgstr "Коментар"
+
+msgid "Art"
+msgstr "Изкуство"
+
+msgid "Added"
+msgstr "Добавено"
+
+msgid "Approved"
+msgstr "Одобрен"
+
+msgid "Viewing"
+msgstr "Разглеждане"
+
+msgid "Comments"
+msgstr "Коментари"
+
+msgid "Viewing All Comments"
+msgstr "Преглед на всички коментари"
+
+msgid "Are you sure you want to delete the selected response(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания (и) отговор (и)"
+
+msgid "Creator"
+msgstr "Създател"
+
+msgid "Manage Canned Reply"
+msgstr "Управление на консервирани отговори"
+
+msgid "Select Groups"
+msgstr "Изберете Групи"
+
+msgid "Select Autoresponder Template"
+msgstr "Изберете шаблон за автоматично реагиране"
+
+msgid "Select Ticket Type"
+msgstr "Изберете тип билет"
+
+msgid "Select Ticket Assignee"
+msgstr "Изберете купувача на билети"
+
+msgid "Selected by client"
+msgstr "Избрани от клиента"
+
+msgid "Time Elapsed: %"
+msgstr "Изминало време:%"
+
+msgid "Last Reply: %"
+msgstr "Последен отговор:%"
+
+msgid "You have subscribed to this ticket"
+msgstr "Вие сте се абонирали за този билет"
+
+msgid "You have unsubscribed from this ticket"
+msgstr "Вие сте се отписали от този билет"
+
+msgid "himself"
+msgstr "себе си"
+
+msgid "Unassigned"
+msgstr "Неопределен"
+
+msgid "No Package"
+msgstr "Без пакет"
+
+msgid "You must complete all the fields before proceeding"
+msgstr "Трябва да попълните всички полета, преди да продължите"
+
+msgid "Select a valid ticket type"
+msgstr "Изберете валиден тип билет"
+
+msgid "You can not leave the subject blank"
+msgstr "Не можете да оставите обекта празен"
+
+msgid "You can not leave the message blank"
+msgstr "Не можете да оставите съобщението празно"
+
+msgid "Are you sure you want to delete this ticket?"
+msgstr "Сигурни ли сте, че искате да изтриете този билет?"
+
+msgid "Are you sure you want to mark this ticket as spam?"
+msgstr "Сигурни ли сте, че искате да маркирате този билет като спам?"
+
+msgid "Unsubscribe"
+msgstr "Отписване"
+
+msgid "Subscribe"
+msgstr "Абонирайте се"
+
+msgid "Dept."
+msgstr "Отдел."
+
+msgid "Others viewing: "
+msgstr "Други разглеждат: "
+
+msgid "All"
+msgstr "Всички"
+
+msgid "Open"
+msgstr "Отворете"
+
+msgid "all"
+msgstr "Всички"
+
+msgid "open"
+msgstr "Отворете"
+
+msgid "tickets with keyword(s)"
+msgstr "билети с ключова дума (и)"
+
+msgid "from % to %"
+msgstr "от% до%"
+
+msgid "from %"
+msgstr "от%"
+
+msgid "to %"
+msgstr "до%"
+
+msgid "for client %"
+msgstr "за клиент%"
+
+msgid "for assignee %"
+msgstr "за правоприемник%"
+
+msgid "Close Ticket(s)"
+msgstr "Затвори билет (и)"
+
+msgid "Are you sure you want to delete the selected ticket(s)"
+msgstr "Сигурни ли сте, че искате да изтриете избрания билет (и)"
+
+msgid "Are you sure you want to merge the selected tickets?"
+msgstr "Сигурни ли сте, че искате да обедините избраните билети?"
+
+msgid "Are you sure you want to close the selected ticket(s)"
+msgstr "Сигурни ли сте, че искате да затворите избрания билет (и)"
+
+msgid "Are you sure you want to re-open the selected ticket(s)"
+msgstr "Сигурни ли сте, че искате да отворите отново избрания (и) билет (и)"
+
+msgid ""
+"Are you sure you want to prevent tickets from being created from the "
+"selected ticket(s) email addresses?"
+msgstr ""
+"Сигурни ли сте, че искате да предотвратите създаването на билети от "
+"избраните имейл адреси за билети?"
+
+msgid "Ticket Filter"
+msgstr "Филтър за билети"
+
+msgid "By"
+msgstr " от "
+
+msgid "Setting filter as favorite"
+msgstr "Настройване на филтъра като любим"
+
+msgid "This file type is not accepted. Please select a different file."
+msgstr "Този тип файл не се приема. Моля, изберете друг файл."
+
+msgid "To attach"
+msgstr "За да прикачите"
+
+msgid "Created By"
+msgstr "Създадено от"
+
+msgid "Assigned To"
+msgstr "Присвоено на"
+
+msgid "Last Reply"
+msgstr "Последен отговор"
+
+msgid "Elapsed"
+msgstr "Изминало"
+
+msgid "No Rating"
+msgstr "Без оценка"
+
+msgid "Excellent"
+msgstr "Отлично"
+
+msgid "Good"
+msgstr "Добър"
+
+msgid "Not Great"
+msgstr "Не е страхотно"
+
+msgid "Poor"
+msgstr "Бедните"
+
+msgid "Ticket ID"
+msgstr "ID на билета"
+
+msgid "Rating"
+msgstr "Оценки"
+
+msgid "Show _MENU_ entries"
+msgstr "Показване на записите _MENU_"
+
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr "Показани _START_ до _END_ от _TOTAL_ записи"
+
+msgid "(filtered from _MAX_ total records)"
+msgstr "(филтриран от _MAX_ общите записи)"
+
+msgid "Previous"
+msgstr "Предишен"
+
+msgid "Next"
+msgstr "Следващ"
+
+msgid ""
+"Changing currencies will reset your cart. Are you sure you want to continue?"
+msgstr ""
+
+msgid "Failed Captcha"
+msgstr "Неуспешен Captcha"
+
+msgid "No email accounts to show"
+msgstr "Няма имейл акаунти, които да се показват"
+
+msgid "No matching email accounts found"
+msgstr "Не са намерени съвпадащи имейл акаунти"
+
+msgid "Currently unable to login to SolusVM."
+msgstr "В момента не можете да влезете в SolusVM."
+
+msgid "No Commissions To Show"
+msgstr "Няма комисионни за показване"
+
+msgid "No Invoices To Show"
+msgstr "Няма фактури за показване"
+
+msgid "Please select a payment method."
+msgstr "Моля, изберете начин на плащане."
+
+msgid "Invoice has been successfully emailed"
+msgstr "Фактурата е успешно изпратена по имейл"
+
+msgid "No emails to show"
+msgstr "Няма имейли, които да се показват"
+
+msgid "No matching emails found"
+msgstr "Не са намерени съвпадащи имейли"
+
+msgid "No domains to show"
+msgstr "Няма домейни за показване"
+
+msgid "No matching domains found"
+msgstr "Не са намерени съвпадащи домейни"
+
+msgid "Certificate"
+msgstr "Сертификат"
+
+msgid "Please enter your new CSR"
+msgstr "Моля, въведете новата си КСО"
+
+msgid "Password Change"
+msgstr "Промяна на паролата"
+
+msgid "Please enter a new password"
+msgstr "Моля, въведете нова парола"
+
+msgid "Please enter a new value"
+msgstr "Моля, въведете нова стойност"
+
+msgid "Please ensure you have at least 2 name servers entered."
+msgstr "Моля, уверете се, че сте въвели поне 2 сървъра за имена."
+
+msgid "No packages to show"
+msgstr "Няма пакети за показване"
+
+msgid "No matching packages found"
+msgstr "Няма намерени пакета"
+
+msgid "No account notes to show"
+msgstr "Няма бележки по акаунта, които да се показват"
+
+msgid "No matching notes found"
+msgstr "Не са намерени съвпадащи бележки"
+
+msgid "No tickets to show"
+msgstr "Няма билети за показване"
+
+msgid "No matching tickets found"
+msgstr "Няма намерени съвпадащи билети"
+
+msgid "There is 1 article that might answer your question."
+msgstr "Има 1 статия, която може да отговори на въпроса ви."
+
+msgid "There are % articles that might answer your question."
+msgstr "Има% статии, които могат да отговорят на въпроса ви."
+
+msgid "You saved %"
+msgstr "Вие сте спестили%"
+
+msgid "Sorry, % is invalid."
+msgstr "Съжалявам% е невалиден."
+
+msgid "%: %"
+msgstr "%:%"
+
+msgid "(renews at %)"
+msgstr "(подновява в%)"
+
+msgid "Add to cart"
+msgstr "Добави в количката"
+
+msgid "Continue"
+msgstr "Продължавай"
+
+msgid "Leaving now will cancel this item.  Are you sure you want to leave?"
+msgstr ""
+"Оставянето сега ще анулира този елемент. Сигурен ли си, че искаш да си "
+"тръгнеш?"
+
+msgid "Please enter a valid domain"
+msgstr "Моля, въведете валиден домейн"
+
+msgid "Searching domain availability..."
+msgstr "Търсене на наличност на домейн..."
+
+msgid "There was an error looking up that domain.  Please try again."
+msgstr "Имаше грешка при търсенето на този домейн. Моля, опитайте отново."
+
+msgid "Sorry, % is already registered"
+msgstr "Съжаляваме,% вече е регистриран"
+
+msgid "Good news, % is available to register"
+msgstr "Добри новини,% е на разположение за регистрация"
+
+msgid "Good news, % is available to transfer"
+msgstr "Добри новини,% е на разположение за прехвърляне"
+
+msgid "Sorry, % is not available to transfer"
+msgstr "Съжаляваме,% не е наличен за прехвърляне"
+
+msgid "Available Domains"
+msgstr "Налични домейни"
+
+msgid "Years"
+msgstr "Години"
+
+msgid "But don’t worry, we found these other great domains for you."
+msgstr "Но не се притеснявайте, намерихме тези други страхотни домейни за вас."
+
+msgid "We also found additional results for you..."
+msgstr "Също така открихме допълнителни резултати за вас..."
+
+msgid "Additional information required for this domain extension"
+msgstr "Допълнителна информация, необходима за това разширение на домейна"
+
+msgid "Product Add-ons"
+msgstr "Добавки за продукти"
+
+msgid ""
+"Are you sure that you wish to remove the item from your cart? <br>Note: The "
+"associated items will also be removed."
+msgstr ""
+"Сигурни ли сте, че желаете да премахнете артикула от вашата количка? "
+"<br>Забележка: Свързаните елементи също ще бъдат премахнати."
+
+msgid "Are you sure that you wish to remove the item from your cart?"
+msgstr "Сигурни ли сте, че желаете да премахнете артикула от вашата количка?"
+
+msgid "Removing Cart Item"
+msgstr "Премахване на артикул от количката"
+
+msgid "% Items"
+msgstr "% Артикули"
+
+msgid "1 Item"
+msgstr "1 Артикул"
+
+msgid "Hide Product Addons"
+msgstr "Скриване на продуктови добавки"
+
+msgid "Show Product Addons"
+msgstr "Показване на добавките за продукти"

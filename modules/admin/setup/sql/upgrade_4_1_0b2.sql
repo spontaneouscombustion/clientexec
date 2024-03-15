@@ -1,0 +1,4 @@
+DROP TABLE package_tld;
+INSERT INTO `help` (`id`, `title`, `detail`, `linkwords`, `width`, `height`) VALUES ('67', 'Notify For New Order', '[<font class=bodyhighlight>ORDERINFO</font>]', 'Click to view available tags', '240', '320');
+INSERT INTO autoresponders (`type`,`name`,subject,contents,contents_html,description,helpid) VALUES( 5, 'New Order Notification','New Order Notification',"Dear Support Member,\r\n\r\nA new order has been processed.\r\n\r\n[ORDERINFO]","<HTML><head></head><body>Dear Support Member,<br/><br/>A new order has been processed.<br/><br/>[ORDERINFO]</body></html>",'E-Mail received by those staff members identified of being notified of new orders.',67);
+UPDATE setting set value='default' where name = 'Template';

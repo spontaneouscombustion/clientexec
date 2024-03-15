@@ -1,0 +1,85 @@
+#feedback_tab {
+    cursor:pointer;
+    height: 108px;
+    overflow:hidden;
+    position: fixed;
+    text-indent:-5000px;
+    top: 23%;
+    width: 33px;
+    z-index: 10000;
+}
+/* IE won't read ID-and-class selectors like #feedback_tab.left, so we use just a class: */
+.FeedbackTabLeft,.FeedbackTableft {
+    left: 0;
+    background-position: right 0;
+}
+.FeedbackTabRight,.FeedbackTabright {
+    right: 0;
+    background-position: left 0;
+}
+#feedback_tab:hover {
+    background-color: #444;
+}
+
+#feedback_overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 90000;
+}
+
+#feedback_overlay * {
+    color:#333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-variant:normal;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+#feedback_container {
+    height: 620px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+    width: 95%;
+    z-index:2;
+}
+
+#feedback_close {
+    z-index: 100;
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+    position: absolute;
+    top: 17px;
+    right: 30px;
+    background-image: url('../../templates/default/images/widget/glyphicons-halflings.png');
+    background-position: -305px 5px;
+    background-repeat: no-repeat;
+}
+
+#feedback_body {
+    height: 570px;
+    width: 100%;
+}
+
+#feedback_scrim {
+    background-color: #777;
+    filter: alpha(opacity=75);
+    -moz-opacity: 0.75;
+    left:0;
+    position: absolute;
+    opacity: 0.75;
+    top:0;
+    width: 100%;
+    z-index:1;
+}
+
+@media (min-width: 767px) {
+    #feedback_container {
+        width: 638px;
+    }
+}

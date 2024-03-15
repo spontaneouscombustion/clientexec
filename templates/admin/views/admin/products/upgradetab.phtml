@@ -1,0 +1,65 @@
+<style type="text/css">
+    .table2 tbody tr:nth-child(odd) td, .table2 tbody tr:nth-child(even) td {
+        border-top: 0px;
+        background-color: transparent;
+    }
+    tr.UpgradeHeader, td.UpgradeHeader {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    tr.UpgradeBody, td.UpgradeBody {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    td.FirstRowWidth {
+        width: 150px;
+    }
+</style>
+
+<script data-cfasync="false" type="text/javascript">
+    $(document).ready(function() {
+        clientexec.postpageload('#upgradetab');
+    });
+</script>
+
+<div class="fieldwrapper">
+    <form id="upgradetab">
+        <table class="table table-striped" width="100%">
+            <tbody>
+                <tr>
+                    <td>
+                        <table class="table2">
+                            <tbody>
+                            <tr>
+                                <td class="FirstRowWidth">
+                                    <label class="fieldlabel"><span class='tip-target' data-toggle="tooltip"  data-placement="top" title="<?php echo $this->user->lang('Select the products you want this product be able to upgrade or downgrade.'); ?>"><?php echo $this->user->lang("Upgrades/Downgrades");?></span></label>
+                                </td>
+                                <td>
+                                    <span class='tip-target' data-toggle="tooltip" data-placement='top' title="<?php echo $this->user->lang('Select the products you want this product be able to upgrade or downgrade.'); ?>">
+                                        <select class="required" multiple="multiple" name="upgrade_to[]" style="display:none">
+                                            <?php foreach ( $this->availablePackages['packages'] as $package ) { ?>
+                                                <option <?php echo ( in_array($package['packageId'], $this->upgradePackages) ? 'selected="selected"' : '' ); ?> value="<?php echo $package['packageId']; ?>"><?php echo $package['packageName']; ?></option>
+                                            <?php } ?>
+                                        </select>
+                                    </span>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        <div class="form-actions">
+                            <div class="pull-right">
+                              <button type="submit" class="submit-upgrade btn btn-primary"><?php echo $this->user->lang("Save Changes");?></button>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </form>
+</div>

@@ -1,0 +1,1 @@
+INSERT INTO `customField` (`id`, `groupId`, `subGroupId`, `fieldType`, `name`, `isRequired`, `isChangeable`, `isAdminOnly`, `fieldOrder`, `showCustomer`, `showAdmin`, `dropDownOptions`, `inSettings`, `InSignup`) VALUES (NULL, 2, 3, 0, 'Domain Next Pricing', 0, 0, 0, 0, 0, 0, '', 0, 0);
