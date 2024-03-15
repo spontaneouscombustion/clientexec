@@ -26,6 +26,7 @@ class CustomFieldHelper
             $controlId = 'CT_' . $field['id'];
         }
         $required = ($field['isrequired'] == 1 ? 'true' : 'false');
+        $field['value'] = htmlentities($field['value']);
 
         switch ($field['fieldtype']) {
             case 'subdomain':

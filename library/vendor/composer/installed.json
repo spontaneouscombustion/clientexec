@@ -500,15 +500,15 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:clientexec/ce-library.git",
-                "reference": "7d6511faae1d8149bb861c8d8dbfd943cb0213a1"
+                "reference": "b4f38ba4993e908045053f54fabe28365b6b7c3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/clientexec/ce-library/zipball/7d6511faae1d8149bb861c8d8dbfd943cb0213a1",
-                "reference": "7d6511faae1d8149bb861c8d8dbfd943cb0213a1",
+                "url": "https://api.github.com/repos/clientexec/ce-library/zipball/b4f38ba4993e908045053f54fabe28365b6b7c3a",
+                "reference": "b4f38ba4993e908045053f54fabe28365b6b7c3a",
                 "shasum": ""
             },
-            "time": "2023-10-10T23:28:59+00:00",
+            "time": "2024-03-14T17:26:45+00:00",
             "default-branch": true,
             "type": "library",
             "installation-source": "source",

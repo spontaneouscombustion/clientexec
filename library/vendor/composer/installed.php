@@ -3,7 +3,7 @@
         'name' => '__root__',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '3ad3c0bfcc16152841904f5f86ef09d0fc2d6110',
+        'reference' => 'becf2b7f5815fd43b87f2d9385308b3f4e3cc380',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../../',
         'aliases' => array(),
@@ -33,7 +33,7 @@
         '__root__' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '3ad3c0bfcc16152841904f5f86ef09d0fc2d6110',
+            'reference' => 'becf2b7f5815fd43b87f2d9385308b3f4e3cc380',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../../',
             'aliases' => array(),
@@ -105,7 +105,7 @@
         'clientexec/ce-library' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '7d6511faae1d8149bb861c8d8dbfd943cb0213a1',
+            'reference' => 'b4f38ba4993e908045053f54fabe28365b6b7c3a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../clientexec/ce-library',
             'aliases' => array(
